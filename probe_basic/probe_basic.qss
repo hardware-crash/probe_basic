@@ -186,7 +186,7 @@ QScrollBar::handle:vertical {
 /*===========================================================================*/
 
 QTabWidget {
-    background: #818584;
+    background: #2e3436;
 }
 
 QTabWidget::pane {
