@@ -11070,9 +11070,9 @@ border-radius: 1px;
        <colorrole role="Button">
         <brush brushstyle="SolidPattern">
          <color alpha="255">
-          <red>40</red>
-          <green>40</green>
-          <blue>40</blue>
+          <red>46</red>
+          <green>52</green>
+          <blue>54</blue>
          </color>
         </brush>
        </colorrole>
@@ -11142,18 +11142,18 @@ border-radius: 1px;
        <colorrole role="Base">
         <brush brushstyle="SolidPattern">
          <color alpha="255">
-          <red>40</red>
-          <green>40</green>
-          <blue>40</blue>
+          <red>46</red>
+          <green>52</green>
+          <blue>54</blue>
          </color>
         </brush>
        </colorrole>
        <colorrole role="Window">
         <brush brushstyle="SolidPattern">
          <color alpha="255">
-          <red>40</red>
-          <green>40</green>
-          <blue>40</blue>
+          <red>46</red>
+          <green>52</green>
+          <blue>54</blue>
          </color>
         </brush>
        </colorrole>
@@ -11216,9 +11216,9 @@ border-radius: 1px;
        <colorrole role="Button">
         <brush brushstyle="SolidPattern">
          <color alpha="255">
-          <red>40</red>
-          <green>40</green>
-          <blue>40</blue>
+          <red>46</red>
+          <green>52</green>
+          <blue>54</blue>
          </color>
         </brush>
        </colorrole>
@@ -11288,18 +11288,18 @@ border-radius: 1px;
        <colorrole role="Base">
         <brush brushstyle="SolidPattern">
          <color alpha="255">
-          <red>40</red>
-          <green>40</green>
-          <blue>40</blue>
+          <red>46</red>
+          <green>52</green>
+          <blue>54</blue>
          </color>
         </brush>
        </colorrole>
        <colorrole role="Window">
         <brush brushstyle="SolidPattern">
          <color alpha="255">
-          <red>40</red>
-          <green>40</green>
-          <blue>40</blue>
+          <red>46</red>
+          <green>52</green>
+          <blue>54</blue>
          </color>
         </brush>
        </colorrole>
@@ -11362,9 +11362,9 @@ border-radius: 1px;
        <colorrole role="Button">
         <brush brushstyle="SolidPattern">
          <color alpha="255">
-          <red>40</red>
-          <green>40</green>
-          <blue>40</blue>
+          <red>46</red>
+          <green>52</green>
+          <blue>54</blue>
          </color>
         </brush>
        </colorrole>
@@ -11434,18 +11434,18 @@ border-radius: 1px;
        <colorrole role="Base">
         <brush brushstyle="SolidPattern">
          <color alpha="255">
-          <red>40</red>
-          <green>40</green>
-          <blue>40</blue>
+          <red>46</red>
+          <green>52</green>
+          <blue>54</blue>
          </color>
         </brush>
        </colorrole>
        <colorrole role="Window">
         <brush brushstyle="SolidPattern">
          <color alpha="255">
-          <red>40</red>
-          <green>40</green>
-          <blue>40</blue>
+          <red>46</red>
+          <green>52</green>
+          <blue>54</blue>
          </color>
         </brush>
        </colorrole>
@@ -11532,7 +11532,7 @@ border-radius: 1px;
      <enum>QTabWidget::Rounded</enum>
     </property>
     <property name="currentIndex">
-     <number>9</number>
+     <number>1</number>
     </property>
     <property name="elideMode">
      <enum>Qt::ElideNone</enum>
@@ -15708,7 +15708,7 @@ border-radius: 6px;
           <property name="minimumSize">
            <size>
             <width>795</width>
-            <height>0</height>
+            <height>530</height>
            </size>
           </property>
           <property name="maximumSize">
@@ -36319,16 +36319,16 @@ font: 11pt bebas kai;
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="probepagewcsbtnGroup"/>
-  <buttongroup name="mainorthoperspbtnGroup"/>
   <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="mainorthoperspbtnGroup"/>
   <buttongroup name="btngrpMdi"/>
+  <buttongroup name="probetabGroup"/>
+  <buttongroup name="probepagewcsbtnGroup"/>
+  <buttongroup name="customwcsbtnGroup"/>
   <buttongroup name="probemodeGroup"/>
   <buttongroup name="xycalbtnGroup"/>
   <buttongroup name="probehelpGroup"/>
   <buttongroup name="proberoutinebtnGroup"/>
   <buttongroup name="plotviewGroup"/>
-  <buttongroup name="customwcsbtnGroup"/>
-  <buttongroup name="probetabGroup"/>
  </buttongroups>
 </ui>
