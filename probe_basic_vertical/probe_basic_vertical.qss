@@ -194,7 +194,11 @@ QTabWidget::pane {
 }
 
 QTabWidget::tab-bar {
-    left: 5px; /* move to the right by 5px */
+    left: 0px; /* move to the right by 5px */
+}
+
+QTabBar {
+    qproperty-drawBase: 0;
 }
 
 /* Style the tab using the tab sub-control. Note that it reads QTabBar _not_ QTabWidget */
