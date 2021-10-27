@@ -11532,7 +11532,7 @@ border-radius: 1px;
      <enum>QTabWidget::Rounded</enum>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>6</number>
     </property>
     <property name="elideMode">
      <enum>Qt::ElideNone</enum>
@@ -19270,9 +19270,9 @@ QPushButton:checked {
            </property>
            <property name="backgroundColor" stdset="0">
             <color>
-             <red>40</red>
-             <green>40</green>
-             <blue>40</blue>
+             <red>46</red>
+             <green>52</green>
+             <blue>54</blue>
             </color>
            </property>
           </widget>
@@ -25697,7 +25697,7 @@ QPushButton:checked {
              <x>1</x>
              <y>0</y>
              <width>803</width>
-             <height>761</height>
+             <height>711</height>
             </rect>
            </property>
            <property name="sizePolicy">
@@ -29567,67 +29567,13 @@ background: transparent;
           </widget>
          </widget>
         </widget>
-        <widget class="QLabel" name="label_81">
+        <widget class="QFrame" name="frame_15">
          <property name="geometry">
           <rect>
            <x>0</x>
-           <y>806</y>
-           <width>811</width>
-           <height>27</height>
-          </rect>
-         </property>
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>27</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>27</height>
-          </size>
-         </property>
-         <property name="font">
-          <font>
-           <family>Bebas Kai</family>
-           <pointsize>14</pointsize>
-           <weight>50</weight>
-           <italic>false</italic>
-           <bold>false</bold>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QLabel{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    border-radius: 5px;
-    color: rgb(238, 238, 236);
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
-	font: 14pt &quot;Bebas Kai&quot;;
-}</string>
-         </property>
-         <property name="text">
-          <string> WORK OFFSETS</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-        <widget class="QWidget" name="widget_15" native="true">
-         <property name="geometry">
-          <rect>
-           <x>0</x>
-           <y>839</y>
-           <width>811</width>
-           <height>90</height>
+           <y>760</y>
+           <width>810</width>
+           <height>160</height>
           </rect>
          </property>
          <property name="minimumSize">
@@ -29639,7 +29585,7 @@ background: transparent;
          <property name="maximumSize">
           <size>
            <width>16777215</width>
-           <height>100</height>
+           <height>170</height>
           </size>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_16">
@@ -29647,17 +29593,65 @@ background: transparent;
            <number>0</number>
           </property>
           <property name="leftMargin">
-           <number>9</number>
+           <number>0</number>
           </property>
           <property name="topMargin">
            <number>0</number>
           </property>
           <property name="rightMargin">
-           <number>9</number>
+           <number>0</number>
           </property>
           <property name="bottomMargin">
            <number>0</number>
           </property>
+          <item>
+           <widget class="QLabel" name="label_81">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>27</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>27</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Bebas Kai</family>
+              <pointsize>14</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    color: rgb(238, 238, 236);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
+	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+            </property>
+            <property name="text">
+             <string> WORK OFFSETS</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
           <item>
            <widget class="QWidget" name="horizontalWidget" native="true">
             <property name="sizePolicy">
@@ -30194,57 +30188,6 @@ background: transparent;
           </item>
          </layout>
         </widget>
-        <widget class="QLabel" name="label_82">
-         <property name="geometry">
-          <rect>
-           <x>0</x>
-           <y>945</y>
-           <width>811</width>
-           <height>27</height>
-          </rect>
-         </property>
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>27</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>16777215</width>
-           <height>27</height>
-          </size>
-         </property>
-         <property name="font">
-          <font>
-           <family>Bebas Kai</family>
-           <pointsize>14</pointsize>
-           <weight>50</weight>
-           <italic>false</italic>
-           <bold>false</bold>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QLabel{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    border-radius: 5px;
-    color: rgb(238, 238, 236);
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
-	font: 14pt &quot;Bebas Kai&quot;;
-}</string>
-         </property>
-         <property name="text">
-          <string> Probing Parameters</string>
-         </property>
-        </widget>
         <widget class="QWidget" name="widget_19" native="true">
          <property name="geometry">
           <rect>
@@ -30288,240 +30231,6 @@ background: transparent;
           <property name="bottomMargin">
            <number>0</number>
           </property>
-          <item>
-           <widget class="QLabel" name="label_95">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="minimumSize">
-             <size>
-              <width>0</width>
-              <height>27</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>16777215</width>
-              <height>27</height>
-             </size>
-            </property>
-            <property name="font">
-             <font>
-              <family>Bebas Kai</family>
-              <pointsize>14</pointsize>
-              <weight>50</weight>
-              <italic>false</italic>
-              <bold>false</bold>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">QLabel{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    color: rgb(238, 238, 236);
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
-	font: 14pt &quot;Bebas Kai&quot;;
-}</string>
-            </property>
-            <property name="text">
-             <string> Probe Results</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="SubCallButton" name="reset_all_data">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="minimumSize">
-             <size>
-              <width>120</width>
-              <height>27</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>120</width>
-              <height>27</height>
-             </size>
-            </property>
-            <property name="focusPolicy">
-             <enum>Qt::NoFocus</enum>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">.SubCallButton{
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-	font: 14pt &quot;Bebas Kai&quot;;
-    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
-}
-
-.SubCallButton:disabled {
-    border-color: gray;
-}
-
-.SubCallButton:hover {
-    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
-}
-
-.SubCallButton:pressed {
-    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
-}
-
-.SubCallButton:checked[option=&quot;true&quot;] {
-    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
-}
-
-.SubCallButton:checked {
-    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
-}</string>
-            </property>
-            <property name="text">
-             <string>RESET ALL DATA</string>
-            </property>
-            <property name="filename" stdset="0">
-             <string>reset_all_data.ngc</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="SubCallButton" name="x_data_reset1">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="minimumSize">
-             <size>
-              <width>110</width>
-              <height>27</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>110</width>
-              <height>27</height>
-             </size>
-            </property>
-            <property name="focusPolicy">
-             <enum>Qt::NoFocus</enum>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">.SubCallButton{
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-	font: 14pt &quot;Bebas Kai&quot;;
-    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
-}
-
-.SubCallButton:disabled {
-    border-color: gray;
-}
-
-.SubCallButton:hover {
-    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
-}
-
-.SubCallButton:pressed {
-    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
-}
-
-.SubCallButton:checked[option=&quot;true&quot;] {
-    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
-}
-
-.SubCallButton:checked {
-    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
-}</string>
-            </property>
-            <property name="text">
-             <string>X DATA RESET</string>
-            </property>
-            <property name="filename" stdset="0">
-             <string>x_data_reset.ngc</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="SubCallButton" name="y_data_reset1">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="minimumSize">
-             <size>
-              <width>110</width>
-              <height>27</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>110</width>
-              <height>27</height>
-             </size>
-            </property>
-            <property name="focusPolicy">
-             <enum>Qt::NoFocus</enum>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">SubCallButton{
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-	font: 14pt &quot;Bebas Kai&quot;;
-  	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
-}
-
-.SubCallButton:disabled {
-    border-color: gray;
-}
-
-.SubCallButton:hover {
-    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
-}
-
-.SubCallButton:pressed {
-    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
-}
-
-.SubCallButton:checked[option=&quot;true&quot;] {
-    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
-}
-
-.SubCallButton:checked {
-    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
-}</string>
-            </property>
-            <property name="text">
-             <string>Y DATA RESET</string>
-            </property>
-            <property name="filename" stdset="0">
-             <string>y_data_reset.ngc</string>
-            </property>
-           </widget>
-          </item>
          </layout>
         </widget>
         <widget class="MDIEntry" name="mdi_entry_box_5">
@@ -30564,29 +30273,80 @@ background: transparent;
           <string>MDI</string>
          </property>
         </widget>
-        <widget class="QWidget" name="layoutWidget">
+        <widget class="QFrame" name="frame">
          <property name="geometry">
           <rect>
            <x>0</x>
-           <y>978</y>
-           <width>811</width>
-           <height>191</height>
+           <y>925</y>
+           <width>810</width>
+           <height>240</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_22">
           <property name="spacing">
            <number>6</number>
           </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
           <property name="topMargin">
            <number>0</number>
           </property>
           <property name="rightMargin">
-           <number>9</number>
+           <number>0</number>
           </property>
+          <item>
+           <widget class="QLabel" name="label_82">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>27</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>27</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Bebas Kai</family>
+              <pointsize>14</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    color: rgb(238, 238, 236);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
+	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+            </property>
+            <property name="text">
+             <string> Probing Parameters</string>
+            </property>
+           </widget>
+          </item>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_154">
             <property name="topMargin">
              <number>1</number>
+            </property>
+            <property name="rightMargin">
+             <number>9</number>
             </property>
             <property name="bottomMargin">
              <number>1</number>
@@ -30777,6 +30537,9 @@ color: white;
             <property name="topMargin">
              <number>1</number>
             </property>
+            <property name="rightMargin">
+             <number>9</number>
+            </property>
             <property name="bottomMargin">
              <number>1</number>
             </property>
@@ -30966,6 +30729,9 @@ color: white;
             <property name="topMargin">
              <number>1</number>
             </property>
+            <property name="rightMargin">
+             <number>9</number>
+            </property>
             <property name="bottomMargin">
              <number>1</number>
             </property>
@@ -31154,6 +30920,9 @@ color: white;
            <layout class="QHBoxLayout" name="horizontalLayout_157">
             <property name="topMargin">
              <number>1</number>
+            </property>
+            <property name="rightMargin">
+             <number>9</number>
             </property>
             <property name="bottomMargin">
              <number>1</number>
@@ -31348,7 +31117,7 @@ color: white;
              <number>1</number>
             </property>
             <property name="rightMargin">
-             <number>1</number>
+             <number>9</number>
             </property>
             <property name="bottomMargin">
              <number>1</number>
@@ -31536,28 +31305,275 @@ color: white;
           </item>
          </layout>
         </widget>
-        <widget class="QWidget" name="layoutWidget">
+        <widget class="QFrame" name="frame">
          <property name="geometry">
           <rect>
            <x>0</x>
-           <y>1214</y>
-           <width>811</width>
-           <height>152</height>
+           <y>1168</y>
+           <width>810</width>
+           <height>220</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_42">
           <property name="spacing">
            <number>6</number>
           </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
           <property name="topMargin">
            <number>0</number>
           </property>
           <property name="rightMargin">
-           <number>9</number>
-          </property>
-          <property name="bottomMargin">
            <number>0</number>
           </property>
+          <property name="bottomMargin">
+           <number>1</number>
+          </property>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_95">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>27</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>27</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Bebas Kai</family>
+                <pointsize>14</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: rgb(238, 238, 236);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
+	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+              </property>
+              <property name="text">
+               <string> Probe Results</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="SubCallButton" name="reset_all_data">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>120</width>
+                <height>27</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>120</width>
+                <height>27</height>
+               </size>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::NoFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">.SubCallButton{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+	font: 14pt &quot;Bebas Kai&quot;;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
+}
+
+.SubCallButton:disabled {
+    border-color: gray;
+}
+
+.SubCallButton:hover {
+    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
+}
+
+.SubCallButton:pressed {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked[option=&quot;true&quot;] {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}</string>
+              </property>
+              <property name="text">
+               <string>RESET ALL DATA</string>
+              </property>
+              <property name="filename" stdset="0">
+               <string>reset_all_data.ngc</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="SubCallButton" name="x_data_reset1">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>110</width>
+                <height>27</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>110</width>
+                <height>27</height>
+               </size>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::NoFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">.SubCallButton{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+	font: 14pt &quot;Bebas Kai&quot;;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
+}
+
+.SubCallButton:disabled {
+    border-color: gray;
+}
+
+.SubCallButton:hover {
+    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
+}
+
+.SubCallButton:pressed {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked[option=&quot;true&quot;] {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}</string>
+              </property>
+              <property name="text">
+               <string>X DATA RESET</string>
+              </property>
+              <property name="filename" stdset="0">
+               <string>x_data_reset.ngc</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="SubCallButton" name="y_data_reset1">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>110</width>
+                <height>27</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>110</width>
+                <height>27</height>
+               </size>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::NoFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">SubCallButton{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+	font: 14pt &quot;Bebas Kai&quot;;
+  	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
+}
+
+.SubCallButton:disabled {
+    border-color: gray;
+}
+
+.SubCallButton:hover {
+    background:  qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                     stop: 0 #A19E9E, stop: 1.0 #5C5959);
+}
+
+.SubCallButton:pressed {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked[option=&quot;true&quot;] {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}
+
+.SubCallButton:checked {
+    background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
+}</string>
+              </property>
+              <property name="text">
+               <string>Y DATA RESET</string>
+              </property>
+              <property name="filename" stdset="0">
+               <string>y_data_reset.ngc</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_160">
             <property name="leftMargin">
@@ -31567,7 +31583,7 @@ color: white;
              <number>1</number>
             </property>
             <property name="rightMargin">
-             <number>1</number>
+             <number>9</number>
             </property>
             <property name="bottomMargin">
              <number>1</number>
@@ -31844,7 +31860,7 @@ color: white;
              <number>1</number>
             </property>
             <property name="rightMargin">
-             <number>1</number>
+             <number>9</number>
             </property>
             <property name="bottomMargin">
              <number>1</number>
@@ -32115,7 +32131,7 @@ color: white;
              <number>1</number>
             </property>
             <property name="rightMargin">
-             <number>1</number>
+             <number>9</number>
             </property>
             <property name="bottomMargin">
              <number>1</number>
@@ -32392,7 +32408,7 @@ color: white;
              <number>1</number>
             </property>
             <property name="rightMargin">
-             <number>1</number>
+             <number>9</number>
             </property>
             <property name="bottomMargin">
              <number>1</number>

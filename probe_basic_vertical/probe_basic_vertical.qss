@@ -194,11 +194,11 @@ QTabWidget::pane {
 }
 
 QTabWidget::tab-bar {
-    left: 0px; /* move to the right by 5px */
+    left: 0px; /* move to the right by 0px */
 }
 
 QTabBar {
-    qproperty-drawBase: 0;
+    qproperty-drawBase: 0; /*To remove white border in menu after activating documentMode*/
 }
 
 /* Style the tab using the tab sub-control. Note that it reads QTabBar _not_ QTabWidget */
