@@ -760,7 +760,7 @@ bottom-margin: 0px;
              <enum>QTabWidget::Rounded</enum>
             </property>
             <property name="currentIndex">
-             <number>8</number>
+             <number>5</number>
             </property>
             <property name="elideMode">
              <enum>Qt::ElideNone</enum>
@@ -8168,7 +8168,7 @@ color: rgb(255, 255, 255);
              </attribute>
              <layout class="QVBoxLayout" name="verticalLayout_68">
               <property name="spacing">
-               <number>15</number>
+               <number>8</number>
               </property>
               <property name="leftMargin">
                <number>0</number>
@@ -10458,7 +10458,7 @@ QPushButton:checked {
                 <item>
                  <widget class="QFrame" name="frame_37">
                   <property name="sizePolicy">
-                   <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                     <horstretch>0</horstretch>
                     <verstretch>0</verstretch>
                    </sizepolicy>
@@ -10466,13 +10466,13 @@ QPushButton:checked {
                   <property name="minimumSize">
                    <size>
                     <width>500</width>
-                    <height>430</height>
+                    <height>500</height>
                    </size>
                   </property>
                   <property name="maximumSize">
                    <size>
                     <width>16777215</width>
-                    <height>490</height>
+                    <height>600</height>
                    </size>
                   </property>
                   <property name="styleSheet">
@@ -10488,7 +10488,7 @@ QPushButton:checked {
                     <number>9</number>
                    </property>
                    <property name="topMargin">
-                    <number>9</number>
+                    <number>5</number>
                    </property>
                    <property name="bottomMargin">
                     <number>5</number>
@@ -10515,13 +10515,13 @@ QPushButton:checked {
                        <property name="minimumSize">
                         <size>
                          <width>522</width>
-                         <height>428</height>
+                         <height>420</height>
                         </size>
                        </property>
                        <property name="maximumSize">
                         <size>
                          <width>800</width>
-                         <height>428</height>
+                         <height>420</height>
                         </size>
                        </property>
                        <property name="verticalScrollBarPolicy">
@@ -10592,10 +10592,10 @@ QPushButton:checked {
                       <number>10</number>
                      </property>
                      <property name="topMargin">
-                      <number>5</number>
+                      <number>0</number>
                      </property>
                      <property name="bottomMargin">
-                      <number>5</number>
+                      <number>0</number>
                      </property>
                      <item>
                       <widget class="QPushButton" name="x_axis_button_10">
@@ -10734,29 +10734,10 @@ QPushButton:checked {
                   </layout>
                  </widget>
                 </item>
-               </layout>
-              </item>
-              <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_51">
-                <property name="spacing">
-                 <number>0</number>
-                </property>
-                <property name="leftMargin">
-                 <number>0</number>
-                </property>
-                <property name="topMargin">
-                 <number>2</number>
-                </property>
-                <property name="rightMargin">
-                 <number>0</number>
-                </property>
-                <property name="bottomMargin">
-                 <number>2</number>
-                </property>
                 <item>
                  <widget class="QFrame" name="frame_15">
                   <property name="sizePolicy">
-                   <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                     <horstretch>0</horstretch>
                     <verstretch>0</verstretch>
                    </sizepolicy>
@@ -10764,13 +10745,13 @@ QPushButton:checked {
                   <property name="minimumSize">
                    <size>
                     <width>650</width>
-                    <height>480</height>
+                    <height>470</height>
                    </size>
                   </property>
                   <property name="maximumSize">
                    <size>
                     <width>16777215</width>
-                    <height>490</height>
+                    <height>600</height>
                    </size>
                   </property>
                   <property name="styleSheet">
@@ -11235,7 +11216,7 @@ QPushButton:checked {
                      <property name="maximumSize">
                       <size>
                        <width>16777215</width>
-                       <height>70</height>
+                       <height>60</height>
                       </size>
                      </property>
                      <property name="styleSheet">
@@ -11261,8 +11242,14 @@ QPushButton:checked {
                       <property name="leftMargin">
                        <number>10</number>
                       </property>
+                      <property name="topMargin">
+                       <number>5</number>
+                      </property>
                       <property name="rightMargin">
                        <number>11</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>5</number>
                       </property>
                       <item>
                        <layout class="QHBoxLayout" name="horizontalLayout_7">
@@ -12822,85 +12809,76 @@ QLabel[style=&quot;homing&quot;]{
                   </layout>
                  </widget>
                 </item>
-               </layout>
-              </item>
-              <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_131">
-                <property name="rightMargin">
-                 <number>0</number>
-                </property>
                 <item>
-                 <layout class="QVBoxLayout" name="verticalLayout_71">
+                 <layout class="QHBoxLayout" name="horizontalLayout_128">
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_128">
-                    <item>
-                     <widget class="QFrame" name="frame_39">
-                      <property name="minimumSize">
-                       <size>
-                        <width>390</width>
-                        <height>105</height>
-                       </size>
-                      </property>
-                      <property name="maximumSize">
-                       <size>
-                        <width>390</width>
-                        <height>105</height>
-                       </size>
-                      </property>
-                      <property name="styleSheet">
-                       <string notr="true">.QFrame{
+                   <widget class="QFrame" name="frame_39">
+                    <property name="minimumSize">
+                     <size>
+                      <width>390</width>
+                      <height>105</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>390</width>
+                      <height>105</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">.QFrame{
     background-color: rgb(51, 57, 59);
 }</string>
-                      </property>
-                      <layout class="QVBoxLayout" name="verticalLayout_48">
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_48">
+                     <property name="leftMargin">
+                      <number>6</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>6</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>6</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>6</number>
+                     </property>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_22">
+                       <property name="spacing">
+                        <number>10</number>
+                       </property>
                        <property name="leftMargin">
-                        <number>6</number>
+                        <number>5</number>
                        </property>
                        <property name="topMargin">
-                        <number>6</number>
+                        <number>2</number>
                        </property>
                        <property name="rightMargin">
-                        <number>6</number>
+                        <number>5</number>
                        </property>
                        <property name="bottomMargin">
-                        <number>6</number>
+                        <number>2</number>
                        </property>
                        <item>
-                        <layout class="QHBoxLayout" name="horizontalLayout_22">
-                         <property name="spacing">
-                          <number>10</number>
+                        <widget class="SubCallButton" name="set_g30_1_position">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
                          </property>
-                         <property name="leftMargin">
-                          <number>5</number>
+                         <property name="minimumSize">
+                          <size>
+                           <width>280</width>
+                           <height>40</height>
+                          </size>
                          </property>
-                         <property name="topMargin">
-                          <number>2</number>
+                         <property name="focusPolicy">
+                          <enum>Qt::NoFocus</enum>
                          </property>
-                         <property name="rightMargin">
-                          <number>5</number>
-                         </property>
-                         <property name="bottomMargin">
-                          <number>2</number>
-                         </property>
-                         <item>
-                          <widget class="SubCallButton" name="set_g30_1_position">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>280</width>
-                             <height>40</height>
-                            </size>
-                           </property>
-                           <property name="focusPolicy">
-                            <enum>Qt::NoFocus</enum>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">.SubCallButton {
+                         <property name="styleSheet">
+                          <string notr="true">.SubCallButton {
     color: white;    
     border-color: black;
     border-style: solid;
@@ -12934,1062 +12912,1063 @@ QLabel[style=&quot;homing&quot;]{
 .SubCallButton:checked {
     background:  qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(85, 85, 238, 255), stop:0.544974 rgba(90, 91, 239, 255), stop:1 rgba(126, 135, 243, 255));
 }</string>
-                           </property>
-                           <property name="text">
-                            <string>SET TOOL TOUCH OFF POSITION</string>
-                           </property>
-                           <property name="filename" stdset="0">
-                            <string>set_g30_position.ngc</string>
-                           </property>
-                          </widget>
-                         </item>
-                        </layout>
-                       </item>
-                       <item>
-                        <layout class="QHBoxLayout" name="horizontalLayout_27">
-                         <property name="spacing">
-                          <number>2</number>
                          </property>
-                         <property name="rightMargin">
-                          <number>8</number>
+                         <property name="text">
+                          <string>SET TOOL TOUCH OFF POSITION</string>
                          </property>
-                         <item>
-                          <widget class="QLabel" name="label_55">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>20</width>
-                             <height>33</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>20</width>
-                             <height>33</height>
-                            </size>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">QLabel{
-font: 75 16pt &quot;Bebas Kai&quot;;
-color: rgb(255, 255, 255);
-padding-right: 1px;
-padding-left: 5px;
-}</string>
-                           </property>
-                           <property name="text">
-                            <string>X</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignCenter</set>
-                           </property>
-                          </widget>
-                         </item>
-                         <item>
-                          <widget class="VCPSettingsLineEdit" name="x_tool_change_position">
-                           <property name="minimumSize">
-                            <size>
-                             <width>75</width>
-                             <height>33</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>16777215</width>
-                             <height>33</height>
-                            </size>
-                           </property>
-                           <property name="focusPolicy">
-                            <enum>Qt::ClickFocus</enum>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">VCPSettingsLineEdit {
-    border-style: transparent;
-    border-color: rgb(235, 235, 235);
-    border-width: 1px;
-    border-radius: 5px;
-    color: black;
-    background: rgb(235, 235, 235);
-	font: 75 15pt &quot;Bebas Kai&quot;;
-}</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                           </property>
-                           <property name="readOnly">
-                            <bool>true</bool>
-                           </property>
-                           <property name="placeholderText">
-                            <string>0.0000</string>
-                           </property>
-                           <property name="rules" stdset="0">
-                            <string>[]</string>
-                           </property>
-                           <property name="settingName" stdset="0">
-                            <string>tool-change-position.x-tool-change-position</string>
-                           </property>
-                           <property name="textFormat" stdset="0">
-                            <string>{:6.4f}</string>
-                           </property>
-                          </widget>
-                         </item>
-                         <item>
-                          <widget class="QLabel" name="label_57">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>23</width>
-                             <height>33</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>23</width>
-                             <height>33</height>
-                            </size>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">QLabel{
-font: 75 16pt &quot;Bebas Kai&quot;;
-color: rgb(255, 255, 255);
-padding-right: 1px;
-padding-left: 5px;
-}</string>
-                           </property>
-                           <property name="text">
-                            <string>Y</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignCenter</set>
-                           </property>
-                          </widget>
-                         </item>
-                         <item>
-                          <widget class="VCPSettingsLineEdit" name="y_tool_change_position">
-                           <property name="minimumSize">
-                            <size>
-                             <width>75</width>
-                             <height>33</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>16777215</width>
-                             <height>33</height>
-                            </size>
-                           </property>
-                           <property name="focusPolicy">
-                            <enum>Qt::ClickFocus</enum>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">VCPSettingsLineEdit {
-    border-style: transparent;
-    border-color: rgb(235, 235, 235);
-    border-width: 1px;
-    border-radius: 5px;
-    color: black;
-    background: rgb(235, 235, 235);
-	font: 75 15pt &quot;Bebas Kai&quot;;
-}</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                           </property>
-                           <property name="readOnly">
-                            <bool>true</bool>
-                           </property>
-                           <property name="placeholderText">
-                            <string>0.0000</string>
-                           </property>
-                           <property name="rules" stdset="0">
-                            <string>[]</string>
-                           </property>
-                           <property name="settingName" stdset="0">
-                            <string>tool-change-position.y-tool-change-position</string>
-                           </property>
-                           <property name="textFormat" stdset="0">
-                            <string>{:6.4f}</string>
-                           </property>
-                          </widget>
-                         </item>
-                         <item>
-                          <widget class="QLabel" name="label_58">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>23</width>
-                             <height>33</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>23</width>
-                             <height>33</height>
-                            </size>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">QLabel{
-font: 75 16pt &quot;Bebas Kai&quot;;
-color: rgb(255, 255, 255);
-padding-right: 1px;
-padding-left: 5px;
-}</string>
-                           </property>
-                           <property name="text">
-                            <string>Z</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignCenter</set>
-                           </property>
-                          </widget>
-                         </item>
-                         <item>
-                          <widget class="VCPSettingsLineEdit" name="z_tool_change_position">
-                           <property name="minimumSize">
-                            <size>
-                             <width>75</width>
-                             <height>33</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>16777215</width>
-                             <height>33</height>
-                            </size>
-                           </property>
-                           <property name="focusPolicy">
-                            <enum>Qt::ClickFocus</enum>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">VCPSettingsLineEdit {
-    border-style: transparent;
-    border-color: rgb(235, 235, 235);
-    border-width: 1px;
-    border-radius: 5px;
-    color: black;
-    background: rgb(235, 235, 235);
-	font: 75 15pt &quot;Bebas Kai&quot;;
-}</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                           </property>
-                           <property name="readOnly">
-                            <bool>true</bool>
-                           </property>
-                           <property name="placeholderText">
-                            <string>0.0000</string>
-                           </property>
-                           <property name="rules" stdset="0">
-                            <string>[]</string>
-                           </property>
-                           <property name="settingName" stdset="0">
-                            <string>tool-change-position.z-tool-change-position</string>
-                           </property>
-                           <property name="textFormat" stdset="0">
-                            <string>{:6.4f}</string>
-                           </property>
-                          </widget>
-                         </item>
-                        </layout>
+                         <property name="filename" stdset="0">
+                          <string>set_g30_position.ngc</string>
+                         </property>
+                        </widget>
                        </item>
                       </layout>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QLabel" name="label_51">
-                      <property name="minimumSize">
-                       <size>
-                        <width>230</width>
-                        <height>0</height>
-                       </size>
-                      </property>
-                      <property name="styleSheet">
-                       <string notr="true">image: url(:/images/atc_spindle_tool.png);</string>
-                      </property>
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="scaledContents">
-                       <bool>true</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QFrame" name="frame_51">
-                      <property name="styleSheet">
-                       <string notr="true">.QFrame{
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_27">
+                       <property name="spacing">
+                        <number>2</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>8</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="label_55">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>20</width>
+                           <height>33</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>20</width>
+                           <height>33</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLabel{
+font: 75 16pt &quot;Bebas Kai&quot;;
+color: rgb(255, 255, 255);
+padding-right: 1px;
+padding-left: 5px;
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>X</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="VCPSettingsLineEdit" name="x_tool_change_position">
+                         <property name="minimumSize">
+                          <size>
+                           <width>75</width>
+                           <height>33</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>33</height>
+                          </size>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::ClickFocus</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">VCPSettingsLineEdit {
+    border-style: transparent;
+    border-color: rgb(235, 235, 235);
+    border-width: 1px;
+    border-radius: 5px;
+    color: black;
+    background: rgb(235, 235, 235);
+	font: 75 15pt &quot;Bebas Kai&quot;;
+}</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="readOnly">
+                          <bool>true</bool>
+                         </property>
+                         <property name="placeholderText">
+                          <string>0.0000</string>
+                         </property>
+                         <property name="rules" stdset="0">
+                          <string>[]</string>
+                         </property>
+                         <property name="settingName" stdset="0">
+                          <string>tool-change-position.x-tool-change-position</string>
+                         </property>
+                         <property name="textFormat" stdset="0">
+                          <string>{:6.4f}</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_57">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>23</width>
+                           <height>33</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>23</width>
+                           <height>33</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLabel{
+font: 75 16pt &quot;Bebas Kai&quot;;
+color: rgb(255, 255, 255);
+padding-right: 1px;
+padding-left: 5px;
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>Y</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="VCPSettingsLineEdit" name="y_tool_change_position">
+                         <property name="minimumSize">
+                          <size>
+                           <width>75</width>
+                           <height>33</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>33</height>
+                          </size>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::ClickFocus</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">VCPSettingsLineEdit {
+    border-style: transparent;
+    border-color: rgb(235, 235, 235);
+    border-width: 1px;
+    border-radius: 5px;
+    color: black;
+    background: rgb(235, 235, 235);
+	font: 75 15pt &quot;Bebas Kai&quot;;
+}</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="readOnly">
+                          <bool>true</bool>
+                         </property>
+                         <property name="placeholderText">
+                          <string>0.0000</string>
+                         </property>
+                         <property name="rules" stdset="0">
+                          <string>[]</string>
+                         </property>
+                         <property name="settingName" stdset="0">
+                          <string>tool-change-position.y-tool-change-position</string>
+                         </property>
+                         <property name="textFormat" stdset="0">
+                          <string>{:6.4f}</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_58">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>23</width>
+                           <height>33</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>23</width>
+                           <height>33</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLabel{
+font: 75 16pt &quot;Bebas Kai&quot;;
+color: rgb(255, 255, 255);
+padding-right: 1px;
+padding-left: 5px;
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>Z</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="VCPSettingsLineEdit" name="z_tool_change_position">
+                         <property name="minimumSize">
+                          <size>
+                           <width>75</width>
+                           <height>33</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>33</height>
+                          </size>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::ClickFocus</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">VCPSettingsLineEdit {
+    border-style: transparent;
+    border-color: rgb(235, 235, 235);
+    border-width: 1px;
+    border-radius: 5px;
+    color: black;
+    background: rgb(235, 235, 235);
+	font: 75 15pt &quot;Bebas Kai&quot;;
+}</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="readOnly">
+                          <bool>true</bool>
+                         </property>
+                         <property name="placeholderText">
+                          <string>0.0000</string>
+                         </property>
+                         <property name="rules" stdset="0">
+                          <string>[]</string>
+                         </property>
+                         <property name="settingName" stdset="0">
+                          <string>tool-change-position.z-tool-change-position</string>
+                         </property>
+                         <property name="textFormat" stdset="0">
+                          <string>{:6.4f}</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_51">
+                    <property name="minimumSize">
+                     <size>
+                      <width>230</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">image: url(:/images/atc_spindle_tool.png);</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="scaledContents">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QFrame" name="frame_51">
+                    <property name="styleSheet">
+                     <string notr="true">.QFrame{
     background-color: rgb(51, 57, 59);
 }
 </string>
-                      </property>
-                      <layout class="QVBoxLayout" name="verticalLayout_13">
-                       <property name="spacing">
-                        <number>6</number>
-                       </property>
-                       <property name="leftMargin">
-                        <number>6</number>
-                       </property>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_13">
+                     <property name="spacing">
+                      <number>6</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>6</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>6</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>6</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>6</number>
+                     </property>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_163">
                        <property name="topMargin">
-                        <number>6</number>
-                       </property>
-                       <property name="rightMargin">
-                        <number>6</number>
+                        <number>1</number>
                        </property>
                        <property name="bottomMargin">
-                        <number>6</number>
+                        <number>1</number>
                        </property>
                        <item>
-                        <layout class="QHBoxLayout" name="horizontalLayout_163">
-                         <property name="topMargin">
-                          <number>1</number>
+                        <widget class="QLabel" name="label_4">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
                          </property>
-                         <property name="bottomMargin">
-                          <number>1</number>
+                         <property name="minimumSize">
+                          <size>
+                           <width>85</width>
+                           <height>31</height>
+                          </size>
                          </property>
-                         <item>
-                          <widget class="QLabel" name="label_4">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>85</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>85</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">QLabel{
-font: 13pt &quot;Bebas Kai&quot;;
-color: white;
-}</string>
-                           </property>
-                           <property name="lineWidth">
-                            <number>0</number>
-                           </property>
-                           <property name="text">
-                            <string>FAST PROBE FR</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                           </property>
-                           <property name="indent">
-                            <number>0</number>
-                           </property>
-                          </widget>
-                         </item>
-                         <item>
-                          <widget class="VCPSettingsLineEdit" name="fast_probe_fr">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>75</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>75</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="font">
-                            <font>
-                             <family>bebas kai</family>
-                             <pointsize>14</pointsize>
-                             <weight>50</weight>
-                             <italic>false</italic>
-                             <bold>false</bold>
-                            </font>
-                           </property>
-                           <property name="focusPolicy">
-                            <enum>Qt::ClickFocus</enum>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">VCPSettingsLineEdit {
-    font: 14pt &quot;bebas kai&quot;
-}</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                           </property>
-                           <property name="placeholderText">
-                            <string>0.0</string>
-                           </property>
-                           <property name="settingName" stdset="0">
-                            <string>tool-setter-probe.fast-probe-fr</string>
-                           </property>
-                           <property name="textFormat" stdset="0">
-                            <string>{:0.1f}</string>
-                           </property>
-                          </widget>
-                         </item>
-                        </layout>
-                       </item>
-                       <item>
-                        <layout class="QHBoxLayout" name="horizontalLayout_64">
-                         <item>
-                          <widget class="QLabel" name="label_119">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>85</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>85</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">QLabel{
-font: 13pt &quot;Bebas Kai&quot;;
-color: white;
-}</string>
-                           </property>
-                           <property name="lineWidth">
-                            <number>0</number>
-                           </property>
-                           <property name="text">
-                            <string>SLOW PROBE FR</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                           </property>
-                           <property name="indent">
-                            <number>0</number>
-                           </property>
-                          </widget>
-                         </item>
-                         <item>
-                          <widget class="VCPSettingsLineEdit" name="slow_probe_fr">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>75</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>75</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="font">
-                            <font>
-                             <family>bebas kai</family>
-                             <pointsize>14</pointsize>
-                             <weight>50</weight>
-                             <italic>false</italic>
-                             <bold>false</bold>
-                            </font>
-                           </property>
-                           <property name="focusPolicy">
-                            <enum>Qt::ClickFocus</enum>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">VCPSettingsLineEdit {
-    font: 14pt &quot;bebas kai&quot;
-}</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                           </property>
-                           <property name="placeholderText">
-                            <string>0.0</string>
-                           </property>
-                           <property name="settingName" stdset="0">
-                            <string>tool-setter-probe.slow-probe-fr</string>
-                           </property>
-                           <property name="textFormat" stdset="0">
-                            <string>{:0.1f}</string>
-                           </property>
-                          </widget>
-                         </item>
-                        </layout>
-                       </item>
-                       <item>
-                        <layout class="QHBoxLayout" name="horizontalLayout_165">
-                         <property name="topMargin">
-                          <number>1</number>
+                         <property name="maximumSize">
+                          <size>
+                           <width>85</width>
+                           <height>31</height>
+                          </size>
                          </property>
-                         <property name="bottomMargin">
-                          <number>1</number>
+                         <property name="styleSheet">
+                          <string notr="true">QLabel{
+font: 13pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
                          </property>
-                         <item>
-                          <widget class="QLabel" name="label_122">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>85</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>85</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">QLabel{
-font: 13pt &quot;Bebas Kai&quot;;
-color: white;
-}</string>
-                           </property>
-                           <property name="lineWidth">
-                            <number>0</number>
-                           </property>
-                           <property name="text">
-                            <string>Z MAX TRAVEL</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                           </property>
-                           <property name="indent">
-                            <number>0</number>
-                           </property>
-                          </widget>
-                         </item>
-                         <item>
-                          <widget class="VCPSettingsLineEdit" name="z_max_travel">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>75</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>75</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="font">
-                            <font>
-                             <family>bebas kai</family>
-                             <pointsize>14</pointsize>
-                             <weight>50</weight>
-                             <italic>false</italic>
-                             <bold>false</bold>
-                            </font>
-                           </property>
-                           <property name="focusPolicy">
-                            <enum>Qt::ClickFocus</enum>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">VCPSettingsLineEdit {
-    font: 14pt &quot;bebas kai&quot;
-}</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                           </property>
-                           <property name="placeholderText">
-                            <string>0.0000</string>
-                           </property>
-                           <property name="settingName" stdset="0">
-                            <string>tool-setter-probe.z-max-travel</string>
-                           </property>
-                           <property name="textFormat" stdset="0">
-                            <string>{:0.4f}</string>
-                           </property>
-                          </widget>
-                         </item>
-                        </layout>
+                         <property name="lineWidth">
+                          <number>0</number>
+                         </property>
+                         <property name="text">
+                          <string>FAST PROBE FR</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="indent">
+                          <number>0</number>
+                         </property>
+                        </widget>
                        </item>
                        <item>
-                        <layout class="QHBoxLayout" name="horizontalLayout_73">
-                         <item>
-                          <widget class="QLabel" name="label_125">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>85</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>85</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">QLabel{
-font: 13pt &quot;Bebas Kai&quot;;
-color: white;
-}</string>
-                           </property>
-                           <property name="lineWidth">
-                            <number>0</number>
-                           </property>
-                           <property name="text">
-                            <string>XY MAX TRAVEL</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                           </property>
-                           <property name="indent">
-                            <number>0</number>
-                           </property>
-                          </widget>
-                         </item>
-                         <item>
-                          <widget class="VCPSettingsLineEdit" name="xy_max_travel">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>75</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>75</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="font">
-                            <font>
-                             <family>bebas kai</family>
-                             <pointsize>14</pointsize>
-                             <weight>50</weight>
-                             <italic>false</italic>
-                             <bold>false</bold>
-                            </font>
-                           </property>
-                           <property name="focusPolicy">
-                            <enum>Qt::ClickFocus</enum>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">VCPSettingsLineEdit {
+                        <widget class="VCPSettingsLineEdit" name="fast_probe_fr">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>75</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>75</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>bebas kai</family>
+                           <pointsize>14</pointsize>
+                           <weight>50</weight>
+                           <italic>false</italic>
+                           <bold>false</bold>
+                          </font>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::ClickFocus</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">VCPSettingsLineEdit {
     font: 14pt &quot;bebas kai&quot;
 }</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                           </property>
-                           <property name="placeholderText">
-                            <string>0.0000</string>
-                           </property>
-                           <property name="settingName" stdset="0">
-                            <string>tool-setter-probe.xy-max-travel</string>
-                           </property>
-                           <property name="textFormat" stdset="0">
-                            <string>{:0.4f}</string>
-                           </property>
-                          </widget>
-                         </item>
-                        </layout>
-                       </item>
-                       <item>
-                        <layout class="QHBoxLayout" name="horizontalLayout_66">
-                         <item>
-                          <widget class="QLabel" name="label_123">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>85</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>85</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">QLabel{
-font: 13pt &quot;Bebas Kai&quot;;
-color: white;
-}</string>
-                           </property>
-                           <property name="lineWidth">
-                            <number>0</number>
-                           </property>
-                           <property name="text">
-                            <string>RETRACT DIST</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                           </property>
-                           <property name="indent">
-                            <number>0</number>
-                           </property>
-                          </widget>
-                         </item>
-                         <item>
-                          <widget class="VCPSettingsLineEdit" name="retract_distance">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>75</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>75</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="font">
-                            <font>
-                             <family>bebas kai</family>
-                             <pointsize>14</pointsize>
-                             <weight>50</weight>
-                             <italic>false</italic>
-                             <bold>false</bold>
-                            </font>
-                           </property>
-                           <property name="focusPolicy">
-                            <enum>Qt::ClickFocus</enum>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">VCPSettingsLineEdit {
-    font: 14pt &quot;bebas kai&quot;
-}</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                           </property>
-                           <property name="placeholderText">
-                            <string>0.0000</string>
-                           </property>
-                           <property name="settingName" stdset="0">
-                            <string>tool-setter-probe.retract-distance</string>
-                           </property>
-                           <property name="textFormat" stdset="0">
-                            <string>{:0.4f}</string>
-                           </property>
-                          </widget>
-                         </item>
-                        </layout>
-                       </item>
-                       <item>
-                        <layout class="QHBoxLayout" name="horizontalLayout_72">
-                         <item>
-                          <widget class="QLabel" name="label_124">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>85</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>85</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">QLabel{
-font: 13pt &quot;Bebas Kai&quot;;
-color: white;
-}</string>
-                           </property>
-                           <property name="lineWidth">
-                            <number>0</number>
-                           </property>
-                           <property name="text">
-                            <string>SPINDLE ZERO</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                           </property>
-                           <property name="indent">
-                            <number>0</number>
-                           </property>
-                          </widget>
-                         </item>
-                         <item>
-                          <widget class="VCPSettingsLineEdit" name="spindle_zero_height">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>75</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>75</width>
-                             <height>31</height>
-                            </size>
-                           </property>
-                           <property name="font">
-                            <font>
-                             <family>bebas kai</family>
-                             <pointsize>14</pointsize>
-                             <weight>50</weight>
-                             <italic>false</italic>
-                             <bold>false</bold>
-                            </font>
-                           </property>
-                           <property name="focusPolicy">
-                            <enum>Qt::ClickFocus</enum>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">VCPSettingsLineEdit {
-    font: 14pt &quot;bebas kai&quot;
-}</string>
-                           </property>
-                           <property name="alignment">
-                            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                           </property>
-                           <property name="placeholderText">
-                            <string>0.0000</string>
-                           </property>
-                           <property name="settingName" stdset="0">
-                            <string>tool-setter-probe.spindle-nose-height</string>
-                           </property>
-                           <property name="textFormat" stdset="0">
-                            <string>{:0.4f}</string>
-                           </property>
-                          </widget>
-                         </item>
-                        </layout>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="placeholderText">
+                          <string>0.0</string>
+                         </property>
+                         <property name="settingName" stdset="0">
+                          <string>tool-setter-probe.fast-probe-fr</string>
+                         </property>
+                         <property name="textFormat" stdset="0">
+                          <string>{:0.1f}</string>
+                         </property>
+                        </widget>
                        </item>
                       </layout>
-                      <zorder></zorder>
-                      <zorder></zorder>
-                     </widget>
-                    </item>
-                   </layout>
-                  </item>
-                  <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_137">
-                    <item>
-                     <widget class="QPushButton" name="tool_diameter_offset_Btn">
-                      <property name="sizePolicy">
-                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                        <horstretch>0</horstretch>
-                        <verstretch>0</verstretch>
-                       </sizepolicy>
-                      </property>
-                      <property name="minimumSize">
-                       <size>
-                        <width>125</width>
-                        <height>38</height>
-                       </size>
-                      </property>
-                      <property name="maximumSize">
-                       <size>
-                        <width>125</width>
-                        <height>38</height>
-                       </size>
-                      </property>
-                      <property name="focusPolicy">
-                       <enum>Qt::NoFocus</enum>
-                      </property>
-                      <property name="statusTip">
-                       <string>Tool Diameter Offset: offsets the X Axis during touch off by the tool's radius distance, this puts the tool edge over the center of the tool setter.  Very useful for touching off Facemills!</string>
-                      </property>
-                      <property name="styleSheet">
-                       <string notr="true">QPushButton{
-    font: 14pt &quot;Bebas Kai&quot;;
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_64">
+                       <item>
+                        <widget class="QLabel" name="label_119">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>85</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>85</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLabel{
+font: 13pt &quot;Bebas Kai&quot;;
+color: white;
 }</string>
-                      </property>
-                      <property name="text">
-                       <string>TOOL DIAM OFFSET</string>
-                      </property>
-                      <property name="checkable">
-                       <bool>true</bool>
-                      </property>
-                      <property name="checkedAction" stdset="0">
-                       <string>1</string>
-                      </property>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QPushButton" name="tool_diameter_probe_Btn">
-                      <property name="sizePolicy">
-                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                        <horstretch>0</horstretch>
-                        <verstretch>0</verstretch>
-                       </sizepolicy>
-                      </property>
-                      <property name="minimumSize">
-                       <size>
-                        <width>125</width>
-                        <height>38</height>
-                       </size>
-                      </property>
-                      <property name="maximumSize">
-                       <size>
-                        <width>125</width>
-                        <height>38</height>
-                       </size>
-                      </property>
-                      <property name="focusPolicy">
-                       <enum>Qt::NoFocus</enum>
-                      </property>
-                      <property name="styleSheet">
-                       <string notr="true">QPushButton{
-    font: 14pt &quot;Bebas Kai&quot;;
+                         </property>
+                         <property name="lineWidth">
+                          <number>0</number>
+                         </property>
+                         <property name="text">
+                          <string>SLOW PROBE FR</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="indent">
+                          <number>0</number>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="VCPSettingsLineEdit" name="slow_probe_fr">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>75</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>75</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>bebas kai</family>
+                           <pointsize>14</pointsize>
+                           <weight>50</weight>
+                           <italic>false</italic>
+                           <bold>false</bold>
+                          </font>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::ClickFocus</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">VCPSettingsLineEdit {
+    font: 14pt &quot;bebas kai&quot;
 }</string>
-                      </property>
-                      <property name="text">
-                       <string>TOOL DIAM PROBE</string>
-                      </property>
-                      <property name="checkable">
-                       <bool>true</bool>
-                      </property>
-                      <property name="checkedAction" stdset="0">
-                       <string>1</string>
-                      </property>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QLabel" name="label_47">
-                      <property name="minimumSize">
-                       <size>
-                        <width>200</width>
-                        <height>200</height>
-                       </size>
-                      </property>
-                      <property name="maximumSize">
-                       <size>
-                        <width>250</width>
-                        <height>16777215</height>
-                       </size>
-                      </property>
-                      <property name="styleSheet">
-                       <string notr="true">image: url(:/images/tool_probe.png);</string>
-                      </property>
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="scaledContents">
-                       <bool>true</bool>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="placeholderText">
+                          <string>0.0</string>
+                         </property>
+                         <property name="settingName" stdset="0">
+                          <string>tool-setter-probe.slow-probe-fr</string>
+                         </property>
+                         <property name="textFormat" stdset="0">
+                          <string>{:0.1f}</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_165">
+                       <property name="topMargin">
+                        <number>1</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>1</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="label_122">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>85</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>85</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLabel{
+font: 13pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
+                         </property>
+                         <property name="lineWidth">
+                          <number>0</number>
+                         </property>
+                         <property name="text">
+                          <string>Z MAX TRAVEL</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="indent">
+                          <number>0</number>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="VCPSettingsLineEdit" name="z_max_travel">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>75</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>75</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>bebas kai</family>
+                           <pointsize>14</pointsize>
+                           <weight>50</weight>
+                           <italic>false</italic>
+                           <bold>false</bold>
+                          </font>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::ClickFocus</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">VCPSettingsLineEdit {
+    font: 14pt &quot;bebas kai&quot;
+}</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="placeholderText">
+                          <string>0.0000</string>
+                         </property>
+                         <property name="settingName" stdset="0">
+                          <string>tool-setter-probe.z-max-travel</string>
+                         </property>
+                         <property name="textFormat" stdset="0">
+                          <string>{:0.4f}</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_73">
+                       <item>
+                        <widget class="QLabel" name="label_125">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>85</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>85</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLabel{
+font: 13pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
+                         </property>
+                         <property name="lineWidth">
+                          <number>0</number>
+                         </property>
+                         <property name="text">
+                          <string>XY MAX TRAVEL</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="indent">
+                          <number>0</number>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="VCPSettingsLineEdit" name="xy_max_travel">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>75</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>75</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>bebas kai</family>
+                           <pointsize>14</pointsize>
+                           <weight>50</weight>
+                           <italic>false</italic>
+                           <bold>false</bold>
+                          </font>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::ClickFocus</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">VCPSettingsLineEdit {
+    font: 14pt &quot;bebas kai&quot;
+}</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="placeholderText">
+                          <string>0.0000</string>
+                         </property>
+                         <property name="settingName" stdset="0">
+                          <string>tool-setter-probe.xy-max-travel</string>
+                         </property>
+                         <property name="textFormat" stdset="0">
+                          <string>{:0.4f}</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_66">
+                       <item>
+                        <widget class="QLabel" name="label_123">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>85</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>85</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLabel{
+font: 13pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
+                         </property>
+                         <property name="lineWidth">
+                          <number>0</number>
+                         </property>
+                         <property name="text">
+                          <string>RETRACT DIST</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="indent">
+                          <number>0</number>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="VCPSettingsLineEdit" name="retract_distance">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>75</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>75</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>bebas kai</family>
+                           <pointsize>14</pointsize>
+                           <weight>50</weight>
+                           <italic>false</italic>
+                           <bold>false</bold>
+                          </font>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::ClickFocus</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">VCPSettingsLineEdit {
+    font: 14pt &quot;bebas kai&quot;
+}</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="placeholderText">
+                          <string>0.0000</string>
+                         </property>
+                         <property name="settingName" stdset="0">
+                          <string>tool-setter-probe.retract-distance</string>
+                         </property>
+                         <property name="textFormat" stdset="0">
+                          <string>{:0.4f}</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_72">
+                       <item>
+                        <widget class="QLabel" name="label_124">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>85</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>85</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QLabel{
+font: 13pt &quot;Bebas Kai&quot;;
+color: white;
+}</string>
+                         </property>
+                         <property name="lineWidth">
+                          <number>0</number>
+                         </property>
+                         <property name="text">
+                          <string>SPINDLE ZERO</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="indent">
+                          <number>0</number>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="VCPSettingsLineEdit" name="spindle_zero_height">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>75</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>75</width>
+                           <height>31</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>bebas kai</family>
+                           <pointsize>14</pointsize>
+                           <weight>50</weight>
+                           <italic>false</italic>
+                           <bold>false</bold>
+                          </font>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::ClickFocus</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">VCPSettingsLineEdit {
+    font: 14pt &quot;bebas kai&quot;
+}</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                         </property>
+                         <property name="placeholderText">
+                          <string>0.0000</string>
+                         </property>
+                         <property name="settingName" stdset="0">
+                          <string>tool-setter-probe.spindle-nose-height</string>
+                         </property>
+                         <property name="textFormat" stdset="0">
+                          <string>{:0.4f}</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                    <zorder></zorder>
+                    <zorder></zorder>
+                   </widget>
                   </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_137">
+                  <property name="bottomMargin">
+                   <number>4</number>
+                  </property>
                   <item>
-                   <widget class="MDIEntry" name="mdi_entry_box_6">
+                   <widget class="QPushButton" name="tool_diameter_offset_Btn">
                     <property name="sizePolicy">
-                     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                       <horstretch>0</horstretch>
                       <verstretch>0</verstretch>
                      </sizepolicy>
                     </property>
                     <property name="minimumSize">
                      <size>
-                      <width>700</width>
-                      <height>40</height>
+                      <width>125</width>
+                      <height>38</height>
                      </size>
                     </property>
                     <property name="maximumSize">
                      <size>
-                      <width>16777215</width>
-                      <height>40</height>
+                      <width>125</width>
+                      <height>38</height>
                      </size>
                     </property>
-                    <property name="font">
-                     <font>
-                      <family>Bebas Kai</family>
-                      <pointsize>15</pointsize>
-                      <weight>50</weight>
-                      <italic>false</italic>
-                      <bold>false</bold>
-                     </font>
+                    <property name="focusPolicy">
+                     <enum>Qt::NoFocus</enum>
+                    </property>
+                    <property name="statusTip">
+                     <string>Tool Diameter Offset: offsets the X Axis during touch off by the tool's radius distance, this puts the tool edge over the center of the tool setter.  Very useful for touching off Facemills!</string>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton{
+    font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>TOOL DIAM OFFSET</string>
+                    </property>
+                    <property name="checkable">
+                     <bool>true</bool>
+                    </property>
+                    <property name="checkedAction" stdset="0">
+                     <string>1</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="tool_diameter_probe_Btn">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>125</width>
+                      <height>38</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>125</width>
+                      <height>38</height>
+                     </size>
                     </property>
                     <property name="focusPolicy">
-                     <enum>Qt::ClickFocus</enum>
+                     <enum>Qt::NoFocus</enum>
                     </property>
-                    <property name="placeholderText">
-                     <string>MDI</string>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton{
+    font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>TOOL DIAM PROBE</string>
+                    </property>
+                    <property name="checkable">
+                     <bool>true</bool>
+                    </property>
+                    <property name="checkedAction" stdset="0">
+                     <string>1</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_47">
+                    <property name="minimumSize">
+                     <size>
+                      <width>200</width>
+                      <height>200</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>250</width>
+                      <height>16777215</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">image: url(:/images/tool_probe.png);</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="scaledContents">
+                     <bool>true</bool>
                     </property>
                    </widget>
                   </item>
                  </layout>
+                </item>
+                <item>
+                 <widget class="MDIEntry" name="mdi_entry_box_6">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>700</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Bebas Kai</family>
+                    <pointsize>15</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>Qt::ClickFocus</enum>
+                  </property>
+                  <property name="placeholderText">
+                   <string>MDI</string>
+                  </property>
+                 </widget>
                 </item>
                </layout>
               </item>
