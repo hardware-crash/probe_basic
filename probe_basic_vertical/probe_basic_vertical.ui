@@ -760,7 +760,7 @@ bottom-margin: 0px;
              <enum>QTabWidget::Rounded</enum>
             </property>
             <property name="currentIndex">
-             <number>6</number>
+             <number>5</number>
             </property>
             <property name="elideMode">
              <enum>Qt::ElideNone</enum>
@@ -10443,7 +10443,7 @@ font: 16pt &quot;Bebas Kai&quot;;
                  <number>0</number>
                 </property>
                 <item>
-                 <widget class="QFrame" name="frame_60">
+                 <widget class="QFrame" name="frame_37">
                   <property name="styleSheet">
                    <string notr="true">.QFrame{
     background-color: rgb(51, 57, 59);
@@ -10477,7 +10477,7 @@ font: 16pt &quot;Bebas Kai&quot;;
                       <number>6</number>
                      </property>
                      <item row="2" column="3">
-                      <widget class="ActionButton" name="actionbutton_g59_12">
+                      <widget class="ActionButton" name="actionbutton_g59_6">
                        <property name="enabled">
                         <bool>false</bool>
                        </property>
@@ -10519,7 +10519,7 @@ font: 16pt &quot;Bebas Kai&quot;;
                       </widget>
                      </item>
                      <item row="2" column="4">
-                      <widget class="ActionButton" name="actionbutton_g59_13">
+                      <widget class="ActionButton" name="actionbutton_g59_7">
                        <property name="enabled">
                         <bool>false</bool>
                        </property>
@@ -10561,7 +10561,7 @@ font: 16pt &quot;Bebas Kai&quot;;
                       </widget>
                      </item>
                      <item row="1" column="4">
-                      <widget class="ActionButton" name="actionbutton_g58_4">
+                      <widget class="ActionButton" name="actionbutton_g58_2">
                        <property name="enabled">
                         <bool>false</bool>
                        </property>
@@ -10603,7 +10603,7 @@ font: 16pt &quot;Bebas Kai&quot;;
                       </widget>
                      </item>
                      <item row="1" column="2">
-                      <widget class="ActionButton" name="actionbutton_g56_4">
+                      <widget class="ActionButton" name="actionbutton_g56_2">
                        <property name="enabled">
                         <bool>false</bool>
                        </property>
@@ -10645,7 +10645,7 @@ font: 16pt &quot;Bebas Kai&quot;;
                       </widget>
                      </item>
                      <item row="1" column="3">
-                      <widget class="ActionButton" name="actionbutton_g57_4">
+                      <widget class="ActionButton" name="actionbutton_g57_2">
                        <property name="enabled">
                         <bool>false</bool>
                        </property>
@@ -10687,7 +10687,7 @@ font: 16pt &quot;Bebas Kai&quot;;
                       </widget>
                      </item>
                      <item row="2" column="1">
-                      <widget class="ActionButton" name="actionbutton_g59_14">
+                      <widget class="ActionButton" name="actionbutton_g59_4">
                        <property name="enabled">
                         <bool>false</bool>
                        </property>
@@ -10729,7 +10729,7 @@ font: 16pt &quot;Bebas Kai&quot;;
                       </widget>
                      </item>
                      <item row="2" column="2">
-                      <widget class="ActionButton" name="actionbutton_g59_15">
+                      <widget class="ActionButton" name="actionbutton_g59_5">
                        <property name="enabled">
                         <bool>false</bool>
                        </property>
@@ -10810,7 +10810,7 @@ font: 16pt &quot;Bebas Kai&quot;;
                       </widget>
                      </item>
                      <item row="1" column="0">
-                      <widget class="ActionButton" name="actionbutton_g54_4">
+                      <widget class="ActionButton" name="actionbutton_g54_2">
                        <property name="enabled">
                         <bool>false</bool>
                        </property>
@@ -10852,7 +10852,7 @@ font: 16pt &quot;Bebas Kai&quot;;
                       </widget>
                      </item>
                      <item row="1" column="1">
-                      <widget class="ActionButton" name="actionbutton_g55_4">
+                      <widget class="ActionButton" name="actionbutton_g55_2">
                        <property name="enabled">
                         <bool>false</bool>
                        </property>
@@ -11249,7 +11249,7 @@ OFFSET</string>
                         <number>1</number>
                        </property>
                        <item>
-                        <widget class="MDIButton" name="zero_x_button_6">
+                        <widget class="MDIButton" name="zero_x_button_2">
                          <property name="enabled">
                           <bool>false</bool>
                          </property>
@@ -11503,7 +11503,7 @@ QLabel[style=&quot;homing&quot;]{
                         <number>1</number>
                        </property>
                        <item>
-                        <widget class="MDIButton" name="zero_y_button_6">
+                        <widget class="MDIButton" name="zero_y_button_2">
                          <property name="enabled">
                           <bool>false</bool>
                          </property>
@@ -11754,7 +11754,7 @@ QLabel[style=&quot;homing&quot;]{
                         <number>1</number>
                        </property>
                        <item>
-                        <widget class="MDIButton" name="zero_z_button_6">
+                        <widget class="MDIButton" name="zero_z_button_2">
                          <property name="enabled">
                           <bool>false</bool>
                          </property>
@@ -12005,7 +12005,7 @@ QLabel[style=&quot;homing&quot;]{
                         <number>1</number>
                        </property>
                        <item>
-                        <widget class="MDIButton" name="zero_a_button_5">
+                        <widget class="MDIButton" name="zero_a_button_2">
                          <property name="enabled">
                           <bool>false</bool>
                          </property>
@@ -12255,7 +12255,7 @@ QLabel[style=&quot;homing&quot;]{
                         <number>1</number>
                        </property>
                        <item>
-                        <widget class="MDIButton" name="zero_b_button_4">
+                        <widget class="MDIButton" name="zero_b_button_2">
                          <property name="enabled">
                           <bool>false</bool>
                          </property>
@@ -12500,7 +12500,7 @@ QLabel[style=&quot;homing&quot;]{
                  </widget>
                 </item>
                 <item>
-                 <widget class="QFrame" name="frame_59">
+                 <widget class="QFrame" name="frame_15">
                   <property name="styleSheet">
                    <string notr="true">.QFrame{
     background-color: rgb(51, 57, 59);
@@ -12531,7 +12531,7 @@ QLabel[style=&quot;homing&quot;]{
                       <number>0</number>
                      </property>
                      <item>
-                      <widget class="OffsetTable" name="offset_table_2">
+                      <widget class="OffsetTable" name="offset_table">
                        <property name="sizePolicy">
                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                          <horstretch>0</horstretch>
@@ -12624,7 +12624,7 @@ QLabel[style=&quot;homing&quot;]{
                       <number>5</number>
                      </property>
                      <item>
-                      <widget class="QPushButton" name="x_axis_button_12">
+                      <widget class="QPushButton" name="x_axis_button_10">
                        <property name="sizePolicy">
                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                          <horstretch>0</horstretch>
@@ -12657,7 +12657,7 @@ QLabel[style=&quot;homing&quot;]{
                       </widget>
                      </item>
                      <item>
-                      <widget class="QPushButton" name="x_axis_button_15">
+                      <widget class="QPushButton" name="x_axis_button_11">
                        <property name="sizePolicy">
                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                          <horstretch>0</horstretch>
@@ -12690,7 +12690,7 @@ QLabel[style=&quot;homing&quot;]{
                       </widget>
                      </item>
                      <item>
-                      <widget class="QPushButton" name="x_axis_button_16">
+                      <widget class="QPushButton" name="x_axis_button_13">
                        <property name="sizePolicy">
                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                          <horstretch>0</horstretch>
@@ -12723,7 +12723,7 @@ QLabel[style=&quot;homing&quot;]{
                       </widget>
                      </item>
                      <item>
-                      <widget class="QPushButton" name="x_axis_button_17">
+                      <widget class="QPushButton" name="x_axis_button_14">
                        <property name="sizePolicy">
                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                          <horstretch>0</horstretch>
@@ -12761,7 +12761,7 @@ QLabel[style=&quot;homing&quot;]{
                  </widget>
                 </item>
                 <item>
-                 <widget class="QWidget" name="widget_129" native="true">
+                 <widget class="QWidget" name="widget_38" native="true">
                   <property name="maximumSize">
                    <size>
                     <width>16777215</width>
@@ -12838,7 +12838,7 @@ QLabel[style=&quot;homing&quot;]{
                           <number>12</number>
                          </property>
                          <item>
-                          <widget class="SubCallButton" name="set_g30_1_position_2">
+                          <widget class="SubCallButton" name="set_g30_1_position">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                              <horstretch>0</horstretch>
@@ -12938,7 +12938,7 @@ padding-left: 5px;
                              </widget>
                             </item>
                             <item>
-                             <widget class="VCPSettingsLineEdit" name="x_tool_change_position_2">
+                             <widget class="VCPSettingsLineEdit" name="x_tool_change_position">
                               <property name="minimumSize">
                                <size>
                                 <width>75</width>
@@ -13028,7 +13028,7 @@ padding-left: 5px;
                              </widget>
                             </item>
                             <item>
-                             <widget class="VCPSettingsLineEdit" name="y_tool_change_position_2">
+                             <widget class="VCPSettingsLineEdit" name="y_tool_change_position">
                               <property name="minimumSize">
                                <size>
                                 <width>75</width>
@@ -13118,7 +13118,7 @@ padding-left: 5px;
                              </widget>
                             </item>
                             <item>
-                             <widget class="VCPSettingsLineEdit" name="z_tool_change_position_2">
+                             <widget class="VCPSettingsLineEdit" name="z_tool_change_position">
                               <property name="minimumSize">
                                <size>
                                 <width>75</width>
@@ -13172,7 +13172,7 @@ padding-left: 5px;
                        </widget>
                       </item>
                       <item>
-                       <widget class="QPushButton" name="tool_diameter_offset_Btn_2">
+                       <widget class="QPushButton" name="tool_diameter_offset_Btn">
                         <property name="sizePolicy">
                          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                           <horstretch>0</horstretch>
@@ -13426,7 +13426,7 @@ color: white;
                             </widget>
                            </item>
                            <item>
-                            <widget class="VCPSettingsLineEdit" name="fast_probe_fr_2">
+                            <widget class="VCPSettingsLineEdit" name="fast_probe_fr">
                              <property name="sizePolicy">
                               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                <horstretch>0</horstretch>
@@ -13522,7 +13522,7 @@ color: white;
                             </widget>
                            </item>
                            <item>
-                            <widget class="VCPSettingsLineEdit" name="slow_probe_fr_2">
+                            <widget class="VCPSettingsLineEdit" name="slow_probe_fr">
                              <property name="sizePolicy">
                               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                <horstretch>0</horstretch>
@@ -13624,7 +13624,7 @@ color: white;
                             </widget>
                            </item>
                            <item>
-                            <widget class="VCPSettingsLineEdit" name="z_max_travel_2">
+                            <widget class="VCPSettingsLineEdit" name="z_max_travel">
                              <property name="sizePolicy">
                               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                <horstretch>0</horstretch>
@@ -13720,7 +13720,7 @@ color: white;
                             </widget>
                            </item>
                            <item>
-                            <widget class="VCPSettingsLineEdit" name="xy_max_travel_2">
+                            <widget class="VCPSettingsLineEdit" name="xy_max_travel">
                              <property name="sizePolicy">
                               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                <horstretch>0</horstretch>
@@ -13816,7 +13816,7 @@ color: white;
                             </widget>
                            </item>
                            <item>
-                            <widget class="VCPSettingsLineEdit" name="retract_distance_2">
+                            <widget class="VCPSettingsLineEdit" name="retract_distance">
                              <property name="sizePolicy">
                               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                <horstretch>0</horstretch>
@@ -13912,7 +13912,7 @@ color: white;
                             </widget>
                            </item>
                            <item>
-                            <widget class="VCPSettingsLineEdit" name="spindle_zero_height_2">
+                            <widget class="VCPSettingsLineEdit" name="spindle_zero_height">
                              <property name="sizePolicy">
                               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                <horstretch>0</horstretch>
@@ -13971,7 +13971,7 @@ color: white;
                        </widget>
                       </item>
                       <item>
-                       <widget class="QPushButton" name="tool_diameter_probe_Btn_2">
+                       <widget class="QPushButton" name="tool_diameter_probe_Btn">
                         <property name="sizePolicy">
                          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                           <horstretch>0</horstretch>
