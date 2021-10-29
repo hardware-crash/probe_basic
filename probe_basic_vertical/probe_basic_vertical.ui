@@ -18041,7 +18041,7 @@ color: white;
                                  <number>12</number>
                                 </property>
                                 <item alignment="Qt::AlignHCenter|Qt::AlignTop">
-                                 <widget class="QStackedWidget" name="probe_help_widget_2">
+                                 <widget class="QStackedWidget" name="probe_help_widget">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
