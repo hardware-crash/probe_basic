@@ -297,9 +297,9 @@ bottom-margin: 0px;
                <colorrole role="Button">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -369,18 +369,18 @@ bottom-margin: 0px;
                <colorrole role="Base">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
                <colorrole role="Window">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -443,9 +443,9 @@ bottom-margin: 0px;
                <colorrole role="Button">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -515,18 +515,18 @@ bottom-margin: 0px;
                <colorrole role="Base">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
                <colorrole role="Window">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -589,9 +589,9 @@ bottom-margin: 0px;
                <colorrole role="Button">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -661,18 +661,18 @@ bottom-margin: 0px;
                <colorrole role="Base">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
                <colorrole role="Window">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -6759,7 +6759,7 @@ color:green;
                </widget>
               </item>
               <item>
-               <widget class="QWidget" name="widget_13" native="true">
+               <widget class="QWidget" name="widget_21" native="true">
                 <layout class="QVBoxLayout" name="verticalLayout_19">
                  <property name="spacing">
                   <number>0</number>
@@ -14088,7 +14088,7 @@ color: white;
                     <number>0</number>
                    </property>
                    <item>
-                    <widget class="QWidget" name="widget_68" native="true">
+                    <widget class="QWidget" name="widget_13" native="true">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                        <horstretch>0</horstretch>
@@ -14109,7 +14109,7 @@ color: white;
                        <number>0</number>
                       </property>
                       <item>
-                       <widget class="QWidget" name="probe_group_select_2" native="true">
+                       <widget class="QWidget" name="probe_group_select" native="true">
                         <property name="styleSheet">
                          <string notr="true">QWidget {
     font: 13pt &quot;bebas kai&quot;;
@@ -14132,7 +14132,7 @@ color: white;
                           <number>0</number>
                          </property>
                          <item>
-                          <widget class="QPushButton" name="outside_corners_2">
+                          <widget class="QPushButton" name="outside_corners">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                              <horstretch>0</horstretch>
@@ -14199,10 +14199,13 @@ QPushButton:checked {
                            <property name="page" stdset="0">
                             <number>0</number>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probetabGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
-                          <widget class="QPushButton" name="inside_corners_2">
+                          <widget class="QPushButton" name="inside_corners">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                              <horstretch>0</horstretch>
@@ -14266,10 +14269,13 @@ QPushButton:checked {
                            <property name="page" stdset="0">
                             <number>1</number>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probetabGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
-                          <widget class="QPushButton" name="boss_and_pocket_2">
+                          <widget class="QPushButton" name="boss_and_pocket">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                              <horstretch>0</horstretch>
@@ -14333,10 +14339,13 @@ QPushButton:checked {
                            <property name="page" stdset="0">
                             <number>2</number>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probetabGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
-                          <widget class="QPushButton" name="ridge_and_valley_2">
+                          <widget class="QPushButton" name="ridge_and_valley">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                              <horstretch>0</horstretch>
@@ -14400,10 +14409,13 @@ QPushButton:checked {
                            <property name="page" stdset="0">
                             <number>3</number>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probetabGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
-                          <widget class="QPushButton" name="rotation_angle_2">
+                          <widget class="QPushButton" name="rotation_angle">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                              <horstretch>0</horstretch>
@@ -14467,10 +14479,13 @@ QPushButton:checked {
                            <property name="page" stdset="0">
                             <number>4</number>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probetabGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
-                          <widget class="QPushButton" name="rotary_axis_3">
+                          <widget class="QPushButton" name="rotary_axis">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                              <horstretch>0</horstretch>
@@ -14534,10 +14549,13 @@ QPushButton:checked {
                            <property name="page" stdset="0">
                             <number>5</number>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probetabGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
-                          <widget class="QPushButton" name="calibrate_2">
+                          <widget class="QPushButton" name="calibrate">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                              <horstretch>0</horstretch>
@@ -14601,10 +14619,13 @@ QPushButton:checked {
                            <property name="page" stdset="0">
                             <number>6</number>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probetabGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
-                          <widget class="QPushButton" name="probe_help_2">
+                          <widget class="QPushButton" name="probe_help">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                              <horstretch>0</horstretch>
@@ -14668,13 +14689,16 @@ QPushButton:checked {
                            <property name="page" stdset="0">
                             <number>7</number>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probetabGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                         </layout>
                        </widget>
                       </item>
                       <item>
-                       <widget class="QWidget" name="widget_69" native="true">
+                       <widget class="QWidget" name="widget_11" native="true">
                         <layout class="QVBoxLayout" name="verticalLayout_80">
                          <property name="spacing">
                           <number>0</number>
@@ -14692,7 +14716,7 @@ QPushButton:checked {
                           <number>0</number>
                          </property>
                          <item>
-                          <widget class="QStackedWidget" name="probe_tab_widget_2">
+                          <widget class="QStackedWidget" name="probe_tab_widget">
                            <property name="font">
                             <font>
                              <family>Bebas Kai</family>
@@ -14703,21 +14727,21 @@ QPushButton:checked {
                             <string notr="true"/>
                            </property>
                            <property name="currentIndex">
-                            <number>0</number>
+                            <number>7</number>
                            </property>
-                           <widget class="QWidget" name="Page1_2">
+                           <widget class="QWidget" name="Page1">
                             <property name="maximumSize">
                              <size>
                               <width>803</width>
                               <height>16777215</height>
                              </size>
                             </property>
-                            <layout class="QHBoxLayout" name="horizontalLayout_151">
+                            <layout class="QHBoxLayout" name="horizontalLayout_135">
                              <property name="sizeConstraint">
                               <enum>QLayout::SetNoConstraint</enum>
                              </property>
                              <item>
-                              <widget class="QWidget" name="widget_70" native="true">
+                              <widget class="QWidget" name="widget_40" native="true">
                                <property name="sizePolicy">
                                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                  <horstretch>0</horstretch>
@@ -14739,9 +14763,9 @@ QPushButton:checked {
                                <property name="styleSheet">
                                 <string notr="true"/>
                                </property>
-                               <layout class="QGridLayout" name="gridLayout_11">
+                               <layout class="QGridLayout" name="gridLayout_7">
                                 <item row="0" column="3">
-                                 <widget class="SubCallButton" name="probe_back_top_side_2">
+                                 <widget class="SubCallButton" name="probe_back_top_side">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -14782,10 +14806,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_back_top_side.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="2" column="4">
-                                 <widget class="SubCallButton" name="probe_front_right_top_corner_2">
+                                 <widget class="SubCallButton" name="probe_front_right_top_corner">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -14826,10 +14853,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_front_right_top_corner.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="1" column="0">
-                                 <widget class="SubCallButton" name="probe_left_top_side_2">
+                                 <widget class="SubCallButton" name="probe_left_top_side">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -14870,10 +14900,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_left_top_side.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="0" column="4">
-                                 <widget class="SubCallButton" name="probe_back_right_top_corner_2">
+                                 <widget class="SubCallButton" name="probe_back_right_top_corner">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -14914,10 +14947,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_back_right_top_corner.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="2" column="3">
-                                 <widget class="SubCallButton" name="probe_front_top_side_2">
+                                 <widget class="SubCallButton" name="probe_front_top_side">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -14958,10 +14994,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_front_top_side.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="1" column="4">
-                                 <widget class="SubCallButton" name="probe_right_top_side_2">
+                                 <widget class="SubCallButton" name="probe_right_top_side">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -15003,10 +15042,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_right_top_side.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="2" column="0">
-                                 <widget class="SubCallButton" name="probe_front_left_top_corner_2">
+                                 <widget class="SubCallButton" name="probe_front_left_top_corner">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -15047,10 +15089,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_front_left_top_corner.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="1" column="3">
-                                 <widget class="SubCallButton" name="probe_z_minus_wco_edge_2">
+                                 <widget class="SubCallButton" name="probe_z_minus_wco_edge">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -15091,10 +15136,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_z_minus_wco.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="0" column="0">
-                                 <widget class="SubCallButton" name="probe_back_left_top_corner_2">
+                                 <widget class="SubCallButton" name="probe_back_left_top_corner">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -15123,6 +15171,9 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_back_left_top_corner.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                </layout>
@@ -15130,10 +15181,10 @@ QPushButton:checked {
                              </item>
                             </layout>
                            </widget>
-                           <widget class="QWidget" name="Page2_2">
+                           <widget class="QWidget" name="Page2">
                             <layout class="QHBoxLayout" name="horizontalLayout_152">
                              <item>
-                              <widget class="QWidget" name="widget_71" native="true">
+                              <widget class="QWidget" name="widget_41" native="true">
                                <property name="sizePolicy">
                                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                  <horstretch>0</horstretch>
@@ -15159,7 +15210,7 @@ QPushButton:checked {
                                </property>
                                <layout class="QGridLayout" name="gridLayout_17">
                                 <item row="3" column="4">
-                                 <widget class="SubCallButton" name="probe_front_right_inside_corner_2">
+                                 <widget class="SubCallButton" name="probe_front_right_inside_corner">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -15197,10 +15248,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_front_right_inside_corner.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="0" column="3">
-                                 <widget class="SubCallButton" name="probe_y_plus_wco_2">
+                                 <widget class="SubCallButton" name="probe_y_plus_wco">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -15238,10 +15292,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_y_plus_wco.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="0" column="4">
-                                 <widget class="SubCallButton" name="probe_back_right_inside_corner_2">
+                                 <widget class="SubCallButton" name="probe_back_right_inside_corner">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -15279,10 +15336,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_back_right_inside_corner.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="3" column="0">
-                                 <widget class="SubCallButton" name="probe_front_left_inside_corner_2">
+                                 <widget class="SubCallButton" name="probe_front_left_inside_corner">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -15320,10 +15380,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_front_left_inside_corner.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="1" column="3">
-                                 <widget class="SubCallButton" name="probe_z_minus_wco_inside_2">
+                                 <widget class="SubCallButton" name="probe_z_minus_wco_inside">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -15361,10 +15424,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_z_minus_wco.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="0" column="0">
-                                 <widget class="SubCallButton" name="probe_back_left_inside_corner_2">
+                                 <widget class="SubCallButton" name="probe_back_left_inside_corner">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -15402,10 +15468,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_back_left_inside_corner.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="1" column="0">
-                                 <widget class="SubCallButton" name="probe_x_minus_wco_2">
+                                 <widget class="SubCallButton" name="probe_x_minus_wco">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -15443,10 +15512,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_x_minus_wco.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="1" column="4">
-                                 <widget class="SubCallButton" name="probe_x_plus_wco_2">
+                                 <widget class="SubCallButton" name="probe_x_plus_wco">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -15484,10 +15556,13 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_x_plus_wco.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                 <item row="3" column="3">
-                                 <widget class="SubCallButton" name="probe_y_minus_wco_2">
+                                 <widget class="SubCallButton" name="probe_y_minus_wco">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -15525,6 +15600,9 @@ QPushButton:checked {
                                   <property name="filename" stdset="0">
                                    <string>probe_y_minus_wco.ngc</string>
                                   </property>
+                                  <attribute name="buttonGroup">
+                                   <string notr="true">proberoutinebtnGroup</string>
+                                  </attribute>
                                  </widget>
                                 </item>
                                </layout>
@@ -15532,10 +15610,10 @@ QPushButton:checked {
                              </item>
                             </layout>
                            </widget>
-                           <widget class="QWidget" name="Page3_2">
+                           <widget class="QWidget" name="Page3">
                             <layout class="QHBoxLayout" name="horizontalLayout_153">
                              <item>
-                              <widget class="QWidget" name="widget_72" native="true">
+                              <widget class="QWidget" name="widget_42" native="true">
                                <property name="sizePolicy">
                                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                  <horstretch>0</horstretch>
@@ -15573,7 +15651,7 @@ QPushButton:checked {
                                   <number>10</number>
                                  </property>
                                  <item row="0" column="0">
-                                  <widget class="SubCallButton" name="probe_round_boss_2">
+                                  <widget class="SubCallButton" name="probe_round_boss">
                                    <property name="minimumSize">
                                     <size>
                                      <width>170</width>
@@ -15608,10 +15686,13 @@ QPushButton:checked {
                                    <property name="filename" stdset="0">
                                     <string>probe_round_boss.ngc</string>
                                    </property>
+                                   <attribute name="buttonGroup">
+                                    <string notr="true">proberoutinebtnGroup</string>
+                                   </attribute>
                                   </widget>
                                  </item>
                                  <item row="0" column="1">
-                                  <widget class="SubCallButton" name="probe_round_pocket_2">
+                                  <widget class="SubCallButton" name="probe_round_pocket">
                                    <property name="minimumSize">
                                     <size>
                                      <width>170</width>
@@ -15646,10 +15727,13 @@ QPushButton:checked {
                                    <property name="filename" stdset="0">
                                     <string>probe_round_pocket.ngc</string>
                                    </property>
+                                   <attribute name="buttonGroup">
+                                    <string notr="true">proberoutinebtnGroup</string>
+                                   </attribute>
                                   </widget>
                                  </item>
                                  <item row="1" column="0">
-                                  <widget class="SubCallButton" name="probe_rect_boss_2">
+                                  <widget class="SubCallButton" name="probe_rect_boss">
                                    <property name="minimumSize">
                                     <size>
                                      <width>170</width>
@@ -15684,10 +15768,13 @@ QPushButton:checked {
                                    <property name="filename" stdset="0">
                                     <string>probe_rect_boss.ngc</string>
                                    </property>
+                                   <attribute name="buttonGroup">
+                                    <string notr="true">proberoutinebtnGroup</string>
+                                   </attribute>
                                   </widget>
                                  </item>
                                  <item row="1" column="1">
-                                  <widget class="SubCallButton" name="probe_rect_pocket_2">
+                                  <widget class="SubCallButton" name="probe_rect_pocket">
                                    <property name="minimumSize">
                                     <size>
                                      <width>170</width>
@@ -15722,6 +15809,9 @@ QPushButton:checked {
                                    <property name="filename" stdset="0">
                                     <string>probe_rect_pocket.ngc</string>
                                    </property>
+                                   <attribute name="buttonGroup">
+                                    <string notr="true">proberoutinebtnGroup</string>
+                                   </attribute>
                                   </widget>
                                  </item>
                                 </layout>
@@ -15833,7 +15923,7 @@ padding-left: 5px;
                                     </widget>
                                    </item>
                                    <item>
-                                    <widget class="VCPLineEdit" name="diameter_hint_2">
+                                    <widget class="VCPLineEdit" name="diameter_hint">
                                      <property name="sizePolicy">
                                       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                                        <horstretch>0</horstretch>
@@ -15999,10 +16089,10 @@ padding-left: 5px;
                              </item>
                             </layout>
                            </widget>
-                           <widget class="QWidget" name="Page4_2">
+                           <widget class="QWidget" name="Page4">
                             <layout class="QHBoxLayout" name="horizontalLayout_163">
                              <item>
-                              <widget class="QWidget" name="widget_73" native="true">
+                              <widget class="QWidget" name="widget_43" native="true">
                                <property name="sizePolicy">
                                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                  <horstretch>0</horstretch>
@@ -16073,6 +16163,9 @@ padding-left: 5px;
                                    <property name="filename" stdset="0">
                                     <string>probe_valley_x.ngc</string>
                                    </property>
+                                   <attribute name="buttonGroup">
+                                    <string notr="true">proberoutinebtnGroup</string>
+                                   </attribute>
                                   </widget>
                                  </item>
                                  <item row="0" column="1">
@@ -16111,6 +16204,9 @@ padding-left: 5px;
                                    <property name="filename" stdset="0">
                                     <string>probe_valley_y.ngc</string>
                                    </property>
+                                   <attribute name="buttonGroup">
+                                    <string notr="true">proberoutinebtnGroup</string>
+                                   </attribute>
                                   </widget>
                                  </item>
                                  <item row="1" column="0">
@@ -16149,6 +16245,9 @@ padding-left: 5px;
                                    <property name="filename" stdset="0">
                                     <string>probe_ridge_x.ngc</string>
                                    </property>
+                                   <attribute name="buttonGroup">
+                                    <string notr="true">proberoutinebtnGroup</string>
+                                   </attribute>
                                   </widget>
                                  </item>
                                  <item row="1" column="1">
@@ -16187,6 +16286,9 @@ padding-left: 5px;
                                    <property name="filename" stdset="0">
                                     <string>probe_ridge_y.ngc</string>
                                    </property>
+                                   <attribute name="buttonGroup">
+                                    <string notr="true">proberoutinebtnGroup</string>
+                                   </attribute>
                                   </widget>
                                  </item>
                                 </layout>
@@ -16298,7 +16400,7 @@ padding-left: 5px;
                                     </widget>
                                    </item>
                                    <item>
-                                    <widget class="VCPLineEdit" name="x_hint_2">
+                                    <widget class="VCPLineEdit" name="x_hint">
                                      <property name="sizePolicy">
                                       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                                        <horstretch>0</horstretch>
@@ -16362,7 +16464,7 @@ padding-left: 5px;
                                     </widget>
                                    </item>
                                    <item>
-                                    <widget class="VCPLineEdit" name="y_hint_2">
+                                    <widget class="VCPLineEdit" name="y_hint">
                                      <property name="sizePolicy">
                                       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                                        <horstretch>0</horstretch>
@@ -16400,7 +16502,7 @@ padding-left: 5px;
                              </item>
                             </layout>
                            </widget>
-                           <widget class="QWidget" name="Page5_2">
+                           <widget class="QWidget" name="Page5">
                             <layout class="QHBoxLayout" name="horizontalLayout_7">
                              <item>
                               <widget class="QWidget" name="widget_74" native="true">
@@ -16492,6 +16594,9 @@ padding-left: 5px;
                                      <property name="filename" stdset="0">
                                       <string>probe_top_left_edge_angle.ngc</string>
                                      </property>
+                                     <attribute name="buttonGroup">
+                                      <string notr="true">proberoutinebtnGroup</string>
+                                     </attribute>
                                     </widget>
                                    </item>
                                    <item row="3" column="0">
@@ -16536,6 +16641,9 @@ padding-left: 5px;
                                      <property name="filename" stdset="0">
                                       <string>probe_corner_y_plus_edge_angle.ngc</string>
                                      </property>
+                                     <attribute name="buttonGroup">
+                                      <string notr="true">proberoutinebtnGroup</string>
+                                     </attribute>
                                     </widget>
                                    </item>
                                    <item row="1" column="0">
@@ -16568,6 +16676,9 @@ padding-left: 5px;
                                      <property name="filename" stdset="0">
                                       <string>probe_corner_x_plus_edge_angle.ngc</string>
                                      </property>
+                                     <attribute name="buttonGroup">
+                                      <string notr="true">proberoutinebtnGroup</string>
+                                     </attribute>
                                     </widget>
                                    </item>
                                    <item row="1" column="2">
@@ -16612,6 +16723,9 @@ padding-left: 5px;
                                      <property name="filename" stdset="0">
                                       <string>probe_corner_y_minus_edge_angle.ngc</string>
                                      </property>
+                                     <attribute name="buttonGroup">
+                                      <string notr="true">proberoutinebtnGroup</string>
+                                     </attribute>
                                     </widget>
                                    </item>
                                    <item row="2" column="1">
@@ -16656,6 +16770,9 @@ padding-left: 5px;
                                      <property name="filename" stdset="0">
                                       <string>probe_z_minus_wco.ngc</string>
                                      </property>
+                                     <attribute name="buttonGroup">
+                                      <string notr="true">proberoutinebtnGroup</string>
+                                     </attribute>
                                     </widget>
                                    </item>
                                    <item row="3" column="2">
@@ -16700,6 +16817,9 @@ padding-left: 5px;
                                      <property name="filename" stdset="0">
                                       <string>probe_corner_x_minus_edge_angle.ngc</string>
                                      </property>
+                                     <attribute name="buttonGroup">
+                                      <string notr="true">proberoutinebtnGroup</string>
+                                     </attribute>
                                     </widget>
                                    </item>
                                    <item row="2" column="2">
@@ -16744,6 +16864,9 @@ padding-left: 5px;
                                      <property name="filename" stdset="0">
                                       <string>probe_top_right_edge_angle.ngc</string>
                                      </property>
+                                     <attribute name="buttonGroup">
+                                      <string notr="true">proberoutinebtnGroup</string>
+                                     </attribute>
                                     </widget>
                                    </item>
                                    <item row="1" column="1">
@@ -16788,6 +16911,9 @@ padding-left: 5px;
                                      <property name="filename" stdset="0">
                                       <string>probe_top_back_edge_angle.ngc</string>
                                      </property>
+                                     <attribute name="buttonGroup">
+                                      <string notr="true">proberoutinebtnGroup</string>
+                                     </attribute>
                                     </widget>
                                    </item>
                                    <item row="3" column="1">
@@ -16832,6 +16958,9 @@ padding-left: 5px;
                                      <property name="filename" stdset="0">
                                       <string>probe_top_front_edge_angle.ngc</string>
                                      </property>
+                                     <attribute name="buttonGroup">
+                                      <string notr="true">proberoutinebtnGroup</string>
+                                     </attribute>
                                     </widget>
                                    </item>
                                   </layout>
@@ -16924,8 +17053,8 @@ padding-left: 5px;
                              </item>
                             </layout>
                            </widget>
-                           <widget class="QWidget" name="Page6_2"/>
-                           <widget class="QWidget" name="Page7_2">
+                           <widget class="QWidget" name="Page6"/>
+                           <widget class="QWidget" name="Page7">
                             <layout class="QHBoxLayout" name="horizontalLayout_72">
                              <item>
                               <widget class="QFrame" name="frame_48">
@@ -17192,6 +17321,9 @@ color: rgb(255, 255, 255);
                                     <property name="filename" stdset="0">
                                      <string>probe_cal_round_pocket.ngc</string>
                                     </property>
+                                    <attribute name="buttonGroup">
+                                     <string notr="true">proberoutinebtnGroup</string>
+                                    </attribute>
                                    </widget>
                                   </item>
                                   <item>
@@ -17236,6 +17368,9 @@ color: rgb(255, 255, 255);
                                     <property name="filename" stdset="0">
                                      <string>probe_cal_round_boss.ngc</string>
                                     </property>
+                                    <attribute name="buttonGroup">
+                                     <string notr="true">proberoutinebtnGroup</string>
+                                    </attribute>
                                    </widget>
                                   </item>
                                   <item>
@@ -17436,6 +17571,9 @@ margin-left: 14px;</string>
                                     <property name="checkedAction" stdset="0">
                                      <string>0</string>
                                     </property>
+                                    <attribute name="buttonGroup">
+                                     <string notr="true">xycalbtnGroup</string>
+                                    </attribute>
                                    </widget>
                                   </item>
                                   <item>
@@ -17476,6 +17614,9 @@ margin-left: 14px;</string>
                                     <property name="checkedAction" stdset="0">
                                      <string>1</string>
                                     </property>
+                                    <attribute name="buttonGroup">
+                                     <string notr="true">xycalbtnGroup</string>
+                                    </attribute>
                                    </widget>
                                   </item>
                                   <item>
@@ -17516,6 +17657,9 @@ margin-left: 14px;</string>
                                     <property name="checkedAction" stdset="0">
                                      <string>2</string>
                                     </property>
+                                    <attribute name="buttonGroup">
+                                     <string notr="true">xycalbtnGroup</string>
+                                    </attribute>
                                    </widget>
                                   </item>
                                  </layout>
@@ -17573,6 +17717,9 @@ margin-left: 14px;</string>
                                     <property name="filename" stdset="0">
                                      <string>probe_cal_square_pocket.ngc</string>
                                     </property>
+                                    <attribute name="buttonGroup">
+                                     <string notr="true">proberoutinebtnGroup</string>
+                                    </attribute>
                                    </widget>
                                   </item>
                                   <item>
@@ -17614,6 +17761,9 @@ margin-left: 14px;</string>
                                     <property name="filename" stdset="0">
                                      <string>probe_cal_square_boss.ngc</string>
                                     </property>
+                                    <attribute name="buttonGroup">
+                                     <string notr="true">proberoutinebtnGroup</string>
+                                    </attribute>
                                    </widget>
                                   </item>
                                   <item>
@@ -17844,7 +17994,7 @@ color: white;
                              </item>
                             </layout>
                            </widget>
-                           <widget class="QWidget" name="Page8_2">
+                           <widget class="QWidget" name="Page8">
                             <layout class="QHBoxLayout" name="horizontalLayout_27">
                              <item>
                               <widget class="QFrame" name="frame_3">
@@ -17931,10 +18081,10 @@ background: transparent;
                                   <property name="currentIndex">
                                    <number>0</number>
                                   </property>
-                                  <widget class="QWidget" name="stackedWidget_4Page1_2">
+                                  <widget class="QWidget" name="stackedWidget_4Page1">
                                    <layout class="QHBoxLayout" name="horizontalLayout_173">
                                     <item>
-                                     <widget class="QLabel" name="label_124">
+                                     <widget class="QLabel" name="label_77">
                                       <property name="sizePolicy">
                                        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                                         <horstretch>0</horstretch>
@@ -17976,10 +18126,10 @@ background: transparent;
                                     </item>
                                    </layout>
                                   </widget>
-                                  <widget class="QWidget" name="stackedWidget_4Page2_2">
+                                  <widget class="QWidget" name="stackedWidget_4Page2">
                                    <layout class="QHBoxLayout" name="horizontalLayout_174">
                                     <item>
-                                     <widget class="QLabel" name="label_125">
+                                     <widget class="QLabel" name="label_78">
                                       <property name="sizePolicy">
                                        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                                         <horstretch>0</horstretch>
@@ -18027,10 +18177,10 @@ background: transparent;
                                     </item>
                                    </layout>
                                   </widget>
-                                  <widget class="QWidget" name="stackedWidget_4Page3_2">
+                                  <widget class="QWidget" name="stackedWidget_4Page3">
                                    <layout class="QHBoxLayout" name="horizontalLayout_175">
                                     <item>
-                                     <widget class="QLabel" name="label_129">
+                                     <widget class="QLabel" name="label_79">
                                       <property name="sizePolicy">
                                        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                                         <horstretch>0</horstretch>
@@ -18079,10 +18229,10 @@ background: transparent;
                                     </item>
                                    </layout>
                                   </widget>
-                                  <widget class="QWidget" name="stackedWidget_4Page4_2">
+                                  <widget class="QWidget" name="stackedWidget_4Page4">
                                    <layout class="QHBoxLayout" name="horizontalLayout_176">
                                     <item>
-                                     <widget class="QLabel" name="label_133">
+                                     <widget class="QLabel" name="label_105">
                                       <property name="sizePolicy">
                                        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                                         <horstretch>0</horstretch>
@@ -18131,10 +18281,10 @@ background: transparent;
                                     </item>
                                    </layout>
                                   </widget>
-                                  <widget class="QWidget" name="stackedWidget_4Page5_2">
+                                  <widget class="QWidget" name="stackedWidget_4Page5">
                                    <layout class="QHBoxLayout" name="horizontalLayout_177">
                                     <item>
-                                     <widget class="QLabel" name="label_134">
+                                     <widget class="QLabel" name="label_80">
                                       <property name="sizePolicy">
                                        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                                         <horstretch>0</horstretch>
@@ -18183,7 +18333,7 @@ background: transparent;
                                     </item>
                                    </layout>
                                   </widget>
-                                  <widget class="QWidget" name="stackedWidget_4Page6_2">
+                                  <widget class="QWidget" name="stackedWidget_4Page6">
                                    <layout class="QHBoxLayout" name="horizontalLayout_178">
                                     <item>
                                      <widget class="QLabel" name="label_135">
@@ -18235,12 +18385,12 @@ background: transparent;
                                     </item>
                                    </layout>
                                   </widget>
-                                  <widget class="QWidget" name="stackedWidget_4Page7_2"/>
-                                  <widget class="QWidget" name="stackedWidget_4Page8_2"/>
+                                  <widget class="QWidget" name="stackedWidget_4Page7"/>
+                                  <widget class="QWidget" name="stackedWidget_4Page8"/>
                                  </widget>
                                 </item>
                                 <item>
-                                 <widget class="QWidget" name="probe_help_Group_select_2" native="true">
+                                 <widget class="QWidget" name="probe_help_Group_select" native="true">
                                   <property name="sizePolicy">
                                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                                     <horstretch>0</horstretch>
@@ -18276,7 +18426,7 @@ background: transparent;
                                     <number>1</number>
                                    </property>
                                    <item>
-                                    <widget class="QPushButton" name="probe_help_prev_2">
+                                    <widget class="QPushButton" name="probe_help_prev">
                                      <property name="sizePolicy">
                                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                        <horstretch>0</horstretch>
@@ -18327,10 +18477,13 @@ background: transparent;
                                      <property name="autoExclusive">
                                       <bool>true</bool>
                                      </property>
+                                     <attribute name="buttonGroup">
+                                      <string notr="true">probehelpGroup</string>
+                                     </attribute>
                                     </widget>
                                    </item>
                                    <item>
-                                    <widget class="QPushButton" name="probe_help_next_2">
+                                    <widget class="QPushButton" name="probe_help_next">
                                      <property name="sizePolicy">
                                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                                        <horstretch>0</horstretch>
@@ -18381,6 +18534,9 @@ background: transparent;
                                      <property name="autoExclusive">
                                       <bool>true</bool>
                                      </property>
+                                     <attribute name="buttonGroup">
+                                      <string notr="true">probehelpGroup</string>
+                                     </attribute>
                                     </widget>
                                    </item>
                                   </layout>
@@ -18442,7 +18598,7 @@ background: transparent;
                     </widget>
                    </item>
                    <item>
-                    <widget class="QWidget" name="widget_79" native="true">
+                    <widget class="QWidget" name="widget_15" native="true">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                        <horstretch>0</horstretch>
@@ -18520,6 +18676,9 @@ background: transparent;
                            <property name="actionName" stdset="0">
                             <string>machine.set-work-coord:G54</string>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probepagewcsbtnGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
@@ -18547,6 +18706,9 @@ background: transparent;
                            <property name="actionName" stdset="0">
                             <string>machine.set-work-coord:G55</string>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probepagewcsbtnGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
@@ -18574,6 +18736,9 @@ background: transparent;
                            <property name="actionName" stdset="0">
                             <string>machine.set-work-coord:G56</string>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probepagewcsbtnGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
@@ -18601,6 +18766,9 @@ background: transparent;
                            <property name="actionName" stdset="0">
                             <string>machine.set-work-coord:G57</string>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probepagewcsbtnGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
@@ -18628,6 +18796,9 @@ background: transparent;
                            <property name="actionName" stdset="0">
                             <string>machine.set-work-coord:G58</string>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probepagewcsbtnGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
@@ -18655,6 +18826,9 @@ background: transparent;
                            <property name="actionName" stdset="0">
                             <string>machine.set-work-coord:G59</string>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probepagewcsbtnGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                         </layout>
@@ -18715,6 +18889,9 @@ background: transparent;
                            <property name="actionName" stdset="0">
                             <string>machine.set-work-coord:G59.1</string>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probepagewcsbtnGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
@@ -18742,6 +18919,9 @@ background: transparent;
                            <property name="actionName" stdset="0">
                             <string>machine.set-work-coord:G59.2</string>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probepagewcsbtnGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
@@ -18769,6 +18949,9 @@ background: transparent;
                            <property name="actionName" stdset="0">
                             <string>machine.set-work-coord:G59.3</string>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probepagewcsbtnGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
@@ -18802,6 +18985,9 @@ background: transparent;
                            <property name="checkedAction" stdset="0">
                             <string>0</string>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probemodeGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                          <item>
@@ -18829,6 +19015,9 @@ background: transparent;
                            <property name="checkedAction" stdset="0">
                             <string>1</string>
                            </property>
+                           <attribute name="buttonGroup">
+                            <string notr="true">probemodeGroup</string>
+                           </attribute>
                           </widget>
                          </item>
                         </layout>
@@ -35890,10 +36079,16 @@ font: 11pt bebas kai;
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="plotviewGroup"/>
   <buttongroup name="btngrpMdi"/>
-  <buttongroup name="mainorthoperspbtnGroup"/>
   <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="plotviewGroup"/>
   <buttongroup name="customwcsbtnGroup"/>
+  <buttongroup name="mainorthoperspbtnGroup"/>
+  <buttongroup name="probetabGroup"/>
+  <buttongroup name="xycalbtnGroup"/>
+  <buttongroup name="proberoutinebtnGroup"/>
+  <buttongroup name="probepagewcsbtnGroup"/>
+  <buttongroup name="probemodeGroup"/>
+  <buttongroup name="probehelpGroup"/>
  </buttongroups>
 </ui>
