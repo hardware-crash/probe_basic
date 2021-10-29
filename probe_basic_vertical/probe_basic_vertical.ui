@@ -59,8 +59,8 @@ bottom-margin: 0px;
   <widget class="QWidget" name="centralwidget">
    <property name="maximumSize">
     <size>
-     <width>1080</width>
-     <height>1920</height>
+     <width>16777215</width>
+     <height>16777215</height>
     </size>
    </property>
    <property name="autoFillBackground">
@@ -107,7 +107,7 @@ bottom-margin: 0px;
         <widget class="QWidget" name="widget_48" native="true">
          <property name="maximumSize">
           <size>
-           <width>820</width>
+           <width>16777215</width>
            <height>16777215</height>
           </size>
          </property>
@@ -760,7 +760,7 @@ bottom-margin: 0px;
              <enum>QTabWidget::Rounded</enum>
             </property>
             <property name="currentIndex">
-             <number>5</number>
+             <number>9</number>
             </property>
             <property name="elideMode">
              <enum>Qt::ElideNone</enum>
@@ -777,7 +777,7 @@ bottom-margin: 0px;
             <widget class="QWidget" name="main_tab">
              <property name="maximumSize">
               <size>
-               <width>820</width>
+               <width>16777215</width>
                <height>16777215</height>
               </size>
              </property>
@@ -1644,7 +1644,7 @@ QComboBox QAbstractItemView{
             <widget class="QWidget" name="tab">
              <property name="maximumSize">
               <size>
-               <width>820</width>
+               <width>16777215</width>
                <height>16777215</height>
               </size>
              </property>
@@ -5256,7 +5256,7 @@ QPushButton:checked {
             <widget class="QWidget" name="file_tab">
              <property name="maximumSize">
               <size>
-               <width>820</width>
+               <width>16777215</width>
                <height>16777215</height>
               </size>
              </property>
@@ -8175,7 +8175,7 @@ QPushButton:checked {
             <widget class="QWidget" name="atc_tab">
              <property name="maximumSize">
               <size>
-               <width>820</width>
+               <width>16777215</width>
                <height>16777215</height>
               </size>
              </property>
@@ -10402,7 +10402,7 @@ font: 16pt &quot;Bebas Kai&quot;;
             <widget class="QWidget" name="offsets_tab">
              <property name="maximumSize">
               <size>
-               <width>820</width>
+               <width>16777215</width>
                <height>16777215</height>
               </size>
              </property>
@@ -14047,7 +14047,7 @@ color: white;
             <widget class="QWidget" name="probe_tab">
              <property name="maximumSize">
               <size>
-               <width>820</width>
+               <width>16777215</width>
                <height>16777215</height>
               </size>
              </property>
@@ -21538,7 +21538,7 @@ background: rgb(235, 235, 235);</string>
             <widget class="QWidget" name="conversational_tab">
              <property name="maximumSize">
               <size>
-               <width>820</width>
+               <width>16777215</width>
                <height>16777215</height>
               </size>
              </property>
@@ -23121,7 +23121,7 @@ color: white;
              </property>
              <property name="maximumSize">
               <size>
-               <width>820</width>
+               <width>16777215</width>
                <height>16777215</height>
               </size>
              </property>
