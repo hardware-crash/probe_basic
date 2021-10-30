@@ -756,7 +756,7 @@ bottom-margin: 0px;
              <enum>QTabWidget::Rounded</enum>
             </property>
             <property name="currentIndex">
-             <number>1</number>
+             <number>2</number>
             </property>
             <property name="elideMode">
              <enum>Qt::ElideNone</enum>
@@ -1563,7 +1563,7 @@ QComboBox QAbstractItemView{
                    <property name="sizePolicy">
                     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                      <horstretch>100</horstretch>
-                     <verstretch>0</verstretch>
+                     <verstretch>2</verstretch>
                     </sizepolicy>
                    </property>
                    <property name="minimumSize">
@@ -5345,7 +5345,11 @@ color: white;</string>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_72">
                     <item>
-                     <widget class="GcodeTextEdit" name="gcodetextedit_2"/>
+                     <widget class="GcodeTextEdit" name="gcodetextedit_2">
+                      <property name="readOnly" stdset="0">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
                     </item>
                    </layout>
                   </widget>
@@ -5392,6 +5396,9 @@ color: white;</string>
                       </property>
                       <property name="checkable">
                        <bool>true</bool>
+                      </property>
+                      <property name="checked">
+                       <bool>false</bool>
                       </property>
                      </widget>
                     </item>
@@ -26468,177 +26475,175 @@ border-radius: 4px;
               </layout>
              </item>
              <item>
-              <layout class="QVBoxLayout" name="verticalLayout_12">
-               <item>
-                <widget class="QFrame" name="frame_30">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>38</height>
-                  </size>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">QFrame {
+              <widget class="QFrame" name="frame_30">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>38</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QFrame {
     border: none;
 }</string>
-                 </property>
-                 <property name="frameShape">
-                  <enum>QFrame::NoFrame</enum>
-                 </property>
-                 <property name="frameShadow">
-                  <enum>QFrame::Plain</enum>
-                 </property>
-                 <property name="lineWidth">
-                  <number>0</number>
-                 </property>
-                 <layout class="QHBoxLayout" name="horizontalLayout_110">
-                  <property name="spacing">
-                   <number>0</number>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Plain</enum>
+               </property>
+               <property name="lineWidth">
+                <number>0</number>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_110">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="sizeConstraint">
+                 <enum>QLayout::SetMinimumSize</enum>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="rpm_label_3">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
                   </property>
-                  <property name="sizeConstraint">
-                   <enum>QLayout::SetMinimumSize</enum>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>30</height>
+                   </size>
                   </property>
-                  <property name="leftMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="topMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="rightMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="bottomMargin">
-                   <number>0</number>
-                  </property>
-                  <item>
-                   <widget class="QLabel" name="rpm_label_3">
-                    <property name="sizePolicy">
-                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                      <horstretch>0</horstretch>
-                      <verstretch>0</verstretch>
-                     </sizepolicy>
-                    </property>
-                    <property name="maximumSize">
-                     <size>
-                      <width>16777215</width>
-                      <height>30</height>
-                     </size>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">QLabel{
+                  <property name="styleSheet">
+                   <string notr="true">QLabel{
     color: rgb(238, 238, 236);
 	font: 17pt &quot;Bebas Kai&quot;;
 }</string>
-                    </property>
-                    <property name="text">
-                     <string>FEEDRATE</string>
-                    </property>
-                    <property name="alignment">
-                     <set>Qt::AlignCenter</set>
-                    </property>
-                    <property name="wordWrap">
-                     <bool>false</bool>
-                    </property>
-                    <property name="indent">
-                     <number>0</number>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QLabel" name="rpm_label_4">
-                    <property name="sizePolicy">
-                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                      <horstretch>0</horstretch>
-                      <verstretch>0</verstretch>
-                     </sizepolicy>
-                    </property>
-                    <property name="minimumSize">
-                     <size>
-                      <width>5</width>
-                      <height>30</height>
-                     </size>
-                    </property>
-                    <property name="maximumSize">
-                     <size>
-                      <width>5</width>
-                      <height>16777215</height>
-                     </size>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">QLabel{
+                  </property>
+                  <property name="text">
+                   <string>FEEDRATE</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <property name="wordWrap">
+                   <bool>false</bool>
+                  </property>
+                  <property name="indent">
+                   <number>0</number>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="rpm_label_4">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>5</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLabel{
     border: none;
     color: rgb(238, 238, 236);
     background: transparent;
 	font: 17pt &quot;Bebas Kai&quot;;
 }</string>
-                    </property>
-                    <property name="text">
-                     <string/>
-                    </property>
-                    <property name="alignment">
-                     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-                    </property>
-                    <property name="wordWrap">
-                     <bool>true</bool>
-                    </property>
-                    <property name="indent">
-                     <number>0</number>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="StatusLabel" name="statuslabel_10">
-                    <property name="sizePolicy">
-                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                      <horstretch>0</horstretch>
-                      <verstretch>0</verstretch>
-                     </sizepolicy>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">QLabel{
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                  </property>
+                  <property name="wordWrap">
+                   <bool>true</bool>
+                  </property>
+                  <property name="indent">
+                   <number>0</number>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="StatusLabel" name="statuslabel_10">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLabel{
     color: rgb(238, 238, 236);
 	font: 17pt &quot;Bebas Kai&quot;;
 }</string>
-                    </property>
-                    <property name="alignment">
-                     <set>Qt::AlignCenter</set>
-                    </property>
-                    <property name="indent">
-                     <number>0</number>
-                    </property>
-                    <property name="rules" stdset="0">
-                     <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:program_units?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;ch[0]&quot;, &quot;name&quot;: &quot;Linear Units&quot;}]</string>
-                    </property>
-                    <property name="fromat" stdset="0">
-                     <string/>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QLabel" name="work_column_header_7">
-                    <property name="enabled">
-                     <bool>true</bool>
-                    </property>
-                    <property name="sizePolicy">
-                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                      <horstretch>0</horstretch>
-                      <verstretch>0</verstretch>
-                     </sizepolicy>
-                    </property>
-                    <property name="maximumSize">
-                     <size>
-                      <width>16777215</width>
-                      <height>30</height>
-                     </size>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">QLabel{
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <property name="indent">
+                   <number>0</number>
+                  </property>
+                  <property name="rules" stdset="0">
+                   <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;status:program_units?text&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;ch[0]&quot;, &quot;name&quot;: &quot;Linear Units&quot;}]</string>
+                  </property>
+                  <property name="fromat" stdset="0">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="work_column_header_7">
+                  <property name="enabled">
+                   <bool>true</bool>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLabel{
     color: rgb(238, 238, 236);
 	font: 17pt &quot;Bebas Kai&quot;;
 }
@@ -26648,24 +26653,26 @@ border-radius: 4px;
 
 
 </string>
-                    </property>
-                    <property name="text">
-                     <string>/M</string>
-                    </property>
-                    <property name="alignment">
-                     <set>Qt::AlignCenter</set>
-                    </property>
-                    <property name="wordWrap">
-                     <bool>false</bool>
-                    </property>
-                    <property name="indent">
-                     <number>0</number>
-                    </property>
-                   </widget>
-                  </item>
-                 </layout>
-                </widget>
-               </item>
+                  </property>
+                  <property name="text">
+                   <string>/M</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <property name="wordWrap">
+                   <bool>false</bool>
+                  </property>
+                  <property name="indent">
+                   <number>0</number>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_12">
                <item>
                 <layout class="QHBoxLayout" name="horizontalLayout_85">
                  <property name="spacing">
@@ -35368,8 +35375,8 @@ font: 11pt bebas kai;
    <slot>setViewP()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>79</x>
-     <y>108</y>
+     <x>90</x>
+     <y>118</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35384,8 +35391,8 @@ font: 11pt bebas kai;
    <slot>setViewPath()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>94</x>
-     <y>602</y>
+     <x>105</x>
+     <y>600</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35416,8 +35423,8 @@ font: 11pt bebas kai;
    <slot>clearLivePlot()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>94</x>
-     <y>649</y>
+     <x>105</x>
+     <y>646</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35448,8 +35455,8 @@ font: 11pt bebas kai;
    <slot>setViewPersp()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>94</x>
-     <y>758</y>
+     <x>105</x>
+     <y>752</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35464,8 +35471,8 @@ font: 11pt bebas kai;
    <slot>setViewOrtho()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>94</x>
-     <y>711</y>
+     <x>105</x>
+     <y>706</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35801,11 +35808,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>794</x>
-     <y>386</y>
+     <y>914</y>
     </hint>
     <hint type="destinationlabel">
      <x>104</x>
-     <y>105</y>
+     <y>633</y>
     </hint>
    </hints>
   </connection>
@@ -35817,11 +35824,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>125</x>
-     <y>344</y>
+     <y>872</y>
     </hint>
     <hint type="destinationlabel">
      <x>104</x>
-     <y>105</y>
+     <y>633</y>
     </hint>
    </hints>
   </connection>
@@ -35833,11 +35840,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>361</x>
-     <y>344</y>
+     <y>872</y>
     </hint>
     <hint type="destinationlabel">
      <x>104</x>
-     <y>105</y>
+     <y>633</y>
     </hint>
    </hints>
   </connection>
@@ -35849,11 +35856,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>598</x>
-     <y>344</y>
+     <y>872</y>
     </hint>
     <hint type="destinationlabel">
      <x>104</x>
-     <y>105</y>
+     <y>633</y>
     </hint>
    </hints>
   </connection>
@@ -35865,11 +35872,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>125</x>
-     <y>386</y>
+     <y>914</y>
     </hint>
     <hint type="destinationlabel">
      <x>104</x>
-     <y>105</y>
+     <y>633</y>
     </hint>
    </hints>
   </connection>
@@ -35881,11 +35888,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>361</x>
-     <y>386</y>
+     <y>914</y>
     </hint>
     <hint type="destinationlabel">
      <x>104</x>
-     <y>105</y>
+     <y>633</y>
     </hint>
    </hints>
   </connection>
@@ -35897,11 +35904,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>598</x>
-     <y>386</y>
+     <y>914</y>
     </hint>
     <hint type="destinationlabel">
      <x>104</x>
-     <y>105</y>
+     <y>633</y>
     </hint>
    </hints>
   </connection>
@@ -35913,11 +35920,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>794</x>
-     <y>344</y>
+     <y>872</y>
     </hint>
     <hint type="destinationlabel">
      <x>104</x>
-     <y>105</y>
+     <y>633</y>
     </hint>
    </hints>
   </connection>
@@ -35929,11 +35936,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>590</x>
-     <y>834</y>
+     <y>1362</y>
     </hint>
     <hint type="destinationlabel">
      <x>104</x>
-     <y>105</y>
+     <y>633</y>
     </hint>
    </hints>
   </connection>
@@ -35945,11 +35952,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>80</x>
-     <y>1463</y>
+     <y>566</y>
     </hint>
     <hint type="destinationlabel">
      <x>347</x>
-     <y>1283</y>
+     <y>386</y>
     </hint>
    </hints>
   </connection>
@@ -35961,11 +35968,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>80</x>
-     <y>1403</y>
+     <y>506</y>
     </hint>
     <hint type="destinationlabel">
      <x>366</x>
-     <y>1283</y>
+     <y>386</y>
     </hint>
    </hints>
   </connection>
@@ -35977,11 +35984,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>80</x>
-     <y>1343</y>
+     <y>446</y>
     </hint>
     <hint type="destinationlabel">
      <x>366</x>
-     <y>1283</y>
+     <y>386</y>
     </hint>
    </hints>
   </connection>
@@ -35993,11 +36000,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>80</x>
-     <y>1283</y>
+     <y>386</y>
     </hint>
     <hint type="destinationlabel">
      <x>366</x>
-     <y>1283</y>
+     <y>386</y>
     </hint>
    </hints>
   </connection>
@@ -36009,11 +36016,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>80</x>
-     <y>1223</y>
+     <y>326</y>
     </hint>
     <hint type="destinationlabel">
      <x>366</x>
-     <y>1283</y>
+     <y>386</y>
     </hint>
    </hints>
   </connection>
@@ -36025,11 +36032,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>80</x>
-     <y>1103</y>
+     <y>206</y>
     </hint>
     <hint type="destinationlabel">
      <x>366</x>
-     <y>1283</y>
+     <y>386</y>
     </hint>
    </hints>
   </connection>
@@ -36041,11 +36048,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>80</x>
-     <y>1043</y>
+     <y>146</y>
     </hint>
     <hint type="destinationlabel">
      <x>366</x>
-     <y>1283</y>
+     <y>386</y>
     </hint>
    </hints>
   </connection>
@@ -36057,11 +36064,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>80</x>
-     <y>1163</y>
+     <y>266</y>
     </hint>
     <hint type="destinationlabel">
      <x>366</x>
-     <y>1283</y>
+     <y>386</y>
     </hint>
    </hints>
   </connection>
@@ -36073,11 +36080,11 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>124</x>
-     <y>467</y>
+     <y>995</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
-     <y>834</y>
+     <y>1362</y>
     </hint>
    </hints>
   </connection>
@@ -36270,6 +36277,70 @@ font: 11pt bebas kai;
     <hint type="destinationlabel">
      <x>678</x>
      <y>468</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>edit_gcode_button</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>gcodetextedit_2</receiver>
+   <slot>EditorReadWrite(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>159</x>
+     <y>528</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>156</x>
+     <y>439</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>find_replace_button</sender>
+   <signal>clicked()</signal>
+   <receiver>gcodetextedit_2</receiver>
+   <slot>findDialog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>335</x>
+     <y>510</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>336</x>
+     <y>440</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>save_button</sender>
+   <signal>clicked()</signal>
+   <receiver>gcodetextedit_2</receiver>
+   <slot>saveFile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>539</x>
+     <y>520</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>504</x>
+     <y>425</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>save_as_button</sender>
+   <signal>clicked()</signal>
+   <receiver>gcodetextedit_2</receiver>
+   <slot>saveFileAs()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>517</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>655</x>
+     <y>402</y>
     </hint>
    </hints>
   </connection>
