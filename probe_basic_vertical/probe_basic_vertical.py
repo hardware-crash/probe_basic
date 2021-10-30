@@ -18,13 +18,6 @@ VCP_DIR = os.path.abspath(os.path.dirname(__file__))
 # Add custom fonts
 QFontDatabase.addApplicationFont(os.path.join(VCP_DIR, 'fonts/BebasKai.ttf'))
 
-class TabBar(QTabBar):
-    def tabSizeHint(self, index):
-        size = QTabBar.tabSizeHint(self, index)
-        w = int(self.width()/self.count())
-        return QSize(w, size.height())
-
-
 class ProbeBasicVertical(VCPMainWindow):
     """Main window class for the ProbeBasic VCP."""
     def __init__(self, *args, **kwargs):

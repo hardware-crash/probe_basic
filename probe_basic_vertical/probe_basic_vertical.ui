@@ -756,7 +756,7 @@ bottom-margin: 0px;
              <enum>QTabWidget::Rounded</enum>
             </property>
             <property name="currentIndex">
-             <number>3</number>
+             <number>0</number>
             </property>
             <property name="elideMode">
              <enum>Qt::ElideNone</enum>
@@ -846,6 +846,8 @@ bottom-margin: 0px;
                    <property name="styleSheet">
                     <string notr="true">.QWidget{
     background: rgb(32, 36, 37);
+border-top-left-radius:6px;
+border-bottom-left-radius:6px;
 }</string>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_8">
@@ -21665,7 +21667,7 @@ margin-top:0px;
                     <enum>QTabWidget::Rounded</enum>
                    </property>
                    <property name="currentIndex">
-                    <number>1</number>
+                    <number>0</number>
                    </property>
                    <widget class="QWidget" name="facing_tab">
                     <property name="minimumSize">
