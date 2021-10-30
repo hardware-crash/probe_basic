@@ -297,9 +297,9 @@ bottom-margin: 0px;
                <colorrole role="Button">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -369,18 +369,18 @@ bottom-margin: 0px;
                <colorrole role="Base">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
                <colorrole role="Window">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -443,9 +443,9 @@ bottom-margin: 0px;
                <colorrole role="Button">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -515,18 +515,18 @@ bottom-margin: 0px;
                <colorrole role="Base">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
                <colorrole role="Window">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -589,9 +589,9 @@ bottom-margin: 0px;
                <colorrole role="Button">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -661,18 +661,18 @@ bottom-margin: 0px;
                <colorrole role="Base">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
                <colorrole role="Window">
                 <brush brushstyle="SolidPattern">
                  <color alpha="255">
-                  <red>129</red>
-                  <green>133</green>
-                  <blue>132</blue>
+                  <red>46</red>
+                  <green>52</green>
+                  <blue>54</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -756,7 +756,7 @@ bottom-margin: 0px;
              <enum>QTabWidget::Rounded</enum>
             </property>
             <property name="currentIndex">
-             <number>3</number>
+             <number>0</number>
             </property>
             <property name="elideMode">
              <enum>Qt::ElideNone</enum>
@@ -797,30 +797,21 @@ bottom-margin: 0px;
                <number>5</number>
               </property>
               <item>
-               <widget class="QWidget" name="widget_7" native="true">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
+               <widget class="QFrame" name="frame">
                 <property name="styleSheet">
-                 <string notr="true"/>
+                 <string notr="true">.QFrame{
+background-color: rgb(32, 36, 37);
+border-radius: 6px;
+}</string>
                 </property>
-                <layout class="QHBoxLayout" name="horizontalLayout_10">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout">
                  <property name="spacing">
-                  <number>0</number>
-                 </property>
-                 <property name="leftMargin">
-                  <number>0</number>
-                 </property>
-                 <property name="topMargin">
-                  <number>0</number>
-                 </property>
-                 <property name="rightMargin">
-                  <number>0</number>
-                 </property>
-                 <property name="bottomMargin">
                   <number>0</number>
                  </property>
                  <item>
@@ -1474,7 +1465,8 @@ QPushButton:checked {
     border-color: white;
     border-width: 4px;
     border-radius: 8px;
-}</string>
+}
+</string>
                    </property>
                    <property name="backgroundColor" stdset="0">
                     <color>
@@ -1535,7 +1527,7 @@ QPushButton:checked {
                    <property name="styleSheet">
                     <string notr="true">QComboBox {
 	border: 1px solid black;
-	border-radius: 3px;
+	border-radius: 5px;
 	background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
 	padding: 1px 23px 1px 3px;
 	min-width: 6em;
@@ -1588,6 +1580,11 @@ QComboBox QAbstractItemView{
                    </property>
                    <property name="focusPolicy">
                     <enum>Qt::NoFocus</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">GcodeEditor {
+border-radius:8px;
+}</string>
                    </property>
                    <property name="editor" stdset="0">
                     <bool>false</bool>
@@ -5336,7 +5333,7 @@ color: white;</string>
                   </widget>
                  </item>
                  <item>
-                  <widget class="GcodeEditor" name="gcodeeditor_2">
+                  <widget class="QFrame" name="gcodeeditor_2">
                    <property name="styleSheet">
                     <string notr="true">GcodeEditor {
 	color: black;
@@ -5346,9 +5343,11 @@ color: white;</string>
 	background-color: rgb(238, 238, 236);
 }</string>
                    </property>
-                   <property name="is_editor" stdset="0">
-                    <bool>true</bool>
-                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_72">
+                    <item>
+                     <widget class="GcodeTextEdit" name="gcodetextedit_2"/>
+                    </item>
+                   </layout>
                   </widget>
                  </item>
                  <item>
@@ -7584,9 +7583,9 @@ QPushButton:checked {
                             <colorrole role="Button">
                              <brush brushstyle="SolidPattern">
                               <color alpha="255">
-                               <red>235</red>
-                               <green>235</green>
-                               <blue>235</blue>
+                               <red>255</red>
+                               <green>255</green>
+                               <blue>255</blue>
                               </color>
                              </brush>
                             </colorrole>
@@ -7611,18 +7610,18 @@ QPushButton:checked {
                             <colorrole role="Base">
                              <brush brushstyle="SolidPattern">
                               <color alpha="255">
-                               <red>235</red>
-                               <green>235</green>
-                               <blue>235</blue>
+                               <red>255</red>
+                               <green>255</green>
+                               <blue>255</blue>
                               </color>
                              </brush>
                             </colorrole>
                             <colorrole role="Window">
                              <brush brushstyle="SolidPattern">
                               <color alpha="255">
-                               <red>235</red>
-                               <green>235</green>
-                               <blue>235</blue>
+                               <red>255</red>
+                               <green>255</green>
+                               <blue>255</blue>
                               </color>
                              </brush>
                             </colorrole>
@@ -7667,9 +7666,9 @@ QPushButton:checked {
                             <colorrole role="Button">
                              <brush brushstyle="SolidPattern">
                               <color alpha="255">
-                               <red>235</red>
-                               <green>235</green>
-                               <blue>235</blue>
+                               <red>255</red>
+                               <green>255</green>
+                               <blue>255</blue>
                               </color>
                              </brush>
                             </colorrole>
@@ -7694,18 +7693,18 @@ QPushButton:checked {
                             <colorrole role="Base">
                              <brush brushstyle="SolidPattern">
                               <color alpha="255">
-                               <red>235</red>
-                               <green>235</green>
-                               <blue>235</blue>
+                               <red>255</red>
+                               <green>255</green>
+                               <blue>255</blue>
                               </color>
                              </brush>
                             </colorrole>
                             <colorrole role="Window">
                              <brush brushstyle="SolidPattern">
                               <color alpha="255">
-                               <red>235</red>
-                               <green>235</green>
-                               <blue>235</blue>
+                               <red>255</red>
+                               <green>255</green>
+                               <blue>255</blue>
                               </color>
                              </brush>
                             </colorrole>
@@ -7750,9 +7749,9 @@ QPushButton:checked {
                             <colorrole role="Button">
                              <brush brushstyle="SolidPattern">
                               <color alpha="255">
-                               <red>235</red>
-                               <green>235</green>
-                               <blue>235</blue>
+                               <red>255</red>
+                               <green>255</green>
+                               <blue>255</blue>
                               </color>
                              </brush>
                             </colorrole>
@@ -7777,18 +7776,18 @@ QPushButton:checked {
                             <colorrole role="Base">
                              <brush brushstyle="SolidPattern">
                               <color alpha="255">
-                               <red>235</red>
-                               <green>235</green>
-                               <blue>235</blue>
+                               <red>255</red>
+                               <green>255</green>
+                               <blue>255</blue>
                               </color>
                              </brush>
                             </colorrole>
                             <colorrole role="Window">
                              <brush brushstyle="SolidPattern">
                               <color alpha="255">
-                               <red>235</red>
-                               <green>235</green>
-                               <blue>235</blue>
+                               <red>255</red>
+                               <green>255</green>
+                               <blue>255</blue>
                               </color>
                              </brush>
                             </colorrole>
@@ -8994,9 +8993,9 @@ QPushButton:checked {
                               <colorrole role="Button">
                                <brush brushstyle="SolidPattern">
                                 <color alpha="255">
-                                 <red>235</red>
-                                 <green>235</green>
-                                 <blue>235</blue>
+                                 <red>255</red>
+                                 <green>255</green>
+                                 <blue>255</blue>
                                 </color>
                                </brush>
                               </colorrole>
@@ -9021,18 +9020,18 @@ QPushButton:checked {
                               <colorrole role="Base">
                                <brush brushstyle="SolidPattern">
                                 <color alpha="255">
-                                 <red>235</red>
-                                 <green>235</green>
-                                 <blue>235</blue>
+                                 <red>255</red>
+                                 <green>255</green>
+                                 <blue>255</blue>
                                 </color>
                                </brush>
                               </colorrole>
                               <colorrole role="Window">
                                <brush brushstyle="SolidPattern">
                                 <color alpha="255">
-                                 <red>235</red>
-                                 <green>235</green>
-                                 <blue>235</blue>
+                                 <red>255</red>
+                                 <green>255</green>
+                                 <blue>255</blue>
                                 </color>
                                </brush>
                               </colorrole>
@@ -9077,9 +9076,9 @@ QPushButton:checked {
                               <colorrole role="Button">
                                <brush brushstyle="SolidPattern">
                                 <color alpha="255">
-                                 <red>235</red>
-                                 <green>235</green>
-                                 <blue>235</blue>
+                                 <red>255</red>
+                                 <green>255</green>
+                                 <blue>255</blue>
                                 </color>
                                </brush>
                               </colorrole>
@@ -9104,18 +9103,18 @@ QPushButton:checked {
                               <colorrole role="Base">
                                <brush brushstyle="SolidPattern">
                                 <color alpha="255">
-                                 <red>235</red>
-                                 <green>235</green>
-                                 <blue>235</blue>
+                                 <red>255</red>
+                                 <green>255</green>
+                                 <blue>255</blue>
                                 </color>
                                </brush>
                               </colorrole>
                               <colorrole role="Window">
                                <brush brushstyle="SolidPattern">
                                 <color alpha="255">
-                                 <red>235</red>
-                                 <green>235</green>
-                                 <blue>235</blue>
+                                 <red>255</red>
+                                 <green>255</green>
+                                 <blue>255</blue>
                                 </color>
                                </brush>
                               </colorrole>
@@ -9160,9 +9159,9 @@ QPushButton:checked {
                               <colorrole role="Button">
                                <brush brushstyle="SolidPattern">
                                 <color alpha="255">
-                                 <red>235</red>
-                                 <green>235</green>
-                                 <blue>235</blue>
+                                 <red>255</red>
+                                 <green>255</green>
+                                 <blue>255</blue>
                                 </color>
                                </brush>
                               </colorrole>
@@ -9187,18 +9186,18 @@ QPushButton:checked {
                               <colorrole role="Base">
                                <brush brushstyle="SolidPattern">
                                 <color alpha="255">
-                                 <red>235</red>
-                                 <green>235</green>
-                                 <blue>235</blue>
+                                 <red>255</red>
+                                 <green>255</green>
+                                 <blue>255</blue>
                                 </color>
                                </brush>
                               </colorrole>
                               <colorrole role="Window">
                                <brush brushstyle="SolidPattern">
                                 <color alpha="255">
-                                 <red>235</red>
-                                 <green>235</green>
-                                 <blue>235</blue>
+                                 <red>255</red>
+                                 <green>255</green>
+                                 <blue>255</blue>
                                 </color>
                                </brush>
                               </colorrole>
@@ -33743,9 +33742,9 @@ QLabel[style=&quot;homing&quot;]{
                     <colorrole role="Button">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>235</red>
-                       <green>235</green>
-                       <blue>235</blue>
+                       <red>255</red>
+                       <green>255</green>
+                       <blue>255</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -33770,18 +33769,18 @@ QLabel[style=&quot;homing&quot;]{
                     <colorrole role="Base">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>235</red>
-                       <green>235</green>
-                       <blue>235</blue>
+                       <red>255</red>
+                       <green>255</green>
+                       <blue>255</blue>
                       </color>
                      </brush>
                     </colorrole>
                     <colorrole role="Window">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>235</red>
-                       <green>235</green>
-                       <blue>235</blue>
+                       <red>255</red>
+                       <green>255</green>
+                       <blue>255</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -33826,9 +33825,9 @@ QLabel[style=&quot;homing&quot;]{
                     <colorrole role="Button">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>235</red>
-                       <green>235</green>
-                       <blue>235</blue>
+                       <red>255</red>
+                       <green>255</green>
+                       <blue>255</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -33853,18 +33852,18 @@ QLabel[style=&quot;homing&quot;]{
                     <colorrole role="Base">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>235</red>
-                       <green>235</green>
-                       <blue>235</blue>
+                       <red>255</red>
+                       <green>255</green>
+                       <blue>255</blue>
                       </color>
                      </brush>
                     </colorrole>
                     <colorrole role="Window">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>235</red>
-                       <green>235</green>
-                       <blue>235</blue>
+                       <red>255</red>
+                       <green>255</green>
+                       <blue>255</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -33909,9 +33908,9 @@ QLabel[style=&quot;homing&quot;]{
                     <colorrole role="Button">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>235</red>
-                       <green>235</green>
-                       <blue>235</blue>
+                       <red>255</red>
+                       <green>255</green>
+                       <blue>255</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -33936,18 +33935,18 @@ QLabel[style=&quot;homing&quot;]{
                     <colorrole role="Base">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>235</red>
-                       <green>235</green>
-                       <blue>235</blue>
+                       <red>255</red>
+                       <green>255</green>
+                       <blue>255</blue>
                       </color>
                      </brush>
                     </colorrole>
                     <colorrole role="Window">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>235</red>
-                       <green>235</green>
-                       <blue>235</blue>
+                       <red>255</red>
+                       <green>255</green>
+                       <blue>255</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -34961,6 +34960,11 @@ font: 11pt bebas kai;
    <header>qtpyvcp.widgets.input_widgets.mdihistory_widget</header>
   </customwidget>
   <customwidget>
+   <class>GcodeTextEdit</class>
+   <extends>QPlainTextEdit</extends>
+   <header>qtpyvcp.widgets.input_widgets.gcode_text_edit</header>
+  </customwidget>
+  <customwidget>
    <class>RecentFileComboBox</class>
    <extends>QComboBox</extends>
    <header>qtpyvcp.widgets.input_widgets.recent_file_combobox</header>
@@ -35089,12 +35093,12 @@ font: 11pt bebas kai;
    <slot>deleteItem()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>326</x>
-     <y>999</y>
+     <x>331</x>
+     <y>992</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>653</y>
+     <x>116</x>
+     <y>631</y>
     </hint>
    </hints>
   </connection>
@@ -35105,12 +35109,12 @@ font: 11pt bebas kai;
    <slot>viewParentDirectory()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>135</x>
-     <y>589</y>
+     <x>140</x>
+     <y>593</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>653</y>
+     <x>116</x>
+     <y>631</y>
     </hint>
    </hints>
   </connection>
@@ -35121,12 +35125,12 @@ font: 11pt bebas kai;
    <slot>newFolder()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>651</x>
-     <y>999</y>
+     <x>621</x>
+     <y>992</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>653</y>
+     <x>116</x>
+     <y>631</y>
     </hint>
    </hints>
   </connection>
@@ -35137,12 +35141,12 @@ font: 11pt bebas kai;
    <slot>newFolder()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>651</x>
-     <y>1477</y>
+     <x>621</x>
+     <y>1468</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>1120</y>
+     <x>116</x>
+     <y>1107</y>
     </hint>
    </hints>
   </connection>
@@ -35153,12 +35157,12 @@ font: 11pt bebas kai;
    <slot>doFileTransfer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>81</x>
-     <y>1482</y>
+     <x>98</x>
+     <y>1468</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>1120</y>
+     <x>116</x>
+     <y>1107</y>
     </hint>
    </hints>
   </connection>
@@ -35169,12 +35173,12 @@ font: 11pt bebas kai;
    <slot>deleteItem()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>326</x>
-     <y>1477</y>
+     <x>331</x>
+     <y>1468</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>1120</y>
+     <x>116</x>
+     <y>1107</y>
     </hint>
    </hints>
   </connection>
@@ -35185,12 +35189,12 @@ font: 11pt bebas kai;
    <slot>newFile()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>481</x>
-     <y>999</y>
+     <x>476</x>
+     <y>992</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>653</y>
+     <x>116</x>
+     <y>631</y>
     </hint>
    </hints>
   </connection>
@@ -35201,12 +35205,12 @@ font: 11pt bebas kai;
    <slot>doFileTransfer()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>81</x>
-     <y>999</y>
+     <x>98</x>
+     <y>992</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>653</y>
+     <x>116</x>
+     <y>631</y>
     </hint>
    </hints>
   </connection>
@@ -35221,8 +35225,8 @@ font: 11pt bebas kai;
      <y>1069</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>1120</y>
+     <x>116</x>
+     <y>1107</y>
     </hint>
    </hints>
   </connection>
@@ -35233,12 +35237,12 @@ font: 11pt bebas kai;
    <slot>transferFile(QString)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>121</x>
-     <y>1120</y>
+     <x>116</x>
+     <y>1107</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>653</y>
+     <x>116</x>
+     <y>631</y>
     </hint>
    </hints>
   </connection>
@@ -35249,12 +35253,12 @@ font: 11pt bebas kai;
    <slot>loadSelectedFile()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>797</x>
-     <y>589</y>
+     <x>802</x>
+     <y>593</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>653</y>
+     <x>116</x>
+     <y>631</y>
     </hint>
    </hints>
   </connection>
@@ -35265,12 +35269,12 @@ font: 11pt bebas kai;
    <slot>transferFile(QString)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>121</x>
-     <y>653</y>
+     <x>116</x>
+     <y>631</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>1120</y>
+     <x>116</x>
+     <y>1107</y>
     </hint>
    </hints>
   </connection>
@@ -35281,12 +35285,12 @@ font: 11pt bebas kai;
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>121</x>
-     <y>653</y>
+     <x>116</x>
+     <y>631</y>
     </hint>
     <hint type="destinationlabel">
-     <x>797</x>
-     <y>589</y>
+     <x>802</x>
+     <y>593</y>
     </hint>
    </hints>
   </connection>
@@ -35297,12 +35301,12 @@ font: 11pt bebas kai;
    <slot>newFile()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>481</x>
-     <y>1477</y>
+     <x>476</x>
+     <y>1468</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>1120</y>
+     <x>116</x>
+     <y>1107</y>
     </hint>
    </hints>
   </connection>
@@ -35361,8 +35365,8 @@ font: 11pt bebas kai;
    <slot>setViewP()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>94</x>
-     <y>134</y>
+     <x>79</x>
+     <y>108</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35649,12 +35653,12 @@ font: 11pt bebas kai;
    <slot>rename()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>762</x>
-     <y>999</y>
+     <x>767</x>
+     <y>992</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>653</y>
+     <x>116</x>
+     <y>631</y>
     </hint>
    </hints>
   </connection>
@@ -35665,12 +35669,12 @@ font: 11pt bebas kai;
    <slot>rename()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>762</x>
-     <y>1477</y>
+     <x>767</x>
+     <y>1468</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>1120</y>
+     <x>116</x>
+     <y>1107</y>
     </hint>
    </hints>
   </connection>
@@ -35681,12 +35685,12 @@ font: 11pt bebas kai;
    <slot>setRootPath(QString)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>373</x>
+     <x>230</x>
      <y>1069</y>
     </hint>
     <hint type="destinationlabel">
-     <x>121</x>
-     <y>1120</y>
+     <x>116</x>
+     <y>1107</y>
     </hint>
    </hints>
   </connection>
@@ -35697,7 +35701,7 @@ font: 11pt bebas kai;
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>373</x>
+     <x>230</x>
      <y>1069</y>
     </hint>
     <hint type="destinationlabel">
@@ -35717,7 +35721,7 @@ font: 11pt bebas kai;
      <y>1069</y>
     </hint>
     <hint type="destinationlabel">
-     <x>373</x>
+     <x>230</x>
      <y>1069</y>
     </hint>
    </hints>
@@ -35761,8 +35765,8 @@ font: 11pt bebas kai;
    <slot>setDisabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>121</x>
-     <y>1120</y>
+     <x>116</x>
+     <y>1107</y>
     </hint>
     <hint type="destinationlabel">
      <x>140</x>
@@ -35777,7 +35781,7 @@ font: 11pt bebas kai;
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>373</x>
+     <x>230</x>
      <y>1069</y>
     </hint>
     <hint type="destinationlabel">
@@ -35941,7 +35945,7 @@ font: 11pt bebas kai;
      <y>1463</y>
     </hint>
     <hint type="destinationlabel">
-     <x>258</x>
+     <x>347</x>
      <y>1283</y>
     </hint>
    </hints>
@@ -35957,7 +35961,7 @@ font: 11pt bebas kai;
      <y>1403</y>
     </hint>
     <hint type="destinationlabel">
-     <x>277</x>
+     <x>366</x>
      <y>1283</y>
     </hint>
    </hints>
@@ -35973,7 +35977,7 @@ font: 11pt bebas kai;
      <y>1343</y>
     </hint>
     <hint type="destinationlabel">
-     <x>277</x>
+     <x>366</x>
      <y>1283</y>
     </hint>
    </hints>
@@ -35989,7 +35993,7 @@ font: 11pt bebas kai;
      <y>1283</y>
     </hint>
     <hint type="destinationlabel">
-     <x>277</x>
+     <x>366</x>
      <y>1283</y>
     </hint>
    </hints>
@@ -36005,7 +36009,7 @@ font: 11pt bebas kai;
      <y>1223</y>
     </hint>
     <hint type="destinationlabel">
-     <x>277</x>
+     <x>366</x>
      <y>1283</y>
     </hint>
    </hints>
@@ -36021,7 +36025,7 @@ font: 11pt bebas kai;
      <y>1103</y>
     </hint>
     <hint type="destinationlabel">
-     <x>277</x>
+     <x>366</x>
      <y>1283</y>
     </hint>
    </hints>
@@ -36037,7 +36041,7 @@ font: 11pt bebas kai;
      <y>1043</y>
     </hint>
     <hint type="destinationlabel">
-     <x>277</x>
+     <x>366</x>
      <y>1283</y>
     </hint>
    </hints>
@@ -36053,7 +36057,7 @@ font: 11pt bebas kai;
      <y>1163</y>
     </hint>
     <hint type="destinationlabel">
-     <x>277</x>
+     <x>366</x>
      <y>1283</y>
     </hint>
    </hints>
@@ -36138,6 +36142,134 @@ font: 11pt bebas kai;
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>load_spindle_tool_number</sender>
+   <signal>returnPressed()</signal>
+   <receiver>load_spindle_button</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>213</x>
+     <y>915</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>295</x>
+     <y>915</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tool_number_entry_atc_page</sender>
+   <signal>returnPressed()</signal>
+   <receiver>m6_tool_call_button_atc_page</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>135</x>
+     <y>1173</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>276</x>
+     <y>1180</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>load_spindle_tool_number_2</sender>
+   <signal>returnPressed()</signal>
+   <receiver>load_spindle_button_2</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>609</x>
+     <y>1085</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>671</x>
+     <y>1089</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tool_number_entry_tool_page</sender>
+   <signal>returnPressed()</signal>
+   <receiver>m6_tool_call_button_tool_page</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>1200</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>683</x>
+     <y>1200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>x_axis_button_10</sender>
+   <signal>clicked()</signal>
+   <receiver>offset_table</receiver>
+   <slot>deleteSelectedOffset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>161</x>
+     <y>541</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>162</x>
+     <y>491</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>x_axis_button_11</sender>
+   <signal>clicked()</signal>
+   <receiver>offset_table</receiver>
+   <slot>clearOffsetTable()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>314</x>
+     <y>550</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>315</x>
+     <y>473</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>x_axis_button_13</sender>
+   <signal>clicked()</signal>
+   <receiver>offset_table</receiver>
+   <slot>saveOffsetTable()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>519</x>
+     <y>543</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>517</x>
+     <y>504</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>x_axis_button_14</sender>
+   <signal>clicked()</signal>
+   <receiver>offset_table</receiver>
+   <slot>loadOffsetTable()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>680</x>
+     <y>547</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>678</x>
+     <y>468</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <designerdata>
   <property name="gridDeltaX">
@@ -36157,16 +36289,16 @@ font: 11pt bebas kai;
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="btngrpMdi"/>
-  <buttongroup name="customwcsbtnGroup"/>
-  <buttongroup name="proberoutinebtnGroup"/>
   <buttongroup name="mainorthoperspbtnGroup"/>
-  <buttongroup name="probehelpGroup"/>
   <buttongroup name="probepagewcsbtnGroup"/>
+  <buttongroup name="customwcsbtnGroup"/>
+  <buttongroup name="probehelpGroup"/>
+  <buttongroup name="proberoutinebtnGroup"/>
+  <buttongroup name="plotorthoperspbtnGroup"/>
   <buttongroup name="xycalbtnGroup"/>
   <buttongroup name="probetabGroup"/>
   <buttongroup name="plotviewGroup"/>
+  <buttongroup name="btngrpMdi"/>
   <buttongroup name="probemodeGroup"/>
-  <buttongroup name="plotorthoperspbtnGroup"/>
  </buttongroups>
 </ui>
