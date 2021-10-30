@@ -6733,6 +6733,123 @@ color:green;
                </widget>
               </item>
               <item>
+               <widget class="QFrame" name="frame_28">
+                <property name="minimumSize">
+                 <size>
+                  <width>814</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QFrame{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 6px;
+    color: rgb(238, 238, 236);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
+}</string>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_108">
+                 <property name="leftMargin">
+                  <number>5</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>5</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>9</number>
+                 </property>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_109">
+                   <property name="spacing">
+                    <number>3</number>
+                   </property>
+                   <item>
+                    <widget class="QLabel" name="label_56">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>60</width>
+                       <height>33</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>80</width>
+                       <height>33</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QLabel{
+font: 75 13pt &quot;Bebas Kai&quot;;
+color: rgb(255, 255, 255);
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>COMMENT</string>
+                     </property>
+                     <property name="alignment">
+                      <set>Qt::AlignCenter</set>
+                     </property>
+                     <property name="wordWrap">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="StatusLabel" name="tool_length_7">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>70</width>
+                       <height>33</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QLabel {
+    border-style: transparent;
+    border-color: rgb(235, 235, 235);
+    border-width: 1px;
+    border-radius: 5px;
+    color: black;
+    background: white;
+	font: 75 14pt &quot;Bebas Kai&quot;;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>No Tool Loaded</string>
+                     </property>
+                     <property name="alignment">
+                      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                     </property>
+                     <property name="indent">
+                      <number>4</number>
+                     </property>
+                     <property name="rules" stdset="0">
+                      <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;tooltable:current_tool?Remark&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;ch[0]&quot;, &quot;name&quot;: &quot;Tool Comment&quot;}]</string>
+                     </property>
+                     <property name="format" stdset="0">
+                      <string>{:.3f}</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
                <widget class="QWidget" name="widget_21" native="true">
                 <layout class="QVBoxLayout" name="verticalLayout_19">
                  <property name="spacing">
@@ -6755,7 +6872,7 @@ color:green;
                    <property name="minimumSize">
                     <size>
                      <width>0</width>
-                     <height>550</height>
+                     <height>510</height>
                     </size>
                    </property>
                    <property name="styleSheet">
@@ -6771,7 +6888,7 @@ border-radius: 6px;
                     <property name="geometry">
                      <rect>
                       <x>150</x>
-                      <y>92</y>
+                      <y>52</y>
                       <width>250</width>
                       <height>403</height>
                      </rect>
@@ -6793,7 +6910,7 @@ border-radius: 6px;
                     <property name="geometry">
                      <rect>
                       <x>50</x>
-                      <y>281</y>
+                      <y>241</y>
                       <width>200</width>
                       <height>60</height>
                      </rect>
@@ -6928,7 +7045,7 @@ color: rgb(255, 255, 255);
                     <property name="geometry">
                      <rect>
                       <x>120</x>
-                      <y>460</y>
+                      <y>420</y>
                       <width>132</width>
                       <height>60</height>
                      </rect>
@@ -7059,131 +7176,11 @@ color: rgb(255, 255, 255);
                      </item>
                     </layout>
                    </widget>
-                   <widget class="QFrame" name="frame_28">
-                    <property name="geometry">
-                     <rect>
-                      <x>0</x>
-                      <y>0</y>
-                      <width>814</width>
-                      <height>60</height>
-                     </rect>
-                    </property>
-                    <property name="minimumSize">
-                     <size>
-                      <width>814</width>
-                      <height>0</height>
-                     </size>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">.QFrame{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    border-radius: 6px;
-    color: rgb(238, 238, 236);
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
-}</string>
-                    </property>
-                    <layout class="QHBoxLayout" name="horizontalLayout_108">
-                     <property name="leftMargin">
-                      <number>5</number>
-                     </property>
-                     <property name="rightMargin">
-                      <number>5</number>
-                     </property>
-                     <item>
-                      <layout class="QHBoxLayout" name="horizontalLayout_109">
-                       <property name="spacing">
-                        <number>3</number>
-                       </property>
-                       <item>
-                        <widget class="QLabel" name="label_56">
-                         <property name="sizePolicy">
-                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                           <horstretch>0</horstretch>
-                           <verstretch>0</verstretch>
-                          </sizepolicy>
-                         </property>
-                         <property name="minimumSize">
-                          <size>
-                           <width>60</width>
-                           <height>33</height>
-                          </size>
-                         </property>
-                         <property name="maximumSize">
-                          <size>
-                           <width>80</width>
-                           <height>33</height>
-                          </size>
-                         </property>
-                         <property name="styleSheet">
-                          <string notr="true">QLabel{
-font: 75 13pt &quot;Bebas Kai&quot;;
-color: rgb(255, 255, 255);
-}</string>
-                         </property>
-                         <property name="text">
-                          <string>COMMENT</string>
-                         </property>
-                         <property name="alignment">
-                          <set>Qt::AlignCenter</set>
-                         </property>
-                         <property name="wordWrap">
-                          <bool>true</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item>
-                        <widget class="StatusLabel" name="tool_length_7">
-                         <property name="sizePolicy">
-                          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                           <horstretch>0</horstretch>
-                           <verstretch>0</verstretch>
-                          </sizepolicy>
-                         </property>
-                         <property name="minimumSize">
-                          <size>
-                           <width>70</width>
-                           <height>33</height>
-                          </size>
-                         </property>
-                         <property name="styleSheet">
-                          <string notr="true">QLabel {
-    border-style: transparent;
-    border-color: rgb(235, 235, 235);
-    border-width: 1px;
-    border-radius: 5px;
-    color: black;
-    background: white;
-	font: 75 14pt &quot;Bebas Kai&quot;;
-}</string>
-                         </property>
-                         <property name="text">
-                          <string>No Tool Loaded</string>
-                         </property>
-                         <property name="alignment">
-                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-                         </property>
-                         <property name="indent">
-                          <number>4</number>
-                         </property>
-                         <property name="rules" stdset="0">
-                          <string>[{&quot;channels&quot;: [{&quot;url&quot;: &quot;tooltable:current_tool?Remark&quot;, &quot;trigger&quot;: true}], &quot;property&quot;: &quot;Text&quot;, &quot;expression&quot;: &quot;ch[0]&quot;, &quot;name&quot;: &quot;Tool Comment&quot;}]</string>
-                         </property>
-                         <property name="format" stdset="0">
-                          <string>{:.3f}</string>
-                         </property>
-                        </widget>
-                       </item>
-                      </layout>
-                     </item>
-                    </layout>
-                   </widget>
                    <widget class="StatusLabel" name="tool_length_6">
                     <property name="geometry">
                      <rect>
                       <x>283</x>
-                      <y>241</y>
+                      <y>201</y>
                       <width>50</width>
                       <height>33</height>
                      </rect>
@@ -7234,7 +7231,7 @@ color: rgb(255, 255, 255);
                     <property name="geometry">
                      <rect>
                       <x>480</x>
-                      <y>90</y>
+                      <y>50</y>
                       <width>300</width>
                       <height>250</height>
                      </rect>
@@ -7922,7 +7919,7 @@ QPushButton:checked {
                     <property name="geometry">
                      <rect>
                       <x>480</x>
-                      <y>370</y>
+                      <y>330</y>
                       <width>300</width>
                       <height>150</height>
                      </rect>
@@ -8098,7 +8095,6 @@ QPushButton:checked {
                    <zorder>label_43</zorder>
                    <zorder>frame_11</zorder>
                    <zorder>frame_12</zorder>
-                   <zorder>frame_28</zorder>
                    <zorder>frame_17</zorder>
                    <zorder>frame_18</zorder>
                    <zorder>tool_length_6</zorder>
