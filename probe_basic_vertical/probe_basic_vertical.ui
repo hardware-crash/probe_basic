@@ -1582,25 +1582,41 @@ QComboBox QAbstractItemView{
                     <enum>Qt::NoFocus</enum>
                    </property>
                    <property name="styleSheet">
-                    <string notr="true">background: rgb(232,232,232);</string>
+                    <string notr="true">QFrame {
+	background: rgb(51,57,59);
+}</string>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_73">
                     <property name="leftMargin">
                      <number>4</number>
                     </property>
                     <property name="topMargin">
-                     <number>0</number>
+                     <number>4</number>
                     </property>
                     <property name="rightMargin">
                      <number>4</number>
                     </property>
                     <property name="bottomMargin">
-                     <number>0</number>
+                     <number>4</number>
                     </property>
                     <item>
                      <widget class="GcodeTextEdit" name="gcodetextedit">
+                      <property name="autoFillBackground">
+                       <bool>true</bool>
+                      </property>
                       <property name="styleSheet">
-                       <string notr="true"/>
+                       <string notr="true">GcodeTextEdit {
+color:white;
+}</string>
+                      </property>
+                      <property name="verticalScrollBarPolicy">
+                       <enum>Qt::ScrollBarAlwaysOff</enum>
+                      </property>
+                      <property name="sizeAdjustPolicy">
+                       <enum>QAbstractScrollArea::AdjustIgnored</enum>
+                      </property>
+                      <property name="backgroundVisible">
+                       <bool>false</bool>
                       </property>
                       <property name="readOnly" stdset="0">
                        <bool>true</bool>
@@ -36404,16 +36420,16 @@ font: 11pt bebas kai;
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="mainorthoperspbtnGroup"/>
-  <buttongroup name="probepagewcsbtnGroup"/>
-  <buttongroup name="customwcsbtnGroup"/>
   <buttongroup name="probehelpGroup"/>
-  <buttongroup name="proberoutinebtnGroup"/>
-  <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="probemodeGroup"/>
+  <buttongroup name="mainorthoperspbtnGroup"/>
   <buttongroup name="xycalbtnGroup"/>
   <buttongroup name="probetabGroup"/>
-  <buttongroup name="plotviewGroup"/>
   <buttongroup name="btngrpMdi"/>
-  <buttongroup name="probemodeGroup"/>
+  <buttongroup name="probepagewcsbtnGroup"/>
+  <buttongroup name="customwcsbtnGroup"/>
+  <buttongroup name="proberoutinebtnGroup"/>
+  <buttongroup name="plotviewGroup"/>
+  <buttongroup name="plotorthoperspbtnGroup"/>
  </buttongroups>
 </ui>
