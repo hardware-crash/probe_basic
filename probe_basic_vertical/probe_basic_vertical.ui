@@ -756,7 +756,7 @@ bottom-margin: 0px;
              <enum>QTabWidget::Rounded</enum>
             </property>
             <property name="currentIndex">
-             <number>2</number>
+             <number>0</number>
             </property>
             <property name="elideMode">
              <enum>Qt::ElideNone</enum>
@@ -1559,11 +1559,11 @@ QComboBox QAbstractItemView{
                   </widget>
                  </item>
                  <item>
-                  <widget class="GcodeEditor" name="gcodeeditor">
+                  <widget class="QFrame" name="gcodeeditor">
                    <property name="sizePolicy">
-                    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                     <horstretch>100</horstretch>
-                     <verstretch>2</verstretch>
+                    <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
                     </sizepolicy>
                    </property>
                    <property name="minimumSize">
@@ -1582,13 +1582,60 @@ QComboBox QAbstractItemView{
                     <enum>Qt::NoFocus</enum>
                    </property>
                    <property name="styleSheet">
-                    <string notr="true">GcodeEditor {
-border-radius:8px;
-}</string>
+                    <string notr="true">background: rgb(232,232,232);</string>
                    </property>
-                   <property name="editor" stdset="0">
-                    <bool>false</bool>
-                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_73">
+                    <property name="leftMargin">
+                     <number>4</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>4</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="GcodeTextEdit" name="gcodetextedit">
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <property name="readOnly" stdset="0">
+                       <bool>true</bool>
+                      </property>
+                      <property name="currentLineBackground" stdset="0">
+                       <color alpha="100">
+                        <red>90</red>
+                        <green>90</green>
+                        <blue>90</blue>
+                       </color>
+                      </property>
+                      <property name="marginBackground" stdset="0">
+                       <color>
+                        <red>232</red>
+                        <green>232</green>
+                        <blue>232</blue>
+                       </color>
+                      </property>
+                      <property name="marginCurrentLineBackground" stdset="0">
+                       <color>
+                        <red>90</red>
+                        <green>90</green>
+                        <blue>90</blue>
+                       </color>
+                      </property>
+                      <property name="marginCurrentLineColor" stdset="0">
+                       <color>
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                       </color>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
                   </widget>
                  </item>
                  <item>
@@ -35069,12 +35116,6 @@ font: 11pt bebas kai;
    <class>QQuickWidget</class>
    <extends>QWidget</extends>
    <header location="global">QtQuickWidgets/QQuickWidget</header>
-  </customwidget>
-  <customwidget>
-   <class>GcodeEditor</class>
-   <extends>QFrame</extends>
-   <header>qtpyvcp.widgets.input_widgets.gcode_editor</header>
-   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources>
