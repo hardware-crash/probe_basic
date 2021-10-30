@@ -277,7 +277,7 @@ bottom-margin: 0px;
           <item>
            <widget class="QTabWidget" name="tabWidget">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -744,14 +744,10 @@ bottom-margin: 0px;
     padding-top: 2px;
     margin-bottom: 0px;
 	margin-top: 2px;
-	min-width:75px;
-	max-width:76px;
+	min-width:76px;
     min-height: 35px;
     font: 13pt &quot;bebas kai&quot;;
-}
-
-
-</string>
+}</string>
             </property>
             <property name="tabPosition">
              <enum>QTabWidget::South</enum>
@@ -760,7 +756,7 @@ bottom-margin: 0px;
              <enum>QTabWidget::Rounded</enum>
             </property>
             <property name="currentIndex">
-             <number>3</number>
+             <number>5</number>
             </property>
             <property name="elideMode">
              <enum>Qt::ElideNone</enum>
@@ -1522,13 +1518,13 @@ QPushButton:checked {
                    <property name="minimumSize">
                     <size>
                      <width>142</width>
-                     <height>30</height>
+                     <height>40</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
                      <width>16777215</width>
-                     <height>30</height>
+                     <height>40</height>
                     </size>
                    </property>
                    <property name="focusPolicy">
@@ -36079,16 +36075,16 @@ font: 11pt bebas kai;
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="btngrpMdi"/>
-  <buttongroup name="plotorthoperspbtnGroup"/>
-  <buttongroup name="plotviewGroup"/>
   <buttongroup name="customwcsbtnGroup"/>
+  <buttongroup name="plotviewGroup"/>
   <buttongroup name="mainorthoperspbtnGroup"/>
-  <buttongroup name="probetabGroup"/>
   <buttongroup name="xycalbtnGroup"/>
   <buttongroup name="proberoutinebtnGroup"/>
-  <buttongroup name="probepagewcsbtnGroup"/>
-  <buttongroup name="probemodeGroup"/>
   <buttongroup name="probehelpGroup"/>
+  <buttongroup name="probetabGroup"/>
+  <buttongroup name="btngrpMdi"/>
+  <buttongroup name="probemodeGroup"/>
+  <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="probepagewcsbtnGroup"/>
  </buttongroups>
 </ui>
