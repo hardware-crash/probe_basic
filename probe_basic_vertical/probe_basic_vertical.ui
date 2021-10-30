@@ -26331,7 +26331,7 @@ QPushButton:checked {
             <property name="minimumSize">
              <size>
               <width>250</width>
-              <height>450</height>
+              <height>490</height>
              </size>
             </property>
             <property name="maximumSize">
@@ -26360,12 +26360,12 @@ QPushButton:checked {
               <number>9</number>
              </property>
              <property name="bottomMargin">
-              <number>9</number>
+              <number>10</number>
              </property>
              <item>
               <layout class="QHBoxLayout" name="horizontalLayout_83">
                <property name="spacing">
-                <number>16</number>
+                <number>0</number>
                </property>
                <item>
                 <widget class="JogIncrementWidget" name="jogincrement">
@@ -26390,12 +26390,18 @@ QPushButton:checked {
                  <property name="styleSheet">
                   <string notr="true">QPushButton {
   	font: 14pt &quot;Bebas Kai&quot;;
-
+	min-width:42px;
 }
 
 </string>
                  </property>
                  <property name="diameter" stdset="0">
+                  <number>0</number>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                 <property name="layoutSpacing">
                   <number>0</number>
                  </property>
                 </widget>
@@ -27022,7 +27028,7 @@ border-radius: 1px;
                 <number>10</number>
                </property>
                <property name="bottomMargin">
-                <number>4</number>
+                <number>0</number>
                </property>
                <item>
                 <layout class="QHBoxLayout" name="horizontalLayout_86">
@@ -27179,42 +27185,6 @@ border-radius: 1px;
                </item>
               </layout>
              </item>
-            </layout>
-           </widget>
-          </item>
-          <item>
-           <widget class="QFrame" name="main_override_tool_qframe">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>0</horstretch>
-              <verstretch>1</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="minimumSize">
-             <size>
-              <width>0</width>
-              <height>500</height>
-             </size>
-            </property>
-            <property name="focusPolicy">
-             <enum>Qt::NoFocus</enum>
-            </property>
-            <property name="styleSheet">
-             <string notr="true"/>
-            </property>
-            <layout class="QVBoxLayout" name="verticalLayout_5">
-             <property name="leftMargin">
-              <number>9</number>
-             </property>
-             <property name="topMargin">
-              <number>9</number>
-             </property>
-             <property name="rightMargin">
-              <number>9</number>
-             </property>
-             <property name="bottomMargin">
-              <number>9</number>
-             </property>
              <item>
               <widget class="QLabel" name="work_column_header_3">
                <property name="enabled">
@@ -27314,6 +27284,58 @@ font: 14pt &quot;Bebas Kai&quot;;
                  <string>0.84, 219, 124, 55</string>
                  <string>1.0, 209, 0, 0</string>
                 </stringlist>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="main_override_tool_qframe">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>1</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>460</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <property name="leftMargin">
+              <number>9</number>
+             </property>
+             <property name="topMargin">
+              <number>9</number>
+             </property>
+             <property name="rightMargin">
+              <number>9</number>
+             </property>
+             <property name="bottomMargin">
+              <number>9</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="styleSheet">
+                <string notr="true">QLabel{
+    color: rgb(238, 238, 236);
+	font: 17pt &quot;Bebas Kai&quot;;
+}</string>
+               </property>
+               <property name="text">
+                <string>OVERRIDES</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
                </property>
               </widget>
              </item>
