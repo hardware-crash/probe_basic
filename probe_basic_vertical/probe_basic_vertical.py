@@ -56,7 +56,7 @@ class ProbeBasicVertical(VCPMainWindow):
         # self.mainTabWidget.addTab(Container("smalltext"), "smalltext")
         # self.mainTabWidget.addTab(Container("smalltext2"), "smalltext2")
 
-        
+        self.timerhours.text = 10   
 
 
     @Slot(QAbstractButton)

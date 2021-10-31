@@ -7,7 +7,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1080</width>
+    <width>1093</width>
     <height>1920</height>
    </rect>
   </property>
@@ -19,8 +19,8 @@
   </property>
   <property name="maximumSize">
    <size>
-    <width>1080</width>
-    <height>1920</height>
+    <width>3000</width>
+    <height>3000</height>
    </size>
   </property>
   <property name="font">
@@ -59,8 +59,8 @@ bottom-margin: 0px;
   <widget class="QWidget" name="centralwidget">
    <property name="maximumSize">
     <size>
-     <width>16777215</width>
-     <height>1920</height>
+     <width>1080</width>
+     <height>3000</height>
     </size>
    </property>
    <property name="autoFillBackground">
@@ -83,7 +83,7 @@ bottom-margin: 0px;
      <widget class="QWidget" name="widget_54" native="true">
       <property name="maximumSize">
        <size>
-        <width>1080</width>
+        <width>3000</width>
         <height>16777215</height>
        </size>
       </property>
@@ -759,7 +759,7 @@ bottom-margin: 0px;
              <enum>QTabWidget::Rounded</enum>
             </property>
             <property name="currentIndex">
-             <number>9</number>
+             <number>0</number>
             </property>
             <property name="elideMode">
              <enum>Qt::ElideNone</enum>
@@ -21747,6 +21747,9 @@ margin-top:0px;
                    <property name="currentIndex">
                     <number>0</number>
                    </property>
+                   <property name="documentMode">
+                    <bool>true</bool>
+                   </property>
                    <widget class="QWidget" name="facing_tab">
                     <property name="minimumSize">
                      <size>
@@ -23862,10 +23865,16 @@ color: white;
               </property>
               <item>
                <widget class="QFrame" name="frame_26">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>1</verstretch>
+                 </sizepolicy>
+                </property>
                 <property name="minimumSize">
                  <size>
                   <width>250</width>
-                  <height>0</height>
+                  <height>500</height>
                  </size>
                 </property>
                 <property name="styleSheet">
@@ -23895,6 +23904,13 @@ color: white;
                  <property name="bottomMargin">
                   <number>12</number>
                  </property>
+                 <item>
+                  <widget class="QLabel" name="label_12">
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
                  <item>
                   <layout class="QHBoxLayout" name="horizontalLayout_106">
                    <item>
@@ -24318,6 +24334,13 @@ color: white;
                     </widget>
                    </item>
                   </layout>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_13">
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
                  </item>
                  <item>
                   <widget class="QLabel" name="label_11">
@@ -26328,7 +26351,7 @@ QPushButton:checked {
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
               <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
+              <verstretch>2</verstretch>
              </sizepolicy>
             </property>
             <property name="minimumSize">
@@ -27296,7 +27319,7 @@ font: 14pt &quot;Bebas Kai&quot;;
           <item>
            <widget class="QFrame" name="main_override_tool_qframe">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
               <horstretch>0</horstretch>
               <verstretch>1</verstretch>
              </sizepolicy>
@@ -28186,9 +28209,15 @@ border-radius: 4px;
     </item>
     <item>
      <widget class="QWidget" name="widget_8" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>2</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <property name="maximumSize">
        <size>
-        <width>1080</width>
+        <width>16777215</width>
         <height>342</height>
        </size>
       </property>
@@ -28210,15 +28239,21 @@ border-radius: 4px;
        </property>
        <item>
         <widget class="QFrame" name="main_control_qframe">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>1</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="minimumSize">
           <size>
-           <width>0</width>
+           <width>320</width>
            <height>340</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>330</width>
+           <width>16777215</width>
            <height>340</height>
           </size>
          </property>
@@ -28797,6 +28832,9 @@ border-radius: 1px;
           </item>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_89">
+            <property name="spacing">
+             <number>9</number>
+            </property>
             <item>
              <widget class="ActionButton" name="exit_button">
               <property name="sizePolicy">
@@ -28837,28 +28875,9 @@ border-radius: 1px;
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="ref_coilumn_header_16">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="styleSheet">
-               <string notr="true"/>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-              <property name="alignment">
-               <set>Qt::AlignCenter</set>
-              </property>
-             </widget>
-            </item>
-            <item>
              <widget class="QWidget" name="widget_49" native="true">
               <property name="sizePolicy">
-               <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
@@ -28875,9 +28894,20 @@ border-radius: 1px;
                 <height>32</height>
                </size>
               </property>
+              <property name="styleSheet">
+               <string notr="true">QWidget {
+	border-style: solid;
+	border-color: silver;
+	border-radius: 5px;
+	background-color:white;
+}</string>
+              </property>
               <layout class="QHBoxLayout" name="horizontalLayout_40">
                <property name="spacing">
                 <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>9</number>
                </property>
                <property name="topMargin">
                 <number>1</number>
@@ -28888,7 +28918,7 @@ border-radius: 1px;
                <item>
                 <widget class="HalLabel" name="timerhours">
                  <property name="sizePolicy">
-                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                    <horstretch>0</horstretch>
                    <verstretch>0</verstretch>
                   </sizepolicy>
@@ -28907,16 +28937,6 @@ border-radius: 1px;
                  </property>
                  <property name="styleSheet">
                   <string notr="true">HalLabel {
-    border-style: solid;
-    border-color: silver;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 0px;
-    border-left-width: 1px;
     color: black;
     background: white;
 	font: 75 17pt &quot;Bebas Kai&quot;;
@@ -28924,20 +28944,23 @@ border-radius: 1px;
 }</string>
                  </property>
                  <property name="text">
-                  <string>0.0</string>
+                  <string>0</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignCenter</set>
                  </property>
                  <property name="textFormat" stdset="0">
-                  <string>-1</string>
+                  <string>%2d</string>
+                 </property>
+                 <property name="pinType" stdset="0">
+                  <enum>HalLabel::u32</enum>
                  </property>
                 </widget>
                </item>
                <item>
                 <widget class="QLabel" name="label_2">
                  <property name="sizePolicy">
-                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                    <horstretch>0</horstretch>
                    <verstretch>0</verstretch>
                   </sizepolicy>
@@ -28956,13 +28979,7 @@ border-radius: 1px;
                  </property>
                  <property name="styleSheet">
                   <string notr="true">QLabel {
-    border-style: solid;
-    border-color: silver;
-    border-radius: 0px;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 0px;
-    border-left-width: 0px;
+	padding: 5px;
     color: black;
     background: white;
 	font: 75 17pt &quot;Bebas Kai&quot;;
@@ -28979,7 +28996,7 @@ border-radius: 1px;
                <item>
                 <widget class="HalLabel" name="timerminutes">
                  <property name="sizePolicy">
-                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                    <horstretch>0</horstretch>
                    <verstretch>0</verstretch>
                   </sizepolicy>
@@ -28998,21 +29015,13 @@ border-radius: 1px;
                  </property>
                  <property name="styleSheet">
                   <string notr="true">HalLabel {
-    border-style: solid;
-    border-color: silver;
-    border-width: 1px;
-    border-radius: 0px;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 0px;
-    border-left-width: 0px;
     color: black;
     background: white;
 	font: 75 17pt &quot;Bebas Kai&quot;;
 }</string>
                  </property>
                  <property name="text">
-                  <string>0.0</string>
+                  <string>0</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignCenter</set>
@@ -29020,12 +29029,15 @@ border-radius: 1px;
                  <property name="textFormat" stdset="0">
                   <string>-1</string>
                  </property>
+                 <property name="pinType" stdset="0">
+                  <enum>HalLabel::u32</enum>
+                 </property>
                 </widget>
                </item>
                <item>
                 <widget class="QLabel" name="label_3">
                  <property name="sizePolicy">
-                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                    <horstretch>0</horstretch>
                    <verstretch>0</verstretch>
                   </sizepolicy>
@@ -29044,13 +29056,7 @@ border-radius: 1px;
                  </property>
                  <property name="styleSheet">
                   <string notr="true">QLabel {
-    border-style: solid;
-    border-color: silver;
-    border-radius: 0px;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 0px;
-    border-left-width: 0px;
+	padding: 5px;
     color: black;
     background: white;
 	font: 75 17pt &quot;Bebas Kai&quot;;
@@ -29067,7 +29073,7 @@ border-radius: 1px;
                <item>
                 <widget class="HalLabel" name="timerseconds">
                  <property name="sizePolicy">
-                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                    <horstretch>0</horstretch>
                    <verstretch>0</verstretch>
                   </sizepolicy>
@@ -29086,17 +29092,6 @@ border-radius: 1px;
                  </property>
                  <property name="styleSheet">
                   <string notr="true">HalLabel {
-    border-style: solid;
-    border-color: silver;
-    border-width: 1px;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 1px;
-    border-left-width: 0px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
     color: black;
     background: white;
 	font: 75 17pt &quot;Bebas Kai&quot;;
@@ -29104,36 +29099,20 @@ border-radius: 1px;
 }</string>
                  </property>
                  <property name="text">
-                  <string>0.0</string>
+                  <string>0</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignCenter</set>
                  </property>
                  <property name="textFormat" stdset="0">
-                  <string>-1</string>
+                  <string>02d</string>
+                 </property>
+                 <property name="pinType" stdset="0">
+                  <enum>HalLabel::u32</enum>
                  </property>
                 </widget>
                </item>
               </layout>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLabel" name="ref_coilumn_header_18">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="styleSheet">
-               <string notr="true"/>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-              <property name="alignment">
-               <set>Qt::AlignCenter</set>
-              </property>
              </widget>
             </item>
             <item>
@@ -29182,6 +29161,12 @@ border-radius: 1px;
        </item>
        <item>
         <widget class="VCPStackedWidget" name="gui_axis_display_widget">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>3</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="minimumSize">
           <size>
            <width>450</width>
@@ -34822,7 +34807,7 @@ border-radius: 1px;
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1080</width>
+     <width>1093</width>
      <height>26</height>
     </rect>
    </property>
@@ -36460,16 +36445,16 @@ font: 11pt bebas kai;
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="probetabGroup"/>
-  <buttongroup name="probehelpGroup"/>
-  <buttongroup name="plotviewGroup"/>
   <buttongroup name="btngrpMdi"/>
-  <buttongroup name="mainorthoperspbtnGroup"/>
-  <buttongroup name="xycalbtnGroup"/>
-  <buttongroup name="probemodeGroup"/>
-  <buttongroup name="plotorthoperspbtnGroup"/>
   <buttongroup name="proberoutinebtnGroup"/>
-  <buttongroup name="customwcsbtnGroup"/>
+  <buttongroup name="xycalbtnGroup"/>
+  <buttongroup name="probehelpGroup"/>
+  <buttongroup name="probemodeGroup"/>
   <buttongroup name="probepagewcsbtnGroup"/>
+  <buttongroup name="customwcsbtnGroup"/>
+  <buttongroup name="probetabGroup"/>
+  <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="plotviewGroup"/>
+  <buttongroup name="mainorthoperspbtnGroup"/>
  </buttongroups>
 </ui>
