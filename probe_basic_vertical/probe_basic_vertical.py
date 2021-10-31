@@ -6,7 +6,7 @@ from qtpy.QtCore import Slot, QRegExp, QSize, Qt
 from qtpy.QtGui import QFontDatabase, QRegExpValidator
 from qtpy.QtWidgets import QAbstractButton, QTabBar, QWidget, QApplication, QPushButton, QTabWidget, QHBoxLayout, QVBoxLayout
 
-from qtpyvcp import actions
+from qtpyvcp import actions, hal
 from qtpyvcp.utilities import logger
 from qtpyvcp.widgets.form_widgets.main_window import VCPMainWindow
 
@@ -56,7 +56,9 @@ class ProbeBasicVertical(VCPMainWindow):
         # self.mainTabWidget.addTab(Container("smalltext"), "smalltext")
         # self.mainTabWidget.addTab(Container("smalltext2"), "smalltext2")
 
-        self.timerhours.text = 10   
+
+
+
 
 
     @Slot(QAbstractButton)
@@ -151,6 +153,3 @@ class ProbeBasicVertical(VCPMainWindow):
         if text != 'null':
             text += ' '
             parent.mdiEntry.setText(text)
-
-
-            

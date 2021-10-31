@@ -28918,7 +28918,7 @@ border-radius: 1px;
                <item>
                 <widget class="HalLabel" name="timerhours">
                  <property name="sizePolicy">
-                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                    <horstretch>0</horstretch>
                    <verstretch>0</verstretch>
                   </sizepolicy>
@@ -28949,8 +28949,11 @@ border-radius: 1px;
                  <property name="alignment">
                   <set>Qt::AlignCenter</set>
                  </property>
+                 <property name="indent">
+                  <number>4</number>
+                 </property>
                  <property name="textFormat" stdset="0">
-                  <string>%2d</string>
+                  <string>%02d</string>
                  </property>
                  <property name="pinType" stdset="0">
                   <enum>HalLabel::u32</enum>
@@ -29027,7 +29030,7 @@ border-radius: 1px;
                   <set>Qt::AlignCenter</set>
                  </property>
                  <property name="textFormat" stdset="0">
-                  <string>-1</string>
+                  <string>%02d</string>
                  </property>
                  <property name="pinType" stdset="0">
                   <enum>HalLabel::u32</enum>
@@ -29105,7 +29108,7 @@ border-radius: 1px;
                   <set>Qt::AlignCenter</set>
                  </property>
                  <property name="textFormat" stdset="0">
-                  <string>02d</string>
+                  <string>%02i</string>
                  </property>
                  <property name="pinType" stdset="0">
                   <enum>HalLabel::u32</enum>
@@ -36445,16 +36448,16 @@ font: 11pt bebas kai;
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="btngrpMdi"/>
-  <buttongroup name="proberoutinebtnGroup"/>
-  <buttongroup name="xycalbtnGroup"/>
   <buttongroup name="probehelpGroup"/>
-  <buttongroup name="probemodeGroup"/>
-  <buttongroup name="probepagewcsbtnGroup"/>
   <buttongroup name="customwcsbtnGroup"/>
   <buttongroup name="probetabGroup"/>
-  <buttongroup name="plotorthoperspbtnGroup"/>
-  <buttongroup name="plotviewGroup"/>
+  <buttongroup name="btngrpMdi"/>
+  <buttongroup name="xycalbtnGroup"/>
+  <buttongroup name="probemodeGroup"/>
   <buttongroup name="mainorthoperspbtnGroup"/>
+  <buttongroup name="plotviewGroup"/>
+  <buttongroup name="proberoutinebtnGroup"/>
+  <buttongroup name="probepagewcsbtnGroup"/>
+  <buttongroup name="plotorthoperspbtnGroup"/>
  </buttongroups>
 </ui>
