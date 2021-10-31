@@ -28953,7 +28953,7 @@ border-radius: 1px;
                   <number>4</number>
                  </property>
                  <property name="textFormat" stdset="0">
-                  <string>%02d</string>
+                  <string>02d</string>
                  </property>
                  <property name="pinType" stdset="0">
                   <enum>HalLabel::u32</enum>
@@ -29030,7 +29030,7 @@ border-radius: 1px;
                   <set>Qt::AlignCenter</set>
                  </property>
                  <property name="textFormat" stdset="0">
-                  <string>%02d</string>
+                  <string>02d</string>
                  </property>
                  <property name="pinType" stdset="0">
                   <enum>HalLabel::u32</enum>
@@ -29108,7 +29108,7 @@ border-radius: 1px;
                   <set>Qt::AlignCenter</set>
                  </property>
                  <property name="textFormat" stdset="0">
-                  <string>%02i</string>
+                  <string>02d</string>
                  </property>
                  <property name="pinType" stdset="0">
                   <enum>HalLabel::u32</enum>
@@ -36448,16 +36448,16 @@ font: 11pt bebas kai;
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="probehelpGroup"/>
+  <buttongroup name="probepagewcsbtnGroup"/>
   <buttongroup name="customwcsbtnGroup"/>
   <buttongroup name="probetabGroup"/>
-  <buttongroup name="btngrpMdi"/>
-  <buttongroup name="xycalbtnGroup"/>
   <buttongroup name="probemodeGroup"/>
-  <buttongroup name="mainorthoperspbtnGroup"/>
+  <buttongroup name="probehelpGroup"/>
+  <buttongroup name="xycalbtnGroup"/>
   <buttongroup name="plotviewGroup"/>
   <buttongroup name="proberoutinebtnGroup"/>
-  <buttongroup name="probepagewcsbtnGroup"/>
+  <buttongroup name="mainorthoperspbtnGroup"/>
+  <buttongroup name="btngrpMdi"/>
   <buttongroup name="plotorthoperspbtnGroup"/>
  </buttongroups>
 </ui>
