@@ -275,9 +275,9 @@ bottom-margin: 0px;
            </widget>
           </item>
           <item>
-           <widget class="QTabWidget" name="tabWidget">
+           <widget class="QTabWidget" name="mainTabWidget">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -736,6 +736,9 @@ bottom-margin: 0px;
             <property name="focusPolicy">
              <enum>Qt::NoFocus</enum>
             </property>
+            <property name="accessibleName">
+             <string/>
+            </property>
             <property name="autoFillBackground">
              <bool>false</bool>
             </property>
@@ -756,7 +759,7 @@ bottom-margin: 0px;
              <enum>QTabWidget::Rounded</enum>
             </property>
             <property name="currentIndex">
-             <number>4</number>
+             <number>9</number>
             </property>
             <property name="elideMode">
              <enum>Qt::ElideNone</enum>
@@ -36457,16 +36460,16 @@ font: 11pt bebas kai;
   </property>
  </designerdata>
  <buttongroups>
+  <buttongroup name="probetabGroup"/>
   <buttongroup name="probehelpGroup"/>
-  <buttongroup name="probemodeGroup"/>
+  <buttongroup name="plotviewGroup"/>
+  <buttongroup name="btngrpMdi"/>
   <buttongroup name="mainorthoperspbtnGroup"/>
   <buttongroup name="xycalbtnGroup"/>
-  <buttongroup name="probetabGroup"/>
-  <buttongroup name="btngrpMdi"/>
-  <buttongroup name="probepagewcsbtnGroup"/>
-  <buttongroup name="customwcsbtnGroup"/>
-  <buttongroup name="proberoutinebtnGroup"/>
-  <buttongroup name="plotviewGroup"/>
+  <buttongroup name="probemodeGroup"/>
   <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="proberoutinebtnGroup"/>
+  <buttongroup name="customwcsbtnGroup"/>
+  <buttongroup name="probepagewcsbtnGroup"/>
  </buttongroups>
 </ui>

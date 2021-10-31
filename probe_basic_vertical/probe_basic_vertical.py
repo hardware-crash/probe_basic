@@ -2,9 +2,9 @@
 
 import os
 
-from qtpy.QtCore import Slot, QRegExp
+from qtpy.QtCore import Slot, QRegExp, QSize, Qt
 from qtpy.QtGui import QFontDatabase, QRegExpValidator
-from qtpy.QtWidgets import QAbstractButton, QTabBar
+from qtpy.QtWidgets import QAbstractButton, QTabBar, QWidget, QApplication, QPushButton, QTabWidget, QHBoxLayout, QVBoxLayout
 
 from qtpyvcp import actions
 from qtpyvcp.utilities import logger
@@ -18,6 +18,25 @@ VCP_DIR = os.path.abspath(os.path.dirname(__file__))
 # Add custom fonts
 QFontDatabase.addApplicationFont(os.path.join(VCP_DIR, 'fonts/BebasKai.ttf'))
 
+
+class Container(QWidget):
+    def __init__(self, text):
+        super(Container, self).__init__()
+
+        self.hbox = QHBoxLayout()
+        self.hbox.setSpacing(0)
+        self.hbox.setContentsMargins(0, 0, 0, 0)
+        self.setLayout(self.hbox)
+
+        self.button = QPushButton(text)
+        self.hbox.addWidget(self.button)
+
+class CustomTabBar(QTabBar):
+    def tabSizeHint(self, index):
+        size = QTabBar.tabSizeHint(self, index)
+        w = int(self.width()/self.count())
+        return QSize(w, size.height())
+
 class ProbeBasicVertical(VCPMainWindow):
     """Main window class for the ProbeBasic VCP."""
     def __init__(self, *args, **kwargs):
@@ -25,6 +44,20 @@ class ProbeBasicVertical(VCPMainWindow):
         self.run_from_line_Num.setValidator(QRegExpValidator(QRegExp("[0-9]*")))
         self.btnMdiBksp.clicked.connect(self.mdiBackSpace_clicked)
         self.btnMdiSpace.clicked.connect(self.mdiSpace_clicked)
+
+        # self.mainTabWidget.setTabBar(CustomTabBar())
+        # self.mainTabWidget.setTabsClosable(False)
+        # self.mainTabWidget.setMovable(True)
+        # self.mainTabWidget.setDocumentMode(True)
+        # self.mainTabWidget.setElideMode(Qt.ElideRight)
+        # self.mainTabWidget.setUsesScrollButtons(True)
+        # self.mainTabWidget.addTab(Container("Very big titleeeeeeeeee"),
+        #                  "Very big titleeeeeeeeeeee")
+        # self.mainTabWidget.addTab(Container("smalltext"), "smalltext")
+        # self.mainTabWidget.addTab(Container("smalltext2"), "smalltext2")
+
+        
+
 
     @Slot(QAbstractButton)
     def on_probetabGroup_buttonClicked(self, button):
