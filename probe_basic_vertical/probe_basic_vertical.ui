@@ -759,7 +759,7 @@ bottom-margin: 0px;
              <enum>QTabWidget::Rounded</enum>
             </property>
             <property name="currentIndex">
-             <number>3</number>
+             <number>0</number>
             </property>
             <property name="elideMode">
              <enum>Qt::ElideNone</enum>
@@ -1612,11 +1612,20 @@ QComboBox QAbstractItemView{
 color:white;
 }</string>
                       </property>
+                      <property name="frameShape">
+                       <enum>QFrame::NoFrame</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Plain</enum>
+                      </property>
                       <property name="verticalScrollBarPolicy">
                        <enum>Qt::ScrollBarAsNeeded</enum>
                       </property>
                       <property name="sizeAdjustPolicy">
                        <enum>QAbstractScrollArea::AdjustIgnored</enum>
+                      </property>
+                      <property name="undoRedoEnabled">
+                       <bool>false</bool>
                       </property>
                       <property name="overwriteMode">
                        <bool>false</bool>
@@ -28950,7 +28959,7 @@ border-radius: 1px;
 }</string>
                  </property>
                  <property name="text">
-                  <string>0</string>
+                  <string>00</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignCenter</set>
@@ -29030,7 +29039,7 @@ border-radius: 1px;
 }</string>
                  </property>
                  <property name="text">
-                  <string>0</string>
+                  <string>00</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignCenter</set>
@@ -29108,7 +29117,7 @@ border-radius: 1px;
 }</string>
                  </property>
                  <property name="text">
-                  <string>0</string>
+                  <string>00</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignCenter</set>
@@ -36455,15 +36464,15 @@ font: 11pt bebas kai;
  </designerdata>
  <buttongroups>
   <buttongroup name="probepagewcsbtnGroup"/>
-  <buttongroup name="customwcsbtnGroup"/>
-  <buttongroup name="probetabGroup"/>
   <buttongroup name="probemodeGroup"/>
-  <buttongroup name="probehelpGroup"/>
-  <buttongroup name="xycalbtnGroup"/>
-  <buttongroup name="plotviewGroup"/>
   <buttongroup name="proberoutinebtnGroup"/>
-  <buttongroup name="mainorthoperspbtnGroup"/>
+  <buttongroup name="plotviewGroup"/>
   <buttongroup name="btngrpMdi"/>
   <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="probetabGroup"/>
+  <buttongroup name="customwcsbtnGroup"/>
+  <buttongroup name="mainorthoperspbtnGroup"/>
+  <buttongroup name="xycalbtnGroup"/>
+  <buttongroup name="probehelpGroup"/>
  </buttongroups>
 </ui>
