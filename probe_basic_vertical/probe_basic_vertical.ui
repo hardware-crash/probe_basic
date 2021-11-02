@@ -23844,7 +23844,7 @@ color: white;
              <enum>QTabWidget::North</enum>
             </property>
             <property name="currentIndex">
-             <number>2</number>
+             <number>0</number>
             </property>
             <property name="usesScrollButtons">
              <bool>false</bool>
@@ -23907,6 +23907,9 @@ color: white;
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_14">
+                 <property name="bottomMargin">
+                  <number>12</number>
+                 </property>
                  <item>
                   <layout class="QVBoxLayout" name="verticalLayout_13">
                    <property name="spacing">
@@ -24268,7 +24271,7 @@ color: white;
                  <item>
                   <layout class="QHBoxLayout" name="horizontalLayout_111">
                    <property name="bottomMargin">
-                    <number>5</number>
+                    <number>0</number>
                    </property>
                    <item>
                     <widget class="ActionButton" name="b_minus_jogbutton">
