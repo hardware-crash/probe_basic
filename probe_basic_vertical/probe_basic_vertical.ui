@@ -23924,7 +23924,7 @@ color: white;
                    <item alignment="Qt::AlignHCenter">
                     <widget class="ActionButton" name="z_plus_jogbutton">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -23971,7 +23971,7 @@ color: white;
                    <item alignment="Qt::AlignHCenter">
                     <widget class="ActionButton" name="z_minus_jogbutton">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -24016,7 +24016,7 @@ color: white;
                    <property name="spacing">
                     <number>10</number>
                    </property>
-                   <item row="0" column="0" rowspan="2">
+                   <item row="0" column="0" rowspan="2" alignment="Qt::AlignVCenter">
                     <widget class="ActionButton" name="x_minus_jogbutton">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
@@ -24098,7 +24098,7 @@ color: white;
                      </property>
                     </widget>
                    </item>
-                   <item row="0" column="2" rowspan="2">
+                   <item row="0" column="2" rowspan="2" alignment="Qt::AlignVCenter">
                     <widget class="ActionButton" name="x_plus_jogbutton">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
@@ -24184,6 +24184,9 @@ color: white;
                  </item>
                  <item>
                   <layout class="QHBoxLayout" name="horizontalLayout_112">
+                   <property name="spacing">
+                    <number>10</number>
+                   </property>
                    <item>
                     <widget class="ActionButton" name="a_minus_jogbutton">
                      <property name="sizePolicy">
@@ -24270,10 +24273,13 @@ color: white;
                  </item>
                  <item>
                   <layout class="QHBoxLayout" name="horizontalLayout_111">
+                   <property name="spacing">
+                    <number>10</number>
+                   </property>
                    <property name="bottomMargin">
                     <number>0</number>
                    </property>
-                   <item>
+                   <item alignment="Qt::AlignVCenter">
                     <widget class="ActionButton" name="b_minus_jogbutton">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
@@ -24314,7 +24320,7 @@ color: white;
                      </property>
                     </widget>
                    </item>
-                   <item>
+                   <item alignment="Qt::AlignVCenter">
                     <widget class="ActionButton" name="b_plus_jogbutton">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
