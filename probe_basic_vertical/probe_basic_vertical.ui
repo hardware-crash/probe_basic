@@ -20,7 +20,7 @@
   <property name="maximumSize">
    <size>
     <width>3000</width>
-    <height>3000</height>
+    <height>1920</height>
    </size>
   </property>
   <property name="font">
@@ -60,7 +60,7 @@ bottom-margin: 0px;
    <property name="maximumSize">
     <size>
      <width>1080</width>
-     <height>3000</height>
+     <height>1920</height>
     </size>
    </property>
    <property name="autoFillBackground">
@@ -747,7 +747,7 @@ bottom-margin: 0px;
     padding-top: 2px;
     margin-bottom: 0px;
 	margin-top: 2px;
-	min-width:76px;
+	min-width:75px;
     min-height: 35px;
     font: 13pt &quot;bebas kai&quot;;
 }</string>
@@ -759,7 +759,7 @@ bottom-margin: 0px;
              <enum>QTabWidget::Rounded</enum>
             </property>
             <property name="currentIndex">
-             <number>0</number>
+             <number>9</number>
             </property>
             <property name="elideMode">
              <enum>Qt::ElideNone</enum>
@@ -1634,7 +1634,7 @@ color:white;
                        <bool>false</bool>
                       </property>
                       <property name="syntaxHighlighting" stdset="0">
-                       <bool>false</bool>
+                       <bool>true</bool>
                       </property>
                       <property name="readOnly" stdset="0">
                        <bool>true</bool>
@@ -23906,33 +23906,26 @@ color: white;
                 <property name="frameShadow">
                  <enum>QFrame::Raised</enum>
                 </property>
-                <layout class="QVBoxLayout" name="verticalLayout_32">
-                 <property name="spacing">
-                  <number>12</number>
-                 </property>
-                 <property name="leftMargin">
-                  <number>9</number>
-                 </property>
-                 <property name="topMargin">
-                  <number>20</number>
-                 </property>
-                 <property name="rightMargin">
-                  <number>9</number>
-                 </property>
-                 <property name="bottomMargin">
-                  <number>12</number>
-                 </property>
+                <layout class="QVBoxLayout" name="verticalLayout_14">
                  <item>
-                  <widget class="QLabel" name="label_12">
-                   <property name="text">
-                    <string/>
+                  <layout class="QVBoxLayout" name="verticalLayout_13">
+                   <property name="spacing">
+                    <number>10</number>
                    </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <layout class="QHBoxLayout" name="horizontalLayout_106">
-                   <item>
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <item alignment="Qt::AlignHCenter">
                     <widget class="ActionButton" name="z_plus_jogbutton">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
                      <property name="minimumSize">
                       <size>
                        <width>56</width>
@@ -23961,17 +23954,25 @@ color: white;
                        <height>48</height>
                       </size>
                      </property>
+                     <property name="default">
+                      <bool>false</bool>
+                     </property>
+                     <property name="flat">
+                      <bool>false</bool>
+                     </property>
                      <property name="actionName" stdset="0">
                       <string>machine.jog.axis:z,pos</string>
                      </property>
                     </widget>
                    </item>
-                  </layout>
-                 </item>
-                 <item>
-                  <layout class="QHBoxLayout" name="horizontalLayout_107">
-                   <item>
+                   <item alignment="Qt::AlignHCenter">
                     <widget class="ActionButton" name="z_minus_jogbutton">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
                      <property name="minimumSize">
                       <size>
                        <width>56</width>
@@ -24008,137 +24009,14 @@ color: white;
                   </layout>
                  </item>
                  <item>
-                  <layout class="QGridLayout" name="gridLayout_6">
-                   <property name="bottomMargin">
-                    <number>5</number>
+                  <layout class="QGridLayout" name="gridLayout">
+                   <property name="spacing">
+                    <number>10</number>
                    </property>
-                   <property name="horizontalSpacing">
-                    <number>0</number>
-                   </property>
-                   <property name="verticalSpacing">
-                    <number>6</number>
-                   </property>
-                   <item row="2" column="1">
-                    <widget class="ActionButton" name="y_minus_jogbutton">
-                     <property name="sizePolicy">
-                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                       <horstretch>0</horstretch>
-                       <verstretch>0</verstretch>
-                      </sizepolicy>
-                     </property>
-                     <property name="minimumSize">
-                      <size>
-                       <width>56</width>
-                       <height>56</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>56</width>
-                       <height>56</height>
-                      </size>
-                     </property>
-                     <property name="focusPolicy">
-                      <enum>Qt::NoFocus</enum>
-                     </property>
-                     <property name="text">
-                      <string/>
-                     </property>
-                     <property name="icon">
-                      <iconset resource="probe_basic_vertical.qrc">
-                       <normaloff>:/images/y_minus_jog_button.png</normaloff>:/images/y_minus_jog_button.png</iconset>
-                     </property>
-                     <property name="iconSize">
-                      <size>
-                       <width>48</width>
-                       <height>48</height>
-                      </size>
-                     </property>
-                     <property name="actionName" stdset="0">
-                      <string>machine.jog.axis:y,neg</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item row="0" column="1">
-                    <widget class="ActionButton" name="y_plus_jogbutton">
-                     <property name="minimumSize">
-                      <size>
-                       <width>56</width>
-                       <height>56</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>56</width>
-                       <height>56</height>
-                      </size>
-                     </property>
-                     <property name="focusPolicy">
-                      <enum>Qt::NoFocus</enum>
-                     </property>
-                     <property name="text">
-                      <string/>
-                     </property>
-                     <property name="icon">
-                      <iconset resource="probe_basic_vertical.qrc">
-                       <normaloff>:/images/y_plus_jog_button.png</normaloff>:/images/y_plus_jog_button.png</iconset>
-                     </property>
-                     <property name="iconSize">
-                      <size>
-                       <width>48</width>
-                       <height>48</height>
-                      </size>
-                     </property>
-                     <property name="actionName" stdset="0">
-                      <string>machine.jog.axis:y,pos</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item row="1" column="2">
-                    <widget class="ActionButton" name="x_plus_jogbutton">
-                     <property name="sizePolicy">
-                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                       <horstretch>0</horstretch>
-                       <verstretch>0</verstretch>
-                      </sizepolicy>
-                     </property>
-                     <property name="minimumSize">
-                      <size>
-                       <width>56</width>
-                       <height>56</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>56</width>
-                       <height>56</height>
-                      </size>
-                     </property>
-                     <property name="focusPolicy">
-                      <enum>Qt::NoFocus</enum>
-                     </property>
-                     <property name="text">
-                      <string/>
-                     </property>
-                     <property name="icon">
-                      <iconset resource="probe_basic_vertical.qrc">
-                       <normaloff>:/images/x_plus_jog_button.png</normaloff>:/images/x_plus_jog_button.png</iconset>
-                     </property>
-                     <property name="iconSize">
-                      <size>
-                       <width>48</width>
-                       <height>48</height>
-                      </size>
-                     </property>
-                     <property name="actionName" stdset="0">
-                      <string>machine.jog.axis:x,pos</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item row="1" column="0">
+                   <item row="0" column="0" rowspan="2">
                     <widget class="ActionButton" name="x_minus_jogbutton">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -24176,6 +24054,129 @@ color: white;
                      </property>
                     </widget>
                    </item>
+                   <item row="0" column="1">
+                    <widget class="ActionButton" name="y_plus_jogbutton">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>56</width>
+                       <height>56</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>56</width>
+                       <height>56</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="probe_basic_vertical.qrc">
+                       <normaloff>:/images/y_plus_jog_button.png</normaloff>:/images/y_plus_jog_button.png</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>48</width>
+                       <height>48</height>
+                      </size>
+                     </property>
+                     <property name="actionName" stdset="0">
+                      <string>machine.jog.axis:y,pos</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="2" rowspan="2">
+                    <widget class="ActionButton" name="x_plus_jogbutton">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>56</width>
+                       <height>56</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>56</width>
+                       <height>56</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="probe_basic_vertical.qrc">
+                       <normaloff>:/images/x_plus_jog_button.png</normaloff>:/images/x_plus_jog_button.png</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>48</width>
+                       <height>48</height>
+                      </size>
+                     </property>
+                     <property name="actionName" stdset="0">
+                      <string>machine.jog.axis:x,pos</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="ActionButton" name="y_minus_jogbutton">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>56</width>
+                       <height>56</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>56</width>
+                       <height>56</height>
+                      </size>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::NoFocus</enum>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="probe_basic_vertical.qrc">
+                       <normaloff>:/images/y_minus_jog_button.png</normaloff>:/images/y_minus_jog_button.png</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>48</width>
+                       <height>48</height>
+                      </size>
+                     </property>
+                     <property name="actionName" stdset="0">
+                      <string>machine.jog.axis:y,neg</string>
+                     </property>
+                    </widget>
+                   </item>
                   </layout>
                  </item>
                  <item>
@@ -24183,7 +24184,7 @@ color: white;
                    <item>
                     <widget class="ActionButton" name="a_minus_jogbutton">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -24224,7 +24225,7 @@ color: white;
                    <item>
                     <widget class="ActionButton" name="a_plus_jogbutton">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -24272,7 +24273,7 @@ color: white;
                    <item>
                     <widget class="ActionButton" name="b_minus_jogbutton">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -24313,7 +24314,7 @@ color: white;
                    <item>
                     <widget class="ActionButton" name="b_plus_jogbutton">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -24354,26 +24355,6 @@ color: white;
                   </layout>
                  </item>
                  <item>
-                  <widget class="QLabel" name="label_13">
-                   <property name="text">
-                    <string/>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QLabel" name="label_11">
-                   <property name="minimumSize">
-                    <size>
-                     <width>0</width>
-                     <height>5</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string/>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QWidget" name="horizontalWidget" native="true">
                    <property name="minimumSize">
                     <size>
@@ -24406,7 +24387,7 @@ color: white;
                     <item>
                      <widget class="ActionButton" name="manual_mode_button">
                       <property name="sizePolicy">
-                       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                         <horstretch>0</horstretch>
                         <verstretch>0</verstretch>
                        </sizepolicy>
@@ -24448,7 +24429,7 @@ color: white;
                     <item>
                      <widget class="ActionButton" name="auto_mode_button">
                       <property name="sizePolicy">
-                       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                         <horstretch>0</horstretch>
                         <verstretch>0</verstretch>
                        </sizepolicy>
@@ -24490,7 +24471,7 @@ color: white;
                     <item>
                      <widget class="ActionButton" name="mdi_mode_button">
                       <property name="sizePolicy">
-                       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                         <horstretch>0</horstretch>
                         <verstretch>0</verstretch>
                        </sizepolicy>
@@ -35430,8 +35411,8 @@ font: 11pt bebas kai;
    <slot>setViewY()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>94</x>
-     <y>228</y>
+     <x>105</x>
+     <y>215</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35446,8 +35427,8 @@ font: 11pt bebas kai;
    <slot>zoomIn()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>94</x>
-     <y>384</y>
+     <x>105</x>
+     <y>339</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35462,8 +35443,8 @@ font: 11pt bebas kai;
    <slot>setViewX()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>94</x>
-     <y>181</y>
+     <x>105</x>
+     <y>176</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35495,7 +35476,7 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>105</x>
-     <y>600</y>
+     <y>509</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35510,8 +35491,8 @@ font: 11pt bebas kai;
    <slot>setViewZ()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>94</x>
-     <y>275</y>
+     <x>105</x>
+     <y>254</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35527,7 +35508,7 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>105</x>
-     <y>646</y>
+     <y>548</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35542,8 +35523,8 @@ font: 11pt bebas kai;
    <slot>zoomOut()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>94</x>
-     <y>431</y>
+     <x>105</x>
+     <y>378</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35559,7 +35540,7 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>105</x>
-     <y>752</y>
+     <y>633</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35575,7 +35556,7 @@ font: 11pt bebas kai;
    <hints>
     <hint type="sourcelabel">
      <x>105</x>
-     <y>706</y>
+     <y>594</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35862,8 +35843,8 @@ font: 11pt bebas kai;
    <slot>enable_panning(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>94</x>
-     <y>337</y>
+     <x>105</x>
+     <y>300</y>
     </hint>
     <hint type="destinationlabel">
      <x>199</x>
@@ -35926,8 +35907,8 @@ font: 11pt bebas kai;
    <slot>removeSelectedItem()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>125</x>
-     <y>872</y>
+     <x>142</x>
+     <y>867</y>
     </hint>
     <hint type="destinationlabel">
      <x>104</x>
@@ -35942,8 +35923,8 @@ font: 11pt bebas kai;
    <slot>clearQueue()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>361</x>
-     <y>872</y>
+     <x>488</x>
+     <y>867</y>
     </hint>
     <hint type="destinationlabel">
      <x>104</x>
@@ -35958,8 +35939,8 @@ font: 11pt bebas kai;
    <slot>toggleQueue(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>598</x>
-     <y>872</y>
+     <x>731</x>
+     <y>867</y>
     </hint>
     <hint type="destinationlabel">
      <x>104</x>
@@ -36022,8 +36003,8 @@ font: 11pt bebas kai;
    <slot>moveRowItemUp()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>794</x>
-     <y>872</y>
+     <x>806</x>
+     <y>867</y>
     </hint>
     <hint type="destinationlabel">
      <x>104</x>
@@ -36182,8 +36163,8 @@ font: 11pt bebas kai;
    <slot>click()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>124</x>
-     <y>995</y>
+     <x>140</x>
+     <y>991</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -36262,12 +36243,12 @@ font: 11pt bebas kai;
    <slot>click()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>213</x>
-     <y>915</y>
+     <x>654</x>
+     <y>931</y>
     </hint>
     <hint type="destinationlabel">
-     <x>295</x>
-     <y>915</y>
+     <x>795</x>
+     <y>932</y>
     </hint>
    </hints>
   </connection>
@@ -36278,12 +36259,12 @@ font: 11pt bebas kai;
    <slot>click()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>135</x>
-     <y>1173</y>
+     <x>568</x>
+     <y>1202</y>
     </hint>
     <hint type="destinationlabel">
-     <x>276</x>
-     <y>1180</y>
+     <x>795</x>
+     <y>1203</y>
     </hint>
    </hints>
   </connection>
