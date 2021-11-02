@@ -36466,16 +36466,16 @@ font: 11pt bebas kai;
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="probehelpGroup"/>
-  <buttongroup name="probetabGroup"/>
-  <buttongroup name="btngrpMdi"/>
   <buttongroup name="xycalbtnGroup"/>
-  <buttongroup name="customwcsbtnGroup"/>
-  <buttongroup name="plotviewGroup"/>
   <buttongroup name="proberoutinebtnGroup"/>
+  <buttongroup name="btngrpMdi"/>
+  <buttongroup name="plotviewGroup"/>
   <buttongroup name="probemodeGroup"/>
-  <buttongroup name="mainorthoperspbtnGroup"/>
-  <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="customwcsbtnGroup"/>
+  <buttongroup name="probehelpGroup"/>
   <buttongroup name="probepagewcsbtnGroup"/>
+  <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="probetabGroup"/>
+  <buttongroup name="mainorthoperspbtnGroup"/>
  </buttongroups>
 </ui>
