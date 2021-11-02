@@ -759,7 +759,7 @@ bottom-margin: 0px;
              <enum>QTabWidget::Rounded</enum>
             </property>
             <property name="currentIndex">
-             <number>9</number>
+             <number>0</number>
             </property>
             <property name="elideMode">
              <enum>Qt::ElideNone</enum>
@@ -1634,7 +1634,7 @@ color:white;
                        <bool>false</bool>
                       </property>
                       <property name="syntaxHighlighting" stdset="0">
-                       <bool>true</bool>
+                       <bool>false</bool>
                       </property>
                       <property name="readOnly" stdset="0">
                        <bool>true</bool>
