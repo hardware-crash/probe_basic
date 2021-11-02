@@ -23844,7 +23844,7 @@ color: white;
              <enum>QTabWidget::North</enum>
             </property>
             <property name="currentIndex">
-             <number>0</number>
+             <number>2</number>
             </property>
             <property name="usesScrollButtons">
              <bool>false</bool>
@@ -24354,7 +24354,7 @@ color: white;
                    </item>
                   </layout>
                  </item>
-                 <item>
+                 <item alignment="Qt::AlignBottom">
                   <widget class="QWidget" name="horizontalWidget" native="true">
                    <property name="minimumSize">
                     <size>
@@ -25173,7 +25173,7 @@ color: white;
                    </layout>
                   </widget>
                  </item>
-                 <item>
+                 <item alignment="Qt::AlignBottom">
                   <widget class="QWidget" name="horizontalWidget_2" native="true">
                    <property name="minimumSize">
                     <size>
@@ -26188,7 +26188,7 @@ QPushButton:checked {
                    </layout>
                   </widget>
                  </item>
-                 <item>
+                 <item alignment="Qt::AlignBottom">
                   <widget class="QWidget" name="horizontalWidget_3" native="true">
                    <property name="minimumSize">
                     <size>
