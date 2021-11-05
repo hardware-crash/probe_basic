@@ -1634,7 +1634,7 @@ color:white;
                        <bool>false</bool>
                       </property>
                       <property name="syntaxHighlighting" stdset="0">
-                       <bool>false</bool>
+                       <bool>true</bool>
                       </property>
                       <property name="readOnly" stdset="0">
                        <bool>true</bool>
@@ -36465,16 +36465,16 @@ font: 11pt bebas kai;
   </property>
  </designerdata>
  <buttongroups>
+  <buttongroup name="mainorthoperspbtnGroup"/>
   <buttongroup name="xycalbtnGroup"/>
-  <buttongroup name="proberoutinebtnGroup"/>
-  <buttongroup name="btngrpMdi"/>
+  <buttongroup name="probetabGroup"/>
+  <buttongroup name="probepagewcsbtnGroup"/>
   <buttongroup name="plotviewGroup"/>
+  <buttongroup name="btngrpMdi"/>
   <buttongroup name="probemodeGroup"/>
+  <buttongroup name="plotorthoperspbtnGroup"/>
   <buttongroup name="customwcsbtnGroup"/>
   <buttongroup name="probehelpGroup"/>
-  <buttongroup name="probepagewcsbtnGroup"/>
-  <buttongroup name="plotorthoperspbtnGroup"/>
-  <buttongroup name="probetabGroup"/>
-  <buttongroup name="mainorthoperspbtnGroup"/>
+  <buttongroup name="proberoutinebtnGroup"/>
  </buttongroups>
 </ui>
